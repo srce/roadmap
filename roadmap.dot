@@ -3,6 +3,7 @@
 
 digraph backend {
     rankdir="LR";
+    node [shape=box];
 
     cs         [label="Computer Science"];
     go         [label="Golang"];
@@ -18,6 +19,7 @@ digraph backend {
             cs_architecture [label="Architecture knowledge"];
             cs_code         [label="Code Standards&Code Review Process"];
             cs_algorithms   [label="Algorithms and data structures"];
+            cs_systems      [label="Systems Programming"];
             cs_ci           [label="Continuous Integration & Continuous Delivery & Deployment"];
             cs_debugging    [label="Troubleshooting/Logging/Monitoring"];
             cs_testing      [label="Testing processes"];
@@ -33,6 +35,11 @@ digraph backend {
         }
     }
 
+    // Operating System
+    subgraph os {
+        os_virtual_memory [label="Virtual memory"];
+    }
+
     // IT Management
     subgraph management {
         management -> {
@@ -46,36 +53,37 @@ digraph backend {
     // Golang
     subgraph go {
         go -> {
-            go_types       [label="Types"]
-            go_concurrency [label="Concurrency"]
-            go_templates   [label="Concurrency"]
+            go_types       [label="Types"];
+            go_concurrency [label="Concurrency"];
+            go_templates   [label="Templates"];
         };
 
         go_types -> {
-            go_types_text        [label="Text"]
-            go_types_numbers     [label="Numbers"]
-            go_types_collections [label="Collections"]
-            go_types_pointer     [label="Pointer"]
-            go_types_constant    [label="Constants"]
-            go_types_interface   [label="Interface"]
+            go_types_text        [label="Text"];
+            go_types_numbers     [label="Numbers"];
+            go_types_collections [label="Collections"];
+            go_types_pointer     [label="Pointer"];
+            go_types_constant    [label="Constants"];
+            go_types_interface   [label="Interface"];
+            go_types_error       [label="Error"];
         };
 
         go_types_text -> {
-            go_types_text_strings [label="Strings"]
-            go_types_text_runes   [label="Runes"]
-            go_types_text_bytes   [label="Bytes"]
+            go_types_text_strings [label="Strings"];
+            go_types_text_runes   [label="Runes"];
+            go_types_text_bytes   [label="Bytes"];
         };
 
         go_types_numbers -> {
-            go_types_numbers_int   [label="Integers"]
-            go_types_numbers_uint  [label="Unsigned Integers"]
-            go_types_numbers_float [label="Floating-point Numbers"]
+            go_types_numbers_int   [label="Integers"];
+            go_types_numbers_uint  [label="Unsigned Integers"];
+            go_types_numbers_float [label="Floating-point Numbers"];
         };
 
         go_types_collections -> {
-            go_types_collections_array [label="Array"]
-            go_types_collections_slice [label="Slice"]
-            go_types_collections_map   [label="Map"]
+            go_types_collections_array [label="Array"];
+            go_types_collections_slice [label="Slice"];
+            go_types_collections_map   [label="Map"];
         };
     }
 
