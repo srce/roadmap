@@ -4,11 +4,11 @@
 digraph backend {
     rankdir="LR";
 
-    cs [label="Computer Science"];
-    go [label="Golang"];
-    db [label="Databases"];
-    networks [label="Computer Network"];
-    os [label="Operating System"];
+    cs         [label="Computer Science"];
+    go         [label="Golang"];
+    db         [label="Databases"];
+    networks   [label="Computer Network"];
+    os         [label="Operating System"];
     management [label="IT Management"];
     processing [label="Software Development Processes"];
 
@@ -16,19 +16,19 @@ digraph backend {
     subgraph cs {
         cs -> {
             cs_architecture [label="Architecture knowledge"];
-            cs_code [label="Code Standards&Code Review Process"];
-            cs_algorithms [label="Algorithms and data structures"];
-            cs_ci [label="Continuous Integration & Continuous Delivery & Deployment"];
-            cs_debugging [label="Troubleshooting/Logging/Monitoring"];
-            cs_testing [label="Testing processes"];
+            cs_code         [label="Code Standards&Code Review Process"];
+            cs_algorithms   [label="Algorithms and data structures"];
+            cs_ci           [label="Continuous Integration & Continuous Delivery & Deployment"];
+            cs_debugging    [label="Troubleshooting/Logging/Monitoring"];
+            cs_testing      [label="Testing processes"];
         }
     }
 
     // Software Development Processes
     subgraph processing {
         processing -> {
-            processing_trackers [label="Bug tracking systems(Jira,Redmine,Tfs)"];
-            processing_vc [label="Version Control System(Git,tfs...)"];
+            processing_trackers    [label="Bug tracking systems(Jira,Redmine,Tfs)"];
+            processing_vc          [label="Version Control System(Git,tfs...)"];
             processing_estimations [label="Estimations"];
         }
     }
@@ -36,9 +36,9 @@ digraph backend {
     // IT Management
     subgraph management {
         management -> {
-            management_agile [label="Agile"];
-            management_scrum [label="SCRUM"];
-            management_kanban [label="Kanban"];
+            management_agile     [label="Agile"];
+            management_scrum     [label="SCRUM"];
+            management_kanban    [label="Kanban"];
             management_waterfall [label="Waterfall"];
         }
     }
@@ -46,63 +46,63 @@ digraph backend {
     // Golang
     subgraph go {
         go -> {
-            go_types [label="Types"]
+            go_types       [label="Types"]
             go_concurrency [label="Concurrency"]
-            go_templates [label="Concurrency"]
+            go_templates   [label="Concurrency"]
         };
 
         go_types -> {
-            go_types_text [label="Text"]
-            go_types_numbers [label="Numbers"]
+            go_types_text        [label="Text"]
+            go_types_numbers     [label="Numbers"]
             go_types_collections [label="Collections"]
-            go_types_pointer [label="Pointer"]
-            go_types_constant [label="Constants"]
-            go_types_interface [label="Interface"]
+            go_types_pointer     [label="Pointer"]
+            go_types_constant    [label="Constants"]
+            go_types_interface   [label="Interface"]
         };
 
         go_types_text -> {
             go_types_text_strings [label="Strings"]
-            go_types_text_runes [label="Runes"]
-            go_types_text_bytes [label="Bytes"]
+            go_types_text_runes   [label="Runes"]
+            go_types_text_bytes   [label="Bytes"]
         };
 
         go_types_numbers -> {
-            go_types_numbers_int [label="Integers"]
-            go_types_numbers_uint [label="Unsigned Integers"]
+            go_types_numbers_int   [label="Integers"]
+            go_types_numbers_uint  [label="Unsigned Integers"]
             go_types_numbers_float [label="Floating-point Numbers"]
         };
 
         go_types_collections -> {
             go_types_collections_array [label="Array"]
             go_types_collections_slice [label="Slice"]
-            go_types_collections_map [label="Map"]
+            go_types_collections_map   [label="Map"]
         };
     }
 
     // Databases
     subgraph db {
         db -> {
-            db_sql [label="SQL"];
-            db_indexes [label="Indexes"];
+            db_sql          [label="SQL"];
+            db_indexes      [label="Indexes"];
             db_transactions [label="Transactions"];
-            db_nosql [label="NOSQL"];
+            db_nosql        [label="NOSQL"];
         }
     }
 
     // Computer network
     subgraph networks {
         networks -> {
-            networks_osi [label="OSI"];
+            networks_osi       [label="OSI"];
             networks_protocols [label="Protocols"];
         }
 
         networks_protocols -> {
-            networks_protocols_IP [label="IP"];
-            networks_protocols_TCP [label="TCP"];
-            networks_protocols_UDP [label="UDP"];
+            networks_protocols_IP   [label="IP"];
+            networks_protocols_TCP  [label="TCP"];
+            networks_protocols_UDP  [label="UDP"];
             networks_protocols_HTTP [label="HTTP"];
-            networks_protocols_TLS [label="TLS"];
-            networks_protocols_SSL [label="SSL"];
+            networks_protocols_TLS  [label="TLS"];
+            networks_protocols_SSL  [label="SSL"];
         }
     }
 }
