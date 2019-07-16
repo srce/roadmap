@@ -37,7 +37,9 @@ digraph backend {
 
     // Operating System
     subgraph os {
-        os_virtual_memory [label="Virtual memory"];
+        os -> {
+            os_virtual_memory [label="Virtual memory"];
+        }
     }
 
     // IT Management
