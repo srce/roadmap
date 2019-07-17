@@ -1,5 +1,4 @@
-// This document is written on DOT language
-// by Dzyanis Kuzmenka
+// This roadmap is written in DOT language
 
 digraph backend {
     rankdir="LR";
@@ -20,9 +19,24 @@ digraph backend {
             cs_code         [label="Code Standards&Code Review Process"];
             cs_algorithms   [label="Algorithms and data structures"];
             cs_systems      [label="Systems Programming"];
-            cs_ci           [label="Continuous Integration & Continuous Delivery & Deployment"];
-            cs_debugging    [label="Troubleshooting/Logging/Monitoring"];
+            cs_deployment   [label="Deployment"];
+            cs_debugging    [label="Debugging"];
             cs_testing      [label="Testing processes"];
+        }
+
+        cs_architecture -> {
+            cs_architecture_microservices [label="Microservices"];
+        }
+
+        cs_deployment -> {
+            cs_deployment_ci [label="Continuous Integration"];
+            cs_deployment_cd [label="Continuous Delivery"];
+        }
+
+        cs_debugging -> {
+            cs_debugging_troubleshooting [label="Troubleshooting"];
+            cs_debugging_logging         [label="Logging"];
+            cs_debugging_monitoring      [label="Monitoring"];
         }
     }
 
@@ -38,7 +52,8 @@ digraph backend {
     // Operating System
     subgraph os {
         os -> {
-            os_virtual_memory [label="Virtual memory"];
+            os_virtual_memory [label="Virtual Memory"];
+            os_threads        [label="Threads"];
         }
     }
 
@@ -56,8 +71,13 @@ digraph backend {
     subgraph go {
         go -> {
             go_types       [label="Types"];
+            go_function    [label="Functions"];
             go_concurrency [label="Concurrency"];
+            go_oop         [label="Object-Oriented Programming"];
             go_templates   [label="Templates"];
+            go_tools       [label="Tools"];
+            go_testing     [label="Testing"];
+            go_realtime    [label="Real-time"];
         };
 
         go_types -> {
@@ -87,6 +107,38 @@ digraph backend {
             go_types_collections_slice [label="Slice"];
             go_types_collections_map   [label="Map"];
         };
+
+        go_oop -> {
+            go_oop_encapsulation [label="Encapsulation"];
+            go_oop_inheritance   [label="Inheritance"];
+            go_oop_polymorphism  [label="Polymorphism"];
+        }
+
+        go_function -> {
+            go_function_closure   [label="Closure"];
+            go_function_recursion [label="Recursion"];
+            go_function_panic     [label="Panic"];
+            go_function_recover   [label="Recover"];
+            go_function_defer     [label="Defer"];
+        }
+
+        go_concurrency -> {
+            go_concurrency_goroutine [label="Goroutines"];
+            go_concurrency_channels  [label="Channels"];
+            go_concurrency_select    [label="Select"];
+            os_threads;
+        }
+
+        go_tools -> {
+            go_tool_fmt  [label="fmt"];
+            go_tool_vet  [label="vet"];
+            go_tool_test [label="test"];
+        }
+
+        go_realtime -> {
+            go_realtime_gc        [label="Garbage Collector"];
+            go_realtime_scheduler [label="Scheduler"];
+        }
     }
 
     // Databases
@@ -97,6 +149,13 @@ digraph backend {
             db_transactions [label="Transactions"];
             db_nosql        [label="NOSQL"];
         }
+
+        db_nosql -> {
+            db_nosql_elasticseaerch [label="Elasticseaerch"];
+            db_nosql_redis          [label="Redis"];
+            db_nosql_mongo          [label="MongoDB"];
+            db_nosql_clickhouse     [label="ClickHouse"];
+        }
     }
 
     // Computer network
@@ -104,6 +163,8 @@ digraph backend {
         networks -> {
             networks_osi       [label="OSI"];
             networks_protocols [label="Protocols"];
+            networks_websocket [label="Websocket"];
+            networks_auth      [label="Authorization and Authentication"];
         }
 
         networks_protocols -> {
@@ -113,6 +174,13 @@ digraph backend {
             networks_protocols_HTTP [label="HTTP"];
             networks_protocols_TLS  [label="TLS"];
             networks_protocols_SSL  [label="SSL"];
+        }
+
+        networks_auth -> {
+            networks_auth_authorization  [label="Authorization"];
+            networks_auth_authentication [label="Authentication"];
+            networks_auth_oauth          [label="OAuth"];
+            networks_auth_jwt            [label="JWT"];
         }
     }
 }
