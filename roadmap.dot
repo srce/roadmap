@@ -26,6 +26,12 @@ digraph backend {
 
         cs_architecture -> {
             cs_architecture_microservices [label="Microservices"];
+            cs_architecture_ddd           [label="Domain-Driven Design"];
+            cs_architecture_solid         [label="SOLID"];
+            cs_architecture_patterns      [label="Design Patterns"];
+            cs_architecture_event         [label="Event Sourcing"];
+            cs_architecture_oop           [label="Object-Oriented Programming"];
+            cs_architecture_func          [label="Functional Programming"];
         }
 
         cs_deployment -> {
@@ -54,6 +60,7 @@ digraph backend {
         os -> {
             os_virtual_memory [label="Virtual Memory"];
             os_threads        [label="Threads"];
+            os_io             [label="I/O"];
         }
     }
 
@@ -78,6 +85,7 @@ digraph backend {
             go_tools       [label="Tools"];
             go_testing     [label="Testing"];
             go_realtime    [label="Real-time"];
+            go_app         [label="Web Application"];
         };
 
         go_types -> {
@@ -126,18 +134,25 @@ digraph backend {
             go_concurrency_goroutine [label="Goroutines"];
             go_concurrency_channels  [label="Channels"];
             go_concurrency_select    [label="Select"];
+            go_concurrency_race      [label="Race Condition"];
+            go_concurrency_mutex     [label="Mutex"];
             os_threads;
         }
 
         go_tools -> {
-            go_tool_fmt  [label="fmt"];
-            go_tool_vet  [label="vet"];
-            go_tool_test [label="test"];
+            go_tool_fmt   [label="fmt"];
+            go_tool_vet   [label="vet"];
+            go_tool_test  [label="test"];
+            go_tool_pprof [label="pprof"];
         }
 
         go_realtime -> {
             go_realtime_gc        [label="Garbage Collector"];
             go_realtime_scheduler [label="Scheduler"];
+        }
+
+        go_app -> {
+            go_app_context [label="Context"];
         }
     }
 
@@ -162,6 +177,10 @@ digraph backend {
     subgraph networks {
         networks -> {
             networks_osi       [label="OSI"];
+            networks_grpc      [label="gRPC"];
+            networks_restapi   [label="REST API"];
+            networks_graphql   [label="GraphQL"];
+            networks_soap      [label="SOAP"];
             networks_protocols [label="Protocols"];
             networks_websocket [label="Websocket"];
             networks_auth      [label="Authorization and Authentication"];
