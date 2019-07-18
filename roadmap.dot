@@ -19,7 +19,6 @@ digraph backend {
             cs_code         [label="Code Standards&Code Review Process"];
             cs_algorithms   [label="Algorithms and data structures"];
             cs_systems      [label="Systems Programming"];
-            cs_deployment   [label="Deployment"];
             cs_debugging    [label="Debugging"];
             cs_testing      [label="Testing processes"];
         }
@@ -34,9 +33,10 @@ digraph backend {
             cs_architecture_func          [label="Functional Programming"];
         }
 
-        cs_deployment -> {
-            cs_deployment_ci [label="Continuous Integration"];
-            cs_deployment_cd [label="Continuous Delivery"];
+        cs_architecture_oop -> {
+            cs_architecture_oop_encapsulation [label="Encapsulation"];
+            cs_architecture_oop_inheritance   [label="Inheritance"];
+            cs_architecture_oop_polymorphism  [label="Polymorphism"];
         }
 
         cs_debugging -> {
@@ -49,10 +49,26 @@ digraph backend {
     // Software Development Processes
     subgraph processing {
         processing -> {
-            processing_trackers    [label="Bug tracking systems(Jira,Redmine,Tfs)"];
-            processing_vc          [label="Version Control System(Git,tfs...)"];
+            processing_trackers    [label="Bug tracking systems"];
+            processing_version     [label="Version Control"];
             processing_estimations [label="Estimations"];
+            processing_deployment  [label="Deployment"];
         }
+    }
+
+    processing_trackers -> {
+        processing_trackers_jira    [label="Jira"]
+        processing_trackers_redmine [label="Redmine"]
+        processing_trackers_tfs     [label="TFS"]
+    }
+
+    processing_version -> {
+        processing_version_git [label="Git"]
+    }
+
+    processing_deployment -> {
+        processing_deployment_ci [label="Continuous Integration"];
+        processing_deployment_cd [label="Continuous Delivery"];
     }
 
     // Operating System
@@ -80,12 +96,12 @@ digraph backend {
             go_types       [label="Types"];
             go_function    [label="Functions"];
             go_concurrency [label="Concurrency"];
-            go_oop         [label="Object-Oriented Programming"];
             go_templates   [label="Templates"];
             go_tools       [label="Tools"];
             go_testing     [label="Testing"];
             go_realtime    [label="Real-time"];
             go_app         [label="Web Application"];
+            cs_architecture_oop;
         };
 
         go_types -> {
