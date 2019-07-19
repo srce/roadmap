@@ -132,12 +132,6 @@ digraph backend {
             go_types_collections_map   [label="Map"];
         };
 
-        go_oop -> {
-            go_oop_encapsulation [label="Encapsulation"];
-            go_oop_inheritance   [label="Inheritance"];
-            go_oop_polymorphism  [label="Polymorphism"];
-        }
-
         go_function -> {
             go_function_closure   [label="Closure"];
             go_function_recursion [label="Recursion"];
