@@ -23,6 +23,30 @@ digraph backend {
             cs_testing      [label="Testing processes"];
         }
 
+        cs_algorithms -> {
+            cs_algorithms_analysis   [label="Analysis"];
+            cs_algorithms_structres  [label="Data Structres"];
+            cs_algorithms_algorithms [label="Algorithms"];
+        }
+
+        cs_algorithms_analysis -> {
+            cs_algorithms_analysis_bigo [label="Big O"];
+        }
+
+        cs_algorithms_structres -> {
+            cs_algorithms_structres_lists  [label="Lists"];
+            cs_algorithms_structres_stacks [label="Stacks"];
+            cs_algorithms_structres_queues [label="Queues"];
+            cs_algorithms_structres_trees  [label="Trees"];
+            cs_algorithms_structres_heaps  [label="Heaps"];
+            cs_algorithms_structres_graphs [label="Graphs"];
+        }
+
+        cs_algorithms_algorithms -> {
+            cs_algorithms_structres_sorting   [label="Sorting algoritms"];
+            cs_algorithms_structres_reasearch [label="Reasearch algoritms"];
+        }
+
         cs_architecture -> {
             cs_architecture_microservices [label="Microservices"];
             cs_architecture_ddd           [label="Domain-Driven Design"];
