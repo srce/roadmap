@@ -25,7 +25,7 @@ digraph backend {
 
         cs_algorithms -> {
             cs_algorithms_analysis   [label="Analysis"];
-            cs_algorithms_structres  [label="Data Structres"];
+            cs_algorithms_structures [label="Data Structres"];
             cs_algorithms_algorithms [label="Algorithms"];
         }
 
@@ -33,18 +33,18 @@ digraph backend {
             cs_algorithms_analysis_bigo [label="Big O"];
         }
 
-        cs_algorithms_structres -> {
-            cs_algorithms_structres_lists  [label="Lists"];
-            cs_algorithms_structres_stacks [label="Stacks"];
-            cs_algorithms_structres_queues [label="Queues"];
-            cs_algorithms_structres_trees  [label="Trees"];
-            cs_algorithms_structres_heaps  [label="Heaps"];
-            cs_algorithms_structres_graphs [label="Graphs"];
+        cs_algorithms_structures -> {
+            cs_algorithms_structures_lists  [label="Lists"];
+            cs_algorithms_structures_stacks [label="Stacks"];
+            cs_algorithms_structures_queues [label="Queues"];
+            cs_algorithms_structures_trees  [label="Trees"];
+            cs_algorithms_structures_heaps  [label="Heaps"];
+            cs_algorithms_structures_graphs [label="Graphs"];
         }
 
         cs_algorithms_algorithms -> {
-            cs_algorithms_structres_sorting   [label="Sorting algoritms"];
-            cs_algorithms_structres_reasearch [label="Reasearch algoritms"];
+            cs_algorithms_structures_sorting   [label="Sorting algoritms"];
+            cs_algorithms_structures_research [label="Reasearch algoritms"];
         }
 
         cs_architecture -> {
@@ -121,7 +121,7 @@ digraph backend {
             go_function    [label="Functions"];
             go_concurrency [label="Concurrency"];
             go_templates   [label="Templates"];
-            go_tools       [label="Tools"];
+            go_tools       [label="Tools", URL="https://golang.org/cmd/"];
             go_testing     [label="Testing"];
             go_realtime    [label="Real-time"];
             go_app         [label="Web Application"];
@@ -152,8 +152,8 @@ digraph backend {
 
         go_types_collections -> {
             go_types_collections_array [label="Array"];
-            go_types_collections_slice [label="Slice"];
-            go_types_collections_map   [label="Map"];
+            go_types_collections_slice [label="Slice", URL="https://blog.golang.org/go-slices-usage-and-internals"];
+            go_types_collections_map   [label="Map", URL="https://blog.golang.org/go-maps-in-action"];
         };
 
         go_function -> {
@@ -174,10 +174,12 @@ digraph backend {
         }
 
         go_tools -> {
-            go_tool_fmt   [label="fmt"];
-            go_tool_vet   [label="vet"];
-            go_tool_test  [label="test"];
-            go_tool_pprof [label="pprof"];
+            go_tool_fmt     [label="gofmt", URL="https://golang.org/cmd/gofmt/"];
+            go_tool_vet     [label="vet", URL="https://golang.org/cmd/vet/"];
+            go_tool_test    [label="test"];
+            go_tool_doc     [label="godoc"];
+            go_tool_pprof   [label="pprof", URL="https://blog.golang.org/profiling-go-programs"];
+            go_tool_modules [label="Modules", URL="https://github.com/golang/go/wiki/Modules"];
         }
 
         go_realtime -> {
@@ -196,14 +198,25 @@ digraph backend {
             db_sql          [label="SQL"];
             db_indexes      [label="Indexes"];
             db_transactions [label="Transactions"];
-            db_nosql        [label="NOSQL"];
+            db_relational   [label="Relational"];
+            db_nosql        [label="NOSQL", URL="https://martinfowler.com/nosql.html"];
+            db_search       [label="Search Engines"];
+        }
+
+        db_relational -> {
+            db_nosql_mysql   [label="MySQL"];
+            db_nosql_postgre [label="PostgreSQL"];
         }
 
         db_nosql -> {
-            db_nosql_elasticseaerch [label="Elasticseaerch"];
             db_nosql_redis          [label="Redis"];
             db_nosql_mongo          [label="MongoDB"];
             db_nosql_clickhouse     [label="ClickHouse"];
+        }
+
+        db_search -> {
+            db_search_elasticseaerch [label="Elasticseaerch"];
+            db_search_sphinx [label="Sphinx"];
         }
     }
 
