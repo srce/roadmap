@@ -120,7 +120,6 @@ digraph backend {
             go_types       [label="Types"];
             go_function    [label="Functions"];
             go_concurrency [label="Concurrency"];
-            go_templates   [label="Templates"];
             go_tools       [label="Tools", URL="https://golang.org/cmd/"];
             go_testing     [label="Testing"];
             go_realtime    [label="Real-time"];
@@ -188,7 +187,8 @@ digraph backend {
         }
 
         go_app -> {
-            go_app_context [label="Context"];
+            go_app_context   [label="Context"];
+            go_app_templates [label="Templates"];
         }
     }
 
