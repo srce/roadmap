@@ -18,7 +18,6 @@ digraph backend {
             cs_code         [label="Code Standards&Code Review Process"];
             cs_algorithms   [label="Algorithms and data structures"];
             cs_systems      [label="Systems Programming"];
-            cs_debugging    [label="Debugging"];
             cs_testing      [label="Testing processes"];
         }
 
@@ -42,7 +41,7 @@ digraph backend {
         }
 
         cs_algorithms_algorithms -> {
-            cs_algorithms_structures_sorting   [label="Sorting algoritms"];
+            cs_algorithms_structures_sorting  [label="Sorting algoritms"];
             cs_algorithms_structures_research [label="Reasearch algoritms"];
         }
 
@@ -61,12 +60,6 @@ digraph backend {
             cs_architecture_oop_inheritance   [label="Inheritance"];
             cs_architecture_oop_polymorphism  [label="Polymorphism"];
         }
-
-        cs_debugging -> {
-            cs_debugging_troubleshooting [label="Troubleshooting"];
-            cs_debugging_logging         [label="Logging"];
-            cs_debugging_monitoring      [label="Monitoring"];
-        }
     }
 
     // Software Development Processes
@@ -79,7 +72,14 @@ digraph backend {
             development_version       [label="Version Control"];
             development_deployment    [label="Deployment"];
             development_estimation    [label="Estimations"];
+            development_debugging     [label="Debugging"];
         }
+    }
+
+    development_debugging -> {
+        development_debugging_troubleshooting [label="Troubleshooting"];
+        development_debugging_logging         [label="Logging"];
+        development_debugging_monitoring      [label="Monitoring"];
     }
 
     development_testing -> {
@@ -103,14 +103,15 @@ digraph backend {
     }
 
     development_paradigms -> {
-        management_paradigms_agile     [label="Agile"];
+        management_paradigms_agile     [label="Agile", URL="https://agilemanifesto.org"];
         management_paradigms_waterfall [label="Waterfall"];
     }
 
     development_methodologies -> {
-        development_methodologies_scrum  [label="SCRUM"];
-        development_methodologies_kanban [label="Kanban"];
-        development_methodologies_xp     [label="Extreme Programming"];
+        development_methodologies_scrum     [label="SCRUM"];
+        development_methodologies_kanban    [label="Kanban"];
+        development_methodologies_xp        [label="Extreme Programming"];
+        development_methodologies_12factors [label="The Twelve-Factor App", URL="https://12factor.net"];
     }
 
     development_estimation -> {
@@ -123,6 +124,25 @@ digraph backend {
             os_virtual_memory [label="Virtual Memory"];
             os_threads        [label="Threads"];
             os_io             [label="I/O"];
+            os_virtualization [label="Virtualization"]
+            os_shell          [label="Command Language"]
+        }
+
+        os_virtualization -> {
+            os_virtualization_level [label="OS-level Virtualisation"]
+            os_virtualization_x86   [label="x86 Virtualization"]
+        }
+
+        os_virtualization_level -> {
+            os_virtualization_level_docker  [label="Docker"];
+            os_virtualization_level_nanobox [label="Nanobox"];
+            os_virtualization_level_deis    [label="Deis"];
+            os_virtualization_level_mesos   [label="Apache Mesos"];
+        }
+
+        os_virtualization_x86 -> {
+            os_virtualization_x86_virtualbox [label="VirtualBox"];
+            os_virtualization_x86_vmware     [label="VMware"];
         }
     }
 
@@ -201,34 +221,42 @@ digraph backend {
         go_app -> {
             go_app_context   [label="Context"];
             go_app_templates [label="Templates"];
+            development_debugging_logging;
         }
     }
 
     // Databases
     subgraph db {
         db -> {
-            db_sql          [label="SQL"];
-            db_indexes      [label="Indexes"];
-            db_transactions [label="Transactions"];
-            db_relational   [label="Relational"];
-            db_nosql        [label="NOSQL", URL="https://martinfowler.com/nosql.html"];
-            db_search       [label="Search Engines"];
+            db_sql            [label="SQL"];
+            db_indexes        [label="Indexes"];
+            db_transactions   [label="Transactions"];
+            db_relational     [label="Relational"];
+            db_nosql          [label="NOSQL", URL="https://martinfowler.com/nosql.html"];
+            db_search         [label="Search Engines"];
+            db_message_broker [label="Message Broker"];
+        }
+
+        db_message_broker -> {
+            db_message_broker_kafka  [label="Kafka"];
+            db_message_broker_rabbit [label="RabbitMQ"];
+            db_message_broker_sqs    [label="Amazon Simple Queue Service"];
         }
 
         db_relational -> {
-            db_nosql_mysql   [label="MySQL"];
-            db_nosql_postgre [label="PostgreSQL"];
+            db_relational_mysql   [label="MySQL"];
+            db_relational_postgre [label="PostgreSQL"];
         }
 
         db_nosql -> {
-            db_nosql_redis          [label="Redis"];
-            db_nosql_mongo          [label="MongoDB"];
-            db_nosql_clickhouse     [label="ClickHouse"];
+            db_nosql_redis      [label="Redis"];
+            db_nosql_mongo      [label="MongoDB"];
+            db_nosql_clickhouse [label="ClickHouse"];
         }
 
         db_search -> {
             db_search_elasticseaerch [label="Elasticseaerch"];
-            db_search_sphinx [label="Sphinx"];
+            db_search_sphinx         [label="Sphinx"];
         }
     }
 
