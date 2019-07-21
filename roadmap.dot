@@ -4,13 +4,12 @@ digraph backend {
     rankdir="LR";
     node [shape=box];
 
-    cs         [label="Computer Science"];
-    go         [label="Golang"];
-    db         [label="Databases"];
-    networks   [label="Computer Network"];
-    os         [label="Operating System"];
-    management [label="IT Management"];
-    processing [label="Software Development Processes"];
+    cs          [label="Computer Science"];
+    go          [label="Golang"];
+    db          [label="Databases"];
+    networks    [label="Computer Network"];
+    os          [label="Operating System"];
+    development [label="Software Development Processes"];
 
     // Computer Science
     subgraph cs {
@@ -71,28 +70,51 @@ digraph backend {
     }
 
     // Software Development Processes
-    subgraph processing {
-        processing -> {
-            processing_trackers    [label="Bug tracking systems"];
-            processing_version     [label="Version Control"];
-            processing_estimations [label="Estimations"];
-            processing_deployment  [label="Deployment"];
+    subgraph development {
+        development -> {
+            development_paradigms     [label="Paradigms and models"];
+            development_methodologies [label="Methodologies and frameworks"];
+            development_testing       [label="Testing"];
+            development_trackers      [label="Bug tracking systems"];
+            development_version       [label="Version Control"];
+            development_deployment    [label="Deployment"];
+            development_estimation    [label="Estimations"];
         }
     }
 
-    processing_trackers -> {
-        processing_trackers_jira    [label="Jira"]
-        processing_trackers_redmine [label="Redmine"]
-        processing_trackers_tfs     [label="TFS"]
+    development_testing -> {
+        development_testing_tdd [label="Test-driven development"];
+        development_testing_bdd [label="Behavior-driven development"];
     }
 
-    processing_version -> {
-        processing_version_git [label="Git"]
+    development_trackers -> {
+        development_trackers_jira    [label="Jira"]
+        development_trackers_redmine [label="Redmine"]
+        development_trackers_tfs     [label="TFS"]
     }
 
-    processing_deployment -> {
-        processing_deployment_ci [label="Continuous Integration"];
-        processing_deployment_cd [label="Continuous Delivery"];
+    development_version -> {
+        development_version_git [label="Git"]
+    }
+
+    development_deployment -> {
+        development_deployment_ci [label="Continuous Integration"];
+        development_deployment_cd [label="Continuous Delivery"];
+    }
+
+    development_paradigms -> {
+        management_paradigms_agile     [label="Agile"];
+        management_paradigms_waterfall [label="Waterfall"];
+    }
+
+    development_methodologies -> {
+        development_methodologies_scrum  [label="SCRUM"];
+        development_methodologies_kanban [label="Kanban"];
+        development_methodologies_xp     [label="Extreme Programming"];
+    }
+
+    development_estimation -> {
+        management_estimation_poker [label="Planning Poker"];
     }
 
     // Operating System
@@ -101,16 +123,6 @@ digraph backend {
             os_virtual_memory [label="Virtual Memory"];
             os_threads        [label="Threads"];
             os_io             [label="I/O"];
-        }
-    }
-
-    // IT Management
-    subgraph management {
-        management -> {
-            management_agile     [label="Agile"];
-            management_scrum     [label="SCRUM"];
-            management_kanban    [label="Kanban"];
-            management_waterfall [label="Waterfall"];
         }
     }
 
