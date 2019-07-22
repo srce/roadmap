@@ -4,16 +4,23 @@ digraph backend {
     rankdir="LR";
     node [shape=box];
 
-    cs          [label="Computer Science"];
-    go          [label="Golang"];
-    db          [label="Databases"];
-    networks    [label="Computer Network"];
-    os          [label="Operating System"];
-    development [label="Software Development Processes"];
+    backend [label="Backend", color="red", style="filled"];
+    backend -> {
+        node [color="orange", style="filled"];
+
+        cs          [label="Computer Science"];
+        go          [label="Golang"];
+        db          [label="Databases"];
+        networks    [label="Computer Network"];
+        os          [label="Operating System"];
+        development [label="Software Development Processes"];
+    }
 
     // Computer Science
     subgraph cs {
         cs -> {
+            node [color="yellow", style="filled"];
+
             cs_architecture [label="Architecture knowledge"];
             cs_code         [label="Code Standards&Code Review Process"];
             cs_algorithms   [label="Algorithms and data structures"];
@@ -65,6 +72,8 @@ digraph backend {
     // Software Development Processes
     subgraph development {
         development -> {
+            node [color="yellow", style="filled"];
+
             development_paradigms     [label="Paradigms and models"];
             development_methodologies [label="Methodologies and frameworks"];
             development_testing       [label="Testing"];
@@ -121,6 +130,8 @@ digraph backend {
     // Operating System
     subgraph os {
         os -> {
+            node [color="yellow", style="filled"];
+
             os_virtual_memory [label="Virtual Memory"];
             os_threads        [label="Threads"];
             os_io             [label="I/O"];
@@ -149,6 +160,8 @@ digraph backend {
     // Golang
     subgraph go {
         go -> {
+            node [color="yellow", style="filled"];
+
             go_types       [label="Types"];
             go_function    [label="Functions"];
             go_concurrency [label="Concurrency"];
@@ -228,6 +241,8 @@ digraph backend {
     // Databases
     subgraph db {
         db -> {
+            node [color="yellow", style="filled"];
+
             db_sql            [label="SQL"];
             db_indexes        [label="Indexes"];
             db_transactions   [label="Transactions"];
@@ -263,6 +278,8 @@ digraph backend {
     // Computer network
     subgraph networks {
         networks -> {
+            node [color="yellow", style="filled"];
+
             networks_osi       [label="OSI"];
             networks_grpc      [label="gRPC"];
             networks_restapi   [label="REST API"];
