@@ -82,7 +82,14 @@ digraph backend {
             development_deployment    [label="Deployment"];
             development_estimation    [label="Estimations"];
             development_debugging     [label="Debugging"];
+            development_orchestration [label="Orchestration"];
         }
+    }
+
+    development_orchestration -> {
+        development_orchestration_ansible [label="Ansible"];
+        development_orchestration_puppet  [label="Puppet"];
+        development_orchestration_k8s     [label="Kubernetes"];
     }
 
     development_debugging -> {
