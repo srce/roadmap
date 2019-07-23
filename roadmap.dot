@@ -114,8 +114,9 @@ digraph backend {
     }
 
     development_deployment -> {
-        development_deployment_ci [label="Continuous Integration"];
-        development_deployment_cd [label="Continuous Delivery"];
+        development_deployment_ci         [label="Continuous Integration"];
+        development_deployment_cd         [label="Continuous Delivery"];
+        development_deployment_deployment [label="Continuous Deployment"];
     }
 
     development_paradigms -> {
