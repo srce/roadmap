@@ -22,7 +22,7 @@ digraph backend {
             node [color="yellow", style="filled"];
 
             cs_architecture [label="Architecture knowledge"];
-            cs_code         [label="Code Standards&Code Review Process"];
+            cs_code         [label="Code Standards & Code Review Process"];
             cs_algorithms   [label="Algorithms and data structures"];
             cs_systems      [label="Systems Programming"];
             cs_testing      [label="Testing processes"];
@@ -253,6 +253,8 @@ digraph backend {
             db_sql            [label="SQL"];
             db_indexes        [label="Indexes"];
             db_transactions   [label="Transactions"];
+            db_principles
+            
             db_relational     [label="Relational"];
             db_nosql          [label="NOSQL", URL="https://martinfowler.com/nosql.html"];
             db_search         [label="Search Engines"];
@@ -262,19 +264,50 @@ digraph backend {
         db_message_broker -> {
             db_message_broker_kafka  [label="Kafka"];
             db_message_broker_rabbit [label="RabbitMQ"];
-            db_message_broker_sqs    [label="Amazon Simple Queue Service"];
+            db_message_broker_awssqs [label="Amazon Simple Queue Service"];
+        }
+ 
+        db_relational -> {
+            db_relational_mvcc     [label="Multiversion Concurrency Control"];
+            db_relational_blocking [label="Blocking"];
+            db_relational_acid     [label="ACID"];
+            db_relational_OO       [label="Object-oriented"];
         }
 
-        db_relational -> {
-            db_relational_mysql   [label="MySQL"];
-            db_relational_postgre [label="PostgreSQL"];
+        db_relational_mvcc -> {
+            db_relational_firebird [label="Firebird"];
+            db_relational_postgres [label="PostgreSQL"];
+            db_relational_oracle   [label="Oracle"];
+            db_relational_mysql    [label="MySQL/InnoDB"];
+        }
+
+        db_relational_blocking -> {
+            db_relational_mysql [label="MySQL/MyISAM"];
         }
 
         db_nosql -> {
-            db_nosql_redis      [label="Redis"];
-            db_nosql_mongo      [label="MongoDB"];
-            db_nosql_clickhouse [label="ClickHouse"];
+           db_nosql_cap         [label="CAP Theorem"];
+           db_nosql_base        [label="BASE"];
+           db_nosql_graph       [label="Graph database"];
+           db_nosql_doc         [label="Document base"];
+           db_nosql_colbase     [label="Column base"];
+           db_nosql_colwidebase [label="Wide column base"];
+           db_nosql_time        [label="Time series"];          
         }
+
+        db_nosql_graph -> {            
+            db_nosql_orient [label="OrientDB"];            
+            db_nosql_neo4j  [label="Neo4j"];  
+        }
+        
+        db_nosql_doc -> {            
+            db_nosql_mongo [label="MongoDB"];            
+        }
+
+        db_nosql_colbase -> {
+            db_nosql_redis      [label="Redis"];
+            db_nosql_clickhouse [label="ClickHouse"];
+        }    
 
         db_search -> {
             db_search_elasticseaerch [label="Elasticseaerch"];
