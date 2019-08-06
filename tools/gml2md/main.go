@@ -49,12 +49,21 @@ func getLabel(node graphml.Node) string {
 	return ""
 }
 
-func Walk(w io.Writer, g graphml.Graph, root graphml.Node, n int) {
+func mdHeader(text string, h int) (string, error) {
+	if h > 6 {
+		return "", fmt.Errorf("there is no header of %d level", h)
+	}
+	return strings.Repeat("#", h) + " " + text + "\n", nil
+}
+
+func Walk(w io.Writer, g graphml.Graph, root graphml.Node, h int) {
 	children := getChildren(g, root)
 	for _, child := range children {
-		line := strings.Repeat("#", n) + " " + getLabel(child) + "\n"
+		line, err := mdHeader(getLabel(child), h)
+		checkErr(err)
+
 		w.Write([]byte(line))
-		Walk(w, g, child, n+1)
+		Walk(w, g, child, h+1)
 	}
 }
 
