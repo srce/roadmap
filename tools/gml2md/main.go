@@ -52,7 +52,7 @@ func getLabel(node graphml.Node) string {
 func Walk(w io.Writer, g graphml.Graph, root graphml.Node, n int) {
 	children := getChildren(g, root)
 	for _, child := range children {
-		line := strings.Repeat("#", n) + getLabel(child) + "\n"
+		line := strings.Repeat("#", n) + getLabel(child) + "\n\n"
 		w.Write([]byte(line))
 		Walk(w, g, child, n+1)
 	}
@@ -71,7 +71,7 @@ func main() {
 	for _, g := range doc.Graphs {
 		for _, node := range g.Nodes {
 			if node.ID == "backend" {
-				md.Write([]byte(fmt.Sprintf("#%s\n", getLabel(node))))
+				md.Write([]byte(fmt.Sprintf("#%s\n\n", getLabel(node))))
 				Walk(md, g, node, 1)
 			}
 		}
