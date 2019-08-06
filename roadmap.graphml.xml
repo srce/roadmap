@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
     <key id="label" for="node" attr.name="label" attr.type="string"/>
     <graph id="roadmap" edgedefault="directed">
-        <node id="backend" label="Golang Backend Software Engineer"/>
+        <node id="backend" label="Golang Software Engineer"/>
 
         <node id="cs" label="Computer Science"/>
         <edge id="backend_cs" source="backend" target="cs"/>
