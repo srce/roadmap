@@ -2,11 +2,12 @@ package main
 
 import (
 	"flag"
-	"fmt"
-	graphviz "github.com/awalterschulze/gographviz"
-	"github.com/dennwc/graphml"
 	"io/ioutil"
 	"os"
+	"fmt"
+
+	graphviz "github.com/awalterschulze/gographviz"
+	"github.com/dennwc/graphml"
 )
 
 var (

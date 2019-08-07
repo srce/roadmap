@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials
+        xmlns:xsi="https://github.com/dzyanis/roadmap"
+        xsi:noNamespaceSchemaLocation="materials.xsd">
+
+    <course lang="ru">
+        <title>Разработка веб-сервисов на Go - основы языка</title>
+        <url>https://www.coursera.org/learn/golang-webservices-1</url>
+        <tag>go</tag>
+    </course>
+
+    <course lang="ru">
+        <title>Разработка веб-сервисов на Golang, часть 2</title>
+        <url>https://www.coursera.org/learn/golang-webservices-2</url>
+        <tag>go</tag>
+    </course>
+
+    <article lang="en">
+        <title>Effective Go</title>
+        <url>https://golang.org/doc/effective_go.html</url>
+        <tag>go</tag>
+    </article>
+
+    <article lang="en">
+        <title>Go Slices: usage and internals</title>
+        <url>https://blog.golang.org/go-slices-usage-and-internals</url>
+        <tag>go_types_collections_slice</tag>
+    </article>
+
+    <article lang="en">
+        <title>Manifesto for Agile Software Development</title>
+        <url>https://agilemanifesto.org</url>
+        <tag>management_paradigms_agile</tag>
+    </article>
+
+    <article lang="en">
+        <title>The Twelve-Factor App</title>
+        <url>https://12factor.net</url>
+        <tag>development_methodologies_12factors</tag>
+    </article>
+
+    <article lang="en">
+        <title>Commands</title>
+        <url>https://golang.org/cmd/</url>
+        <tag>go_tools</tag>
+    </article>
+
+    <article lang="en">
+        <title>Go maps in action</title>
+        <url>https://blog.golang.org/go-maps-in-action</url>
+        <tag>go_types_collections_map</tag>
+    </article>
+
+    <article lang="en">
+        <title>gofmt</title>
+        <url>https://golang.org/cmd/gofmt/</url>
+        <tag>go_tool_fmt</tag>
+    </article>
+
+    <article lang="en">
+        <title>vet</title>
+        <url>https://golang.org/cmd/vet/</url>
+        <tag>go_tool_vet</tag>
+    </article>
+
+    <article lang="en">
+        <title>Modules</title>
+        <url>https://github.com/golang/go/wiki/Modules</url>
+        <tag>go_tool_modules</tag>
+    </article>
+
+    <article lang="en">
+        <title>NOSQL</title>
+        <url>https://martinfowler.com/nosql.html</url>
+        <tag>db_nosql</tag>
+    </article>
+
+    <book lang="en">
+        <title>NoSQL Distilled</title>
+        <url>https://martinfowler.com/books/nosql.html</url>
+        <tag>db_nosql</tag>
+    </book>
+</materials>

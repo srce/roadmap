@@ -9,4 +9,4 @@ gml2dot:
 
 .PHONY: gml2md
 gml2md:
-	GO111MODULE=off go run tools/gml2md/main.go --filename=roadmap.graphml.xml --root="backend" > roadmap.md
+	GO111MODULE=off go run tools/gml2md/main.go --graphml=roadmap.graphml.xml --root="backend" > roadmap.md

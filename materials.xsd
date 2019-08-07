@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:complexType name="material">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="url" type="xs:string"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="tag" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="lang" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:element name="materials">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="article" type="material"/>
+                <xs:element name="course" type="material"/>
+                <xs:element name="book" type="material"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

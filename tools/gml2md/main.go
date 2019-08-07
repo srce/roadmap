@@ -2,18 +2,58 @@ package main
 
 import (
 	"bytes"
+	"encoding/xml"
 	"flag"
 	"fmt"
-	"github.com/dennwc/graphml"
 	"io"
+	"io/ioutil"
 	"os"
 	"strings"
+
+	"github.com/dennwc/graphml"
 )
 
 var (
-	gmlFilename = flag.String("filename", "roadmap.graphml.xml", "file name of GraphML")
+	gmlfn  = flag.String("graphml", "roadmap.graphml.xml", "GraphML filename")
+	mfn    = flag.String("materials", "materials.xml", "materials filename")
 	rootID = flag.String("root", "", "Root ID")
 )
+
+type materialType struct {
+	Lang    string   `xml:"lang,attr"`
+	Title   string   `xml:"title"`
+	URL     string   `xml:"url"`
+	Tag     string   `xml:"tag"`
+}
+
+type materialsType struct {
+	XMLName  xml.Name       `xml:"materials"`
+	Courses  []materialType `xml:"course"`
+	Articles []materialType `xml:"article"`
+	Books []materialType `xml:"book"`
+}
+
+func (m materialsType) Get(tag string) []materialType {
+	list := []materialType{}
+	for _, item := range m.Courses {
+		if item.Tag == tag {
+			list = append(list, item)
+		}
+	}
+	for _, item := range m.Articles {
+		if item.Tag == tag {
+			list = append(list, item)
+		}
+	}
+	for _, item := range m.Books {
+		if item.Tag == tag {
+			list = append(list, item)
+		}
+	}
+	return list
+}
+
+var materials materialsType
 
 func checkErr(err error) {
 	if err != nil {
@@ -23,9 +63,9 @@ func checkErr(err error) {
 
 func getNodeByID(g graphml.Graph, id string) graphml.Node {
 	for _, n := range g.Nodes {
-		 if n.ID == id {
-		 	return n
-		 }
+		if n.ID == id {
+			return n
+		}
 	}
 	return graphml.Node{}
 }
@@ -56,6 +96,10 @@ func mdHeader(text string, h int) (string, error) {
 	return strings.Repeat("#", h) + " " + text + "\n", nil
 }
 
+func mdLink(name, url string) string {
+	return fmt.Sprintf("[%s](%s)", name, url)
+}
+
 func Walk(w io.Writer, g graphml.Graph, root graphml.Node, h int) {
 	children := getChildren(g, root)
 	for _, child := range children {
@@ -63,6 +107,11 @@ func Walk(w io.Writer, g graphml.Graph, root graphml.Node, h int) {
 		checkErr(err)
 
 		w.Write([]byte(line))
+		list := materials.Get(child.ID)
+		for _, item := range list {
+			link := mdLink(item.Title, item.URL)
+			w.Write([]byte(fmt.Sprintf("%s [%s]\n\n", link, item.Lang)))
+		}
 		Walk(w, g, child, h+1)
 	}
 }
@@ -70,10 +119,16 @@ func Walk(w io.Writer, g graphml.Graph, root graphml.Node, h int) {
 func main() {
 	flag.Parse()
 
-	file, err := os.Open(*gmlFilename)
+	file, err := os.Open(*gmlfn)
 	checkErr(err)
 
-	doc, err:= graphml.Decode(file)
+	doc, err := graphml.Decode(file)
+	checkErr(err)
+
+	mData, err := ioutil.ReadFile(*mfn)
+	checkErr(err)
+
+	err = xml.Unmarshal(mData, &materials)
 	checkErr(err)
 
 	md := bytes.NewBuffer([]byte{})
