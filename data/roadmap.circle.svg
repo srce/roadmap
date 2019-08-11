@@ -44,13 +44,13 @@
 <path fill="none" stroke="black" d="M6401.3,-8547.61C6136.4,-8180.29 1879.66,-2277.75 1563.79,-1839.76"/>
 <polygon fill="black" stroke="black" points="1566.52,-1837.56 1557.83,-1831.49 1560.84,-1841.65 1566.52,-1837.56"/>
 </g>
-<!-- networks -->
-<g id="node5" class="node"><title>networks</title>
+<!-- net -->
+<g id="node5" class="node"><title>net</title>
 <ellipse fill="none" stroke="black" cx="3875.25" cy="-627.312" rx="79.0865" ry="18"/>
 <text text-anchor="middle" x="3875.25" y="-623.612" font-family="Times,serif" font-size="14.00">Computer Network</text>
 </g>
-<!-- backend&#45;&gt;networks -->
-<g id="edge4" class="edge"><title>backend&#45;&gt;networks</title>
+<!-- backend&#45;&gt;net -->
+<g id="edge4" class="edge"><title>backend&#45;&gt;net</title>
 <path fill="none" stroke="black" d="M6408.42,-8547.4C6279.58,-8144.59 4042.5,-1150.22 3884.08,-654.936"/>
 <polygon fill="black" stroke="black" points="3887.39,-653.795 3881.01,-645.337 3880.73,-655.928 3887.39,-653.795"/>
 </g>
@@ -284,83 +284,83 @@
 <path fill="none" stroke="black" d="M1566.94,-1830.04C1673.15,-1908.23 2138.92,-2251.15 2264.57,-2343.65"/>
 <polygon fill="black" stroke="black" points="2262.55,-2346.52 2272.68,-2349.63 2266.7,-2340.88 2262.55,-2346.52"/>
 </g>
-<!-- networks_osi -->
-<g id="node158" class="node"><title>networks_osi</title>
+<!-- net_osi -->
+<g id="node158" class="node"><title>net_osi</title>
 <ellipse fill="none" stroke="black" cx="3756.34" cy="-1091.03" rx="35.9954" ry="18"/>
 <text text-anchor="middle" x="3756.34" y="-1087.33" font-family="Times,serif" font-size="14.00">Sphinx</text>
 </g>
-<!-- networks&#45;&gt;networks_osi -->
-<g id="edge160" class="edge"><title>networks&#45;&gt;networks_osi</title>
+<!-- net&#45;&gt;net_osi -->
+<g id="edge160" class="edge"><title>net&#45;&gt;net_osi</title>
 <path fill="none" stroke="black" d="M3870.59,-645.49C3852.33,-716.701 3785.58,-976.986 3763.49,-1063.13"/>
 <polygon fill="black" stroke="black" points="3760.06,-1062.42 3760.97,-1072.98 3766.84,-1064.16 3760.06,-1062.42"/>
 </g>
-<!-- networks_grpc -->
-<g id="node159" class="node"><title>networks_grpc</title>
+<!-- net_grpc -->
+<g id="node159" class="node"><title>net_grpc</title>
 <ellipse fill="none" stroke="black" cx="3536.97" cy="-966.046" rx="31.6951" ry="18"/>
 <text text-anchor="middle" x="3536.97" y="-962.346" font-family="Times,serif" font-size="14.00">gRPC</text>
 </g>
-<!-- networks&#45;&gt;networks_grpc -->
-<g id="edge161" class="edge"><title>networks&#45;&gt;networks_grpc</title>
+<!-- net&#45;&gt;net_grpc -->
+<g id="edge161" class="edge"><title>net&#45;&gt;net_grpc</title>
 <path fill="none" stroke="black" d="M3857.54,-645.047C3800.84,-701.818 3623.82,-879.081 3560.11,-942.877"/>
 <polygon fill="black" stroke="black" points="3557.5,-940.53 3552.92,-950.079 3562.46,-945.476 3557.5,-940.53"/>
 </g>
-<!-- networks_restapi -->
-<g id="node160" class="node"><title>networks_restapi</title>
+<!-- net_restapi -->
+<g id="node160" class="node"><title>net_restapi</title>
 <ellipse fill="none" stroke="black" cx="3408.62" cy="-734.218" rx="48.9926" ry="18"/>
 <text text-anchor="middle" x="3408.62" y="-730.518" font-family="Times,serif" font-size="14.00">REST API</text>
 </g>
-<!-- networks&#45;&gt;networks_restapi -->
-<g id="edge162" class="edge"><title>networks&#45;&gt;networks_restapi</title>
+<!-- net&#45;&gt;net_restapi -->
+<g id="edge162" class="edge"><title>net&#45;&gt;net_restapi</title>
 <path fill="none" stroke="black" d="M3819.43,-640.101C3728.12,-661.021 3548.17,-702.247 3459.9,-722.469"/>
 <polygon fill="black" stroke="black" points="3459.08,-719.067 3450.11,-724.712 3460.64,-725.89 3459.08,-719.067"/>
 </g>
-<!-- networks_graphql -->
-<g id="node161" class="node"><title>networks_graphql</title>
+<!-- net_graphql -->
+<g id="node161" class="node"><title>net_graphql</title>
 <ellipse fill="none" stroke="black" cx="3427.46" cy="-458.028" rx="44.393" ry="18"/>
 <text text-anchor="middle" x="3427.46" y="-454.328" font-family="Times,serif" font-size="14.00">GraphQL</text>
 </g>
-<!-- networks&#45;&gt;networks_graphql -->
-<g id="edge163" class="edge"><title>networks&#45;&gt;networks_graphql</title>
+<!-- net&#45;&gt;net_graphql -->
+<g id="edge163" class="edge"><title>net&#45;&gt;net_graphql</title>
 <path fill="none" stroke="black" d="M3834.32,-611.841C3749.5,-579.775 3555.31,-506.36 3469.52,-473.929"/>
 <polygon fill="black" stroke="black" points="3470.69,-470.629 3460.1,-470.367 3468.21,-477.177 3470.69,-470.629"/>
 </g>
-<!-- networks_soap -->
-<g id="node162" class="node"><title>networks_soap</title>
+<!-- net_soap -->
+<g id="node162" class="node"><title>net_soap</title>
 <ellipse fill="none" stroke="black" cx="3583.52" cy="-247.75" rx="33.2948" ry="18"/>
 <text text-anchor="middle" x="3583.52" y="-244.05" font-family="Times,serif" font-size="14.00">SOAP</text>
 </g>
-<!-- networks&#45;&gt;networks_soap -->
-<g id="edge164" class="edge"><title>networks&#45;&gt;networks_soap</title>
+<!-- net&#45;&gt;net_soap -->
+<g id="edge164" class="edge"><title>net&#45;&gt;net_soap</title>
 <path fill="none" stroke="black" d="M3861.57,-609.514C3814.27,-547.968 3657.52,-344.025 3602.67,-272.667"/>
 <polygon fill="black" stroke="black" points="3605.37,-270.436 3596.5,-264.641 3599.82,-274.702 3605.37,-270.436"/>
 </g>
-<!-- networks_protocols -->
-<g id="node163" class="node"><title>networks_protocols</title>
+<!-- net_protocols -->
+<g id="node163" class="node"><title>net_protocols</title>
 <ellipse fill="none" stroke="black" cx="3963.28" cy="-156.755" rx="44.393" ry="18"/>
 <text text-anchor="middle" x="3963.28" y="-153.055" font-family="Times,serif" font-size="14.00">Protocols</text>
 </g>
-<!-- networks&#45;&gt;networks_protocols -->
-<g id="edge165" class="edge"><title>networks&#45;&gt;networks_protocols</title>
+<!-- net&#45;&gt;net_protocols -->
+<g id="edge165" class="edge"><title>net&#45;&gt;net_protocols</title>
 <path fill="none" stroke="black" d="M3878.65,-609.154C3892.1,-537.246 3941.7,-272.118 3958.03,-184.827"/>
 <polygon fill="black" stroke="black" points="3961.49,-185.332 3959.89,-174.859 3954.61,-184.045 3961.49,-185.332"/>
 </g>
-<!-- networks_websocket -->
-<g id="node164" class="node"><title>networks_websocket</title>
+<!-- net_websocket -->
+<g id="node164" class="node"><title>net_websocket</title>
 <ellipse fill="none" stroke="black" cx="4292.97" cy="-393.476" rx="50.0912" ry="18"/>
 <text text-anchor="middle" x="4292.97" y="-389.776" font-family="Times,serif" font-size="14.00">Websocket</text>
 </g>
-<!-- networks&#45;&gt;networks_websocket -->
-<g id="edge166" class="edge"><title>networks&#45;&gt;networks_websocket</title>
+<!-- net&#45;&gt;net_websocket -->
+<g id="edge166" class="edge"><title>net&#45;&gt;net_websocket</title>
 <path fill="none" stroke="black" d="M3905.29,-610.495C3980.31,-568.498 4175.67,-459.143 4256.81,-413.718"/>
 <polygon fill="black" stroke="black" points="4258.66,-416.697 4265.67,-408.758 4255.24,-410.589 4258.66,-416.697"/>
 </g>
-<!-- networks_auth -->
-<g id="node165" class="node"><title>networks_auth</title>
+<!-- net_auth -->
+<g id="node165" class="node"><title>net_auth</title>
 <ellipse fill="none" stroke="black" cx="4250.28" cy="-924.847" rx="129.177" ry="18"/>
 <text text-anchor="middle" x="4250.28" y="-921.147" font-family="Times,serif" font-size="14.00">Authorization and Authentication</text>
 </g>
-<!-- networks&#45;&gt;networks_auth -->
-<g id="edge167" class="edge"><title>networks&#45;&gt;networks_auth</title>
+<!-- net&#45;&gt;net_auth -->
+<g id="edge167" class="edge"><title>net&#45;&gt;net_auth</title>
 <path fill="none" stroke="black" d="M3897.31,-644.814C3961.11,-695.43 4145.96,-842.085 4219.54,-900.458"/>
 <polygon fill="black" stroke="black" points="4217.53,-903.33 4227.53,-906.804 4221.88,-897.846 4217.53,-903.33"/>
 </g>
@@ -1669,113 +1669,113 @@
 <path fill="none" stroke="black" d="M2097.92,-868.684C2102.95,-900.088 2113.29,-964.645 2119.25,-1001.88"/>
 <polygon fill="black" stroke="black" points="2115.84,-1002.73 2120.88,-1012.05 2122.75,-1001.62 2115.84,-1002.73"/>
 </g>
-<!-- networks_protocols_ip -->
-<g id="node166" class="node"><title>networks_protocols_ip</title>
+<!-- net_protocols_ip -->
+<g id="node166" class="node"><title>net_protocols_ip</title>
 <ellipse fill="none" stroke="black" cx="3867.42" cy="-270.426" rx="27" ry="18"/>
 <text text-anchor="middle" x="3867.42" y="-266.726" font-family="Times,serif" font-size="14.00">IP</text>
 </g>
-<!-- networks_protocols&#45;&gt;networks_protocols_ip -->
-<g id="edge168" class="edge"><title>networks_protocols&#45;&gt;networks_protocols_ip</title>
+<!-- net_protocols&#45;&gt;net_protocols_ip -->
+<g id="edge168" class="edge"><title>net_protocols&#45;&gt;net_protocols_ip</title>
 <path fill="none" stroke="black" d="M3948.72,-174.019C3932.37,-193.405 3905.74,-224.983 3887.44,-246.684"/>
 <polygon fill="black" stroke="black" points="3884.65,-244.57 3880.88,-254.471 3890,-249.083 3884.65,-244.57"/>
 </g>
-<!-- networks_protocols_tcp -->
-<g id="node167" class="node"><title>networks_protocols_tcp</title>
+<!-- net_protocols_tcp -->
+<g id="node167" class="node"><title>net_protocols_tcp</title>
 <ellipse fill="none" stroke="black" cx="3816.51" cy="-132.907" rx="27" ry="18"/>
 <text text-anchor="middle" x="3816.51" y="-129.207" font-family="Times,serif" font-size="14.00">TCP</text>
 </g>
-<!-- networks_protocols&#45;&gt;networks_protocols_tcp -->
-<g id="edge169" class="edge"><title>networks_protocols&#45;&gt;networks_protocols_tcp</title>
+<!-- net_protocols&#45;&gt;net_protocols_tcp -->
+<g id="edge169" class="edge"><title>net_protocols&#45;&gt;net_protocols_tcp</title>
 <path fill="none" stroke="black" d="M3922.01,-150.049C3900.39,-146.537 3874.15,-142.272 3853.24,-138.875"/>
 <polygon fill="black" stroke="black" points="3853.58,-135.385 3843.15,-137.236 3852.46,-142.294 3853.58,-135.385"/>
 </g>
-<!-- networks_protocols_udp -->
-<g id="node168" class="node"><title>networks_protocols_udp</title>
+<!-- net_protocols_udp -->
+<g id="node168" class="node"><title>net_protocols_udp</title>
 <ellipse fill="none" stroke="black" cx="3909.83" cy="-18" rx="28.6953" ry="18"/>
 <text text-anchor="middle" x="3909.83" y="-14.3" font-family="Times,serif" font-size="14.00">UDP</text>
 </g>
-<!-- networks_protocols&#45;&gt;networks_protocols_udp -->
-<g id="edge170" class="edge"><title>networks_protocols&#45;&gt;networks_protocols_udp</title>
+<!-- net_protocols&#45;&gt;net_protocols_udp -->
+<g id="edge170" class="edge"><title>net_protocols&#45;&gt;net_protocols_udp</title>
 <path fill="none" stroke="black" d="M3956.4,-138.899C3947.26,-115.171 3931.03,-73.0206 3920.34,-45.2904"/>
 <polygon fill="black" stroke="black" points="3923.54,-43.8608 3916.68,-35.7872 3917.01,-46.377 3923.54,-43.8608"/>
 </g>
-<!-- networks_protocols_http -->
-<g id="node169" class="node"><title>networks_protocols_http</title>
+<!-- net_protocols_http -->
+<g id="node169" class="node"><title>net_protocols_http</title>
 <ellipse fill="none" stroke="black" cx="4060.35" cy="-44.1209" rx="32.4942" ry="18"/>
 <text text-anchor="middle" x="4060.35" y="-40.4209" font-family="Times,serif" font-size="14.00">HTTP</text>
 </g>
-<!-- networks_protocols&#45;&gt;networks_protocols_http -->
-<g id="edge171" class="edge"><title>networks_protocols&#45;&gt;networks_protocols_http</title>
+<!-- net_protocols&#45;&gt;net_protocols_http -->
+<g id="edge171" class="edge"><title>net_protocols&#45;&gt;net_protocols_http</title>
 <path fill="none" stroke="black" d="M3978.02,-139.649C3994.39,-120.658 4020.93,-89.8593 4039.44,-68.3837"/>
 <polygon fill="black" stroke="black" points="4042.23,-70.5134 4046.1,-60.6535 4036.92,-65.9435 4042.23,-70.5134"/>
 </g>
-<!-- networks_protocols_tls -->
-<g id="node170" class="node"><title>networks_protocols_tls</title>
+<!-- net_protocols_tls -->
+<g id="node170" class="node"><title>net_protocols_tls</title>
 <ellipse fill="none" stroke="black" cx="4108.74" cy="-187.577" rx="27" ry="18"/>
 <text text-anchor="middle" x="4108.74" y="-183.877" font-family="Times,serif" font-size="14.00">TLS</text>
 </g>
-<!-- networks_protocols&#45;&gt;networks_protocols_tls -->
-<g id="edge172" class="edge"><title>networks_protocols&#45;&gt;networks_protocols_tls</title>
+<!-- net_protocols&#45;&gt;net_protocols_tls -->
+<g id="edge172" class="edge"><title>net_protocols&#45;&gt;net_protocols_tls</title>
 <path fill="none" stroke="black" d="M4002.64,-165.096C4024.48,-169.723 4051.44,-175.435 4072.72,-179.944"/>
 <polygon fill="black" stroke="black" points="4072.15,-183.402 4082.66,-182.051 4073.61,-176.554 4072.15,-183.402"/>
 </g>
-<!-- networks_protocols_ssl -->
-<g id="node171" class="node"><title>networks_protocols_ssl</title>
+<!-- net_protocols_ssl -->
+<g id="node171" class="node"><title>net_protocols_ssl</title>
 <ellipse fill="none" stroke="black" cx="4011.56" cy="-297.391" rx="27" ry="18"/>
 <text text-anchor="middle" x="4011.56" y="-293.691" font-family="Times,serif" font-size="14.00">SSL</text>
 </g>
-<!-- networks_protocols&#45;&gt;networks_protocols_ssl -->
-<g id="edge173" class="edge"><title>networks_protocols&#45;&gt;networks_protocols_ssl</title>
+<!-- net_protocols&#45;&gt;net_protocols_ssl -->
+<g id="edge173" class="edge"><title>net_protocols&#45;&gt;net_protocols_ssl</title>
 <path fill="none" stroke="black" d="M3969.49,-174.853C3977.79,-199.036 3992.58,-242.095 4002.22,-270.193"/>
 <polygon fill="black" stroke="black" points="3998.97,-271.484 4005.52,-279.805 4005.59,-269.211 3998.97,-271.484"/>
 </g>
-<!-- networks_auth_authorization -->
-<g id="node172" class="node"><title>networks_auth_authorization</title>
+<!-- net_auth_authorization -->
+<g id="node172" class="node"><title>net_auth_authorization</title>
 <ellipse fill="none" stroke="black" cx="4182.81" cy="-669.217" rx="59.5901" ry="18"/>
 <text text-anchor="middle" x="4182.81" y="-665.517" font-family="Times,serif" font-size="14.00">Authorization</text>
 </g>
-<!-- networks_auth&#45;&gt;networks_auth_authorization -->
-<g id="edge174" class="edge"><title>networks_auth&#45;&gt;networks_auth_authorization</title>
+<!-- net_auth&#45;&gt;net_auth_authorization -->
+<g id="edge174" class="edge"><title>net_auth&#45;&gt;net_auth_authorization</title>
 <path fill="none" stroke="black" d="M4245.43,-906.463C4233.76,-862.245 4204.06,-749.723 4190.18,-697.118"/>
 <polygon fill="black" stroke="black" points="4193.56,-696.21 4187.62,-687.434 4186.79,-697.996 4193.56,-696.21"/>
 </g>
-<!-- networks_auth_authentication -->
-<g id="node173" class="node"><title>networks_auth_authentication</title>
+<!-- net_auth_authentication -->
+<g id="node173" class="node"><title>net_auth_authentication</title>
 <ellipse fill="none" stroke="black" cx="4489.04" cy="-811.313" rx="63.0888" ry="18"/>
 <text text-anchor="middle" x="4489.04" y="-807.613" font-family="Times,serif" font-size="14.00">Authentication</text>
 </g>
-<!-- networks_auth&#45;&gt;networks_auth_authentication -->
-<g id="edge175" class="edge"><title>networks_auth&#45;&gt;networks_auth_authentication</title>
+<!-- net_auth&#45;&gt;net_auth_authentication -->
+<g id="edge175" class="edge"><title>net_auth&#45;&gt;net_auth_authentication</title>
 <path fill="none" stroke="black" d="M4286.8,-907.48C4329.97,-886.951 4401.68,-852.855 4447.09,-831.261"/>
 <polygon fill="black" stroke="black" points="4448.83,-834.308 4456.36,-826.853 4445.83,-827.986 4448.83,-834.308"/>
 </g>
-<!-- networks_auth_oauth -->
-<g id="node174" class="node"><title>networks_auth_oauth</title>
+<!-- net_auth_oauth -->
+<g id="node174" class="node"><title>net_auth_oauth</title>
 <ellipse fill="none" stroke="black" cx="4425.71" cy="-1122.64" rx="34.394" ry="18"/>
 <text text-anchor="middle" x="4425.71" y="-1118.94" font-family="Times,serif" font-size="14.00">OAuth</text>
 </g>
-<!-- networks_auth&#45;&gt;networks_auth_oauth -->
-<g id="edge176" class="edge"><title>networks_auth&#45;&gt;networks_auth_oauth</title>
+<!-- net_auth&#45;&gt;net_auth_oauth -->
+<g id="edge176" class="edge"><title>net_auth&#45;&gt;net_auth_oauth</title>
 <path fill="none" stroke="black" d="M4266.16,-942.749C4297.78,-978.409 4368.67,-1058.33 4404.35,-1098.55"/>
 <polygon fill="black" stroke="black" points="4401.74,-1100.88 4410.99,-1106.04 4406.97,-1096.24 4401.74,-1100.88"/>
 </g>
-<!-- networks_auth_jwt -->
-<g id="node175" class="node"><title>networks_auth_jwt</title>
+<!-- net_auth_jwt -->
+<g id="node175" class="node"><title>net_auth_jwt</title>
 <ellipse fill="none" stroke="black" cx="4139.29" cy="-1164.81" rx="28.6953" ry="18"/>
 <text text-anchor="middle" x="4139.29" y="-1161.11" font-family="Times,serif" font-size="14.00">JWT</text>
 </g>
-<!-- networks_auth&#45;&gt;networks_auth_jwt -->
-<g id="edge177" class="edge"><title>networks_auth&#45;&gt;networks_auth_jwt</title>
+<!-- net_auth&#45;&gt;net_auth_jwt -->
+<g id="edge177" class="edge"><title>net_auth&#45;&gt;net_auth_jwt</title>
 <path fill="none" stroke="black" d="M4241.94,-942.883C4222.56,-984.778 4174.42,-1088.84 4151.63,-1138.12"/>
 <polygon fill="black" stroke="black" points="4148.45,-1136.67 4147.43,-1147.21 4154.8,-1139.61 4148.45,-1136.67"/>
 </g>
-<!-- networks_auth_cookie -->
-<g id="node176" class="node"><title>networks_auth_cookie</title>
+<!-- net_auth_cookie -->
+<g id="node176" class="node"><title>net_auth_cookie</title>
 <ellipse fill="none" stroke="black" cx="3986" cy="-917.287" rx="36.2938" ry="18"/>
 <text text-anchor="middle" x="3986" y="-913.587" font-family="Times,serif" font-size="14.00">Cookie</text>
 </g>
-<!-- networks_auth&#45;&gt;networks_auth_cookie -->
-<g id="edge178" class="edge"><title>networks_auth&#45;&gt;networks_auth_cookie</title>
+<!-- net_auth&#45;&gt;net_auth_cookie -->
+<g id="edge178" class="edge"><title>net_auth&#45;&gt;net_auth_cookie</title>
 <path fill="none" stroke="black" d="M4123.56,-921.222C4091.07,-920.293 4058.15,-919.351 4032.67,-918.622"/>
 <polygon fill="black" stroke="black" points="4032.67,-915.121 4022.57,-918.333 4032.47,-922.118 4032.67,-915.121"/>
 </g>

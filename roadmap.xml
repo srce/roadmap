@@ -15,8 +15,8 @@
         <node id="db" label="Databases"/>
         <edge id="backend_db" source="backend" target="db"/>
 
-        <node id="networks" label="Computer Network"/>
-        <edge id="backend_net" source="backend" target="networks"/>
+        <node id="net" label="Computer Network"/>
+        <edge id="backend_net" source="backend" target="net"/>
 
         <node id="os" label="Operating System"/>
         <edge id="backend_os" source="backend" target="os"/>
@@ -517,63 +517,63 @@
         <edge id="edge_db_search_sphinx" source="db_search" target="db_search_sphinx"/>
 
         <!--Computer network-->
-        <node id="networks_osi" label="Sphinx"/>
-        <edge id="edge_networks_osi" source="networks" target="networks_osi"/>
+        <node id="net_osi" label="Sphinx"/>
+        <edge id="edge_networks_osi" source="net" target="net_osi"/>
 
-        <node id="networks_grpc" label="gRPC"/>
-        <edge id="edge_networks_grpc" source="networks" target="networks_grpc"/>
+        <node id="net_grpc" label="gRPC"/>
+        <edge id="edge_networks_grpc" source="net" target="net_grpc"/>
 
-        <node id="networks_restapi" label="REST API"/>
-        <edge id="edge_networks_restapi" source="networks" target="networks_restapi"/>
+        <node id="net_restapi" label="REST API"/>
+        <edge id="edge_networks_restapi" source="net" target="net_restapi"/>
 
-        <node id="networks_graphql" label="GraphQL"/>
-        <edge id="edge_networks_graphql" source="networks" target="networks_graphql"/>
+        <node id="net_graphql" label="GraphQL"/>
+        <edge id="edge_networks_graphql" source="net" target="net_graphql"/>
 
-        <node id="networks_soap" label="SOAP"/>
-        <edge id="edge_networks_soap" source="networks" target="networks_soap"/>
+        <node id="net_soap" label="SOAP"/>
+        <edge id="edge_networks_soap" source="net" target="net_soap"/>
 
-        <node id="networks_protocols" label="Protocols"/>
-        <edge id="edge_networks_protocols" source="networks" target="networks_protocols"/>
+        <node id="net_protocols" label="Protocols"/>
+        <edge id="edge_networks_protocols" source="net" target="net_protocols"/>
 
-        <node id="networks_websocket" label="Websocket"/>
-        <edge id="edge_networks_websocket" source="networks" target="networks_websocket"/>
+        <node id="net_websocket" label="Websocket"/>
+        <edge id="edge_networks_websocket" source="net" target="net_websocket"/>
 
-        <node id="networks_auth" label="Authorization and Authentication"/>
-        <edge id="edge_networks_auth" source="networks" target="networks_auth"/>
+        <node id="net_auth" label="Authorization and Authentication"/>
+        <edge id="edge_networks_auth" source="net" target="net_auth"/>
 
         <!--Protocols-->
-        <node id="networks_protocols_ip" label="IP"/>
-        <edge id="edge_networks_protocols_ip" source="networks_protocols" target="networks_protocols_ip"/>
+        <node id="net_protocols_ip" label="IP"/>
+        <edge id="edge_networks_protocols_ip" source="net_protocols" target="net_protocols_ip"/>
 
-        <node id="networks_protocols_tcp" label="TCP"/>
-        <edge id="edge_networks_protocols_tcp" source="networks_protocols" target="networks_protocols_tcp"/>
+        <node id="net_protocols_tcp" label="TCP"/>
+        <edge id="edge_networks_protocols_tcp" source="net_protocols" target="net_protocols_tcp"/>
 
-        <node id="networks_protocols_udp" label="UDP"/>
-        <edge id="edge_networks_protocols_udp" source="networks_protocols" target="networks_protocols_udp"/>
+        <node id="net_protocols_udp" label="UDP"/>
+        <edge id="edge_networks_protocols_udp" source="net_protocols" target="net_protocols_udp"/>
 
-        <node id="networks_protocols_http" label="HTTP"/>
-        <edge id="edge_networks_protocols_http" source="networks_protocols" target="networks_protocols_http"/>
+        <node id="net_protocols_http" label="HTTP"/>
+        <edge id="edge_networks_protocols_http" source="net_protocols" target="net_protocols_http"/>
 
-        <node id="networks_protocols_tls" label="TLS"/>
-        <edge id="edge_networks_protocols_tls" source="networks_protocols" target="networks_protocols_tls"/>
+        <node id="net_protocols_tls" label="TLS"/>
+        <edge id="edge_networks_protocols_tls" source="net_protocols" target="net_protocols_tls"/>
 
-        <node id="networks_protocols_ssl" label="SSL"/>
-        <edge id="edge_networks_protocols_ssl" source="networks_protocols" target="networks_protocols_ssl"/>
+        <node id="net_protocols_ssl" label="SSL"/>
+        <edge id="edge_networks_protocols_ssl" source="net_protocols" target="net_protocols_ssl"/>
 
         <!--Authorization and Authentication-->
-        <node id="networks_auth_authorization" label="Authorization"/>
-        <edge id="edge_networks_auth_authorization" source="networks_auth" target="networks_auth_authorization"/>
+        <node id="net_auth_authorization" label="Authorization"/>
+        <edge id="edge_networks_auth_authorization" source="net_auth" target="net_auth_authorization"/>
 
-        <node id="networks_auth_authentication" label="Authentication"/>
-        <edge id="edge_networks_auth_authentication" source="networks_auth" target="networks_auth_authentication"/>
+        <node id="net_auth_authentication" label="Authentication"/>
+        <edge id="edge_networks_auth_authentication" source="net_auth" target="net_auth_authentication"/>
 
-        <node id="networks_auth_oauth" label="OAuth"/>
-        <edge id="edge_networks_auth_oauth" source="networks_auth" target="networks_auth_oauth"/>
+        <node id="net_auth_oauth" label="OAuth"/>
+        <edge id="edge_networks_auth_oauth" source="net_auth" target="net_auth_oauth"/>
 
-        <node id="networks_auth_jwt" label="JWT"/>
-        <edge id="edge_networks_auth_jwt" source="networks_auth" target="networks_auth_jwt"/>
+        <node id="net_auth_jwt" label="JWT"/>
+        <edge id="edge_networks_auth_jwt" source="net_auth" target="net_auth_jwt"/>
 
-        <node id="networks_auth_cookie" label="Cookie"/>
-        <edge id="edge_networks_auth_cookie" source="networks_auth" target="networks_auth_cookie"/>
+        <node id="net_auth_cookie" label="Cookie"/>
+        <edge id="edge_networks_auth_cookie" source="net_auth" target="net_auth_cookie"/>
     </graph>
 </graphml>
