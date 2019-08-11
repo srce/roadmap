@@ -35,6 +35,8 @@
 
 - article "[Effective Go](https://golang.org/doc/effective_go.html)" [en]
 
+- book "[An Introduction to Programming in Go](https://www.golang-book.com/books/intro)" [en]
+
 ## Types
 ### Text
 - article "[The Go Blog - Strings, bytes, runes and characters in Go](https://blog.golang.org/strings)" [en]
@@ -146,6 +148,8 @@
 - article "[The Go Blog - Getting to Go: The Journey of Go's Garbage Collector](https://blog.golang.org/ismmkeynote)" [en]
 
 ### Scheduler
+- article "[Go scheduler: Ms, Ps & Gs](https://povilasv.me/go-scheduler/)" [en]
+
 ### Package unsafe
 ### Templates
 ### Logging
@@ -201,6 +205,7 @@
 ## REST API
 ## GraphQL
 ## SOAP
+## DNS
 ## Protocols
 ### IP
 ### TCP
@@ -261,6 +266,8 @@
 ### TFS
 ## Version Control
 ### Git
+- book "[Pro Git](https://git-scm.com/book/en)" [en]
+
 ## Deployment
 ### Continuous Integration
 ### Continuous Delivery

@@ -9,11 +9,17 @@
         </xs:sequence>
     </xs:complexType>
 
+    <xs:complexType name="translate">
+        <xs:attribute name="lang" type="xs:string" use="required"/>
+        <xs:attribute name="url" type="xs:string" use="required"/>
+    </xs:complexType>
+
     <xs:complexType name="material">
         <xs:sequence>
             <xs:element name="title" type="xs:string"/>
             <xs:element name="url" type="xs:string"/>
             <xs:element name="description" type="xs:string" minOccurs="0"/>
+            <xs:element name="translate" type="translate" minOccurs="0"/>
             <xs:element name="tags" type="tags"/>
         </xs:sequence>
         <xs:attribute name="lang" type="xs:string" use="required"/>

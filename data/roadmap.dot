@@ -164,6 +164,7 @@ digraph roadmap {
 	net->net_restapi;
 	net->net_graphql;
 	net->net_soap;
+	net->net_dns;
 	net->net_protocols;
 	net->net_websocket;
 	net->net_auth;
@@ -324,6 +325,7 @@ digraph roadmap {
 	net_auth_cookie [ label="Cookie" ];
 	net_auth_jwt [ label="JWT" ];
 	net_auth_oauth [ label="OAuth" ];
+	net_dns [ label="DNS" ];
 	net_graphql [ label="GraphQL" ];
 	net_grpc [ label="gRPC" ];
 	net_osi [ label="Sphinx" ];

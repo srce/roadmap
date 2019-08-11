@@ -109,79 +109,79 @@
 
         <!--Software Development Processes-->
         <node id="dev_paradigms" label="Paradigms and models"/>
-        <edge id="edge_development_paradigms" source="dev" target="dev_paradigms"/>
+        <edge id="edge_dev_paradigms" source="dev" target="dev_paradigms"/>
 
         <node id="dev_methodologies" label="Methodologies and frameworks"/>
-        <edge id="edge_development_methodologies" source="dev" target="dev_methodologies"/>
+        <edge id="edge_dev_methodologies" source="dev" target="dev_methodologies"/>
 
         <node id="dev_testing" label="Testing"/>
-        <edge id="edge_development_testing" source="dev" target="dev_testing"/>
+        <edge id="edge_dev_testing" source="dev" target="dev_testing"/>
 
         <node id="dev_trackers" label="Bug tracking systems"/>
-        <edge id="edge_development_trackers" source="dev" target="dev_trackers"/>
+        <edge id="edge_dev_trackers" source="dev" target="dev_trackers"/>
 
         <node id="dev_version" label="Version Control"/>
-        <edge id="edge_development_version" source="dev" target="dev_version"/>
+        <edge id="edge_dev_version" source="dev" target="dev_version"/>
 
         <node id="dev_deployment" label="Deployment"/>
-        <edge id="edge_development_deployment" source="dev" target="dev_deployment"/>
+        <edge id="edge_dev_deployment" source="dev" target="dev_deployment"/>
 
         <node id="dev_estimation" label="Estimations"/>
-        <edge id="edge_development_estimation" source="dev" target="dev_estimation"/>
+        <edge id="edge_dev_estimation" source="dev" target="dev_estimation"/>
 
         <node id="dev_debugging" label="Debugging"/>
-        <edge id="edge_development_debugging" source="dev" target="dev_debugging"/>
+        <edge id="edge_dev_debugging" source="dev" target="dev_debugging"/>
 
         <node id="dev_orchestration" label="Orchestration"/>
-        <edge id="edge_development_orchestration" source="dev" target="dev_orchestration"/>
+        <edge id="edge_dev_orchestration" source="dev" target="dev_orchestration"/>
 
         <!--Orchestration-->
         <node id="dev_orchestration_ansible" label="Ansible"/>
-        <edge id="edge_development_orchestration_ansible" source="dev_orchestration" target="dev_orchestration_ansible"/>
+        <edge id="edge_dev_orchestration_ansible" source="dev_orchestration" target="dev_orchestration_ansible"/>
 
         <node id="dev_orchestration_puppet" label="Puppet"/>
-        <edge id="edge_development_orchestration_puppet" source="dev_orchestration" target="dev_orchestration_puppet"/>
+        <edge id="edge_dev_orchestration_puppet" source="dev_orchestration" target="dev_orchestration_puppet"/>
 
         <node id="dev_orchestration_k8s" label="Kubernetes"/>
-        <edge id="edge_development_orchestration_k8s" source="dev_orchestration" target="dev_orchestration_k8s"/>
+        <edge id="edge_dev_orchestration_k8s" source="dev_orchestration" target="dev_orchestration_k8s"/>
 
         <!--Debugging-->
         <node id="dev_debugging_troubleshooting" label="Troubleshooting"/>
-        <edge id="edge_development_debugging_troubleshooting" source="dev_debugging" target="dev_debugging_troubleshooting"/>
+        <edge id="edge_dev_debugging_troubleshooting" source="dev_debugging" target="dev_debugging_troubleshooting"/>
 
         <node id="dev_debugging_logging" label="Logging"/>
-        <edge id="edge_development_debugging_logging" source="dev_debugging" target="dev_debugging_logging"/>
+        <edge id="edge_dev_debugging_logging" source="dev_debugging" target="dev_debugging_logging"/>
 
         <node id="dev_debugging_monitoring" label="Monitoring"/>
-        <edge id="edge_development_debugging_monitoring" source="dev_debugging" target="dev_debugging_monitoring"/>
+        <edge id="edge_dev_debugging_monitoring" source="dev_debugging" target="dev_debugging_monitoring"/>
 
         <!--Testing-->
         <node id="dev_testing_tdd" label="Test-driven development"/>
-        <edge id="edge_development_testing_tdd" source="dev_testing" target="dev_testing_tdd"/>
+        <edge id="edge_dev_testing_tdd" source="dev_testing" target="dev_testing_tdd"/>
 
         <node id="dev_testing_bdd" label="Behavior-driven development"/>
-        <edge id="edge_development_testing_bdd" source="dev_testing" target="dev_testing_bdd"/>
+        <edge id="edge_dev_testing_bdd" source="dev_testing" target="dev_testing_bdd"/>
 
         <!--Bug tracking systems-->
         <node id="dev_trackers_jira" label="Jira"/>
-        <edge id="edge_development_trackers_jira" source="dev_trackers" target="dev_trackers_jira"/>
+        <edge id="edge_dev_trackers_jira" source="dev_trackers" target="dev_trackers_jira"/>
 
         <node id="dev_trackers_redmine" label="Redmine"/>
-        <edge id="edge_development_trackers_redmine" source="dev_trackers" target="dev_trackers_redmine"/>
+        <edge id="edge_dev_trackers_redmine" source="dev_trackers" target="dev_trackers_redmine"/>
 
         <node id="dev_trackers_tfs" label="TFS"/>
-        <edge id="edge_development_trackers_tfs" source="dev_trackers" target="dev_trackers_tfs"/>
+        <edge id="edge_dev_trackers_tfs" source="dev_trackers" target="dev_trackers_tfs"/>
 
         <!--Version Control-->
         <node id="dev_version_git" label="Git"/>
-        <edge id="edge_development_version_git" source="dev_version" target="dev_version_git"/>
+        <edge id="edge_dev_version_git" source="dev_version" target="dev_version_git"/>
 
         <!--Deployment-->
         <node id="dev_deployment_ci" label="Continuous Integration"/>
-        <edge id="edge_development_deployment_ci" source="dev_deployment" target="dev_deployment_ci"/>
+        <edge id="edge_dev_deployment_ci" source="dev_deployment" target="dev_deployment_ci"/>
 
         <node id="dev_deployment_cd" label="Continuous Delivery"/>
-        <edge id="edge_development_deployment_cd" source="dev_deployment" target="dev_deployment_cd"/>
+        <edge id="edge_dev_deployment_cd" source="dev_deployment" target="dev_deployment_cd"/>
 
         <!--Paradigms and models-->
         <node id="management_paradigms_agile" label="Agile"/>
@@ -192,16 +192,16 @@
 
         <!--Methodologies and frameworks-->
         <node id="dev_methodologies_scrum" label="SCRUM"/>
-        <edge id="edge_development_methodologies_scrum" source="dev_methodologies" target="dev_methodologies_scrum"/>
+        <edge id="edge_dev_methodologies_scrum" source="dev_methodologies" target="dev_methodologies_scrum"/>
 
         <node id="dev_methodologies_kanban" label="Kanban"/>
-        <edge id="edge_development_methodologies_kanban" source="dev_methodologies" target="dev_methodologies_kanban"/>
+        <edge id="edge_dev_methodologies_kanban" source="dev_methodologies" target="dev_methodologies_kanban"/>
 
         <node id="dev_methodologies_xp" label="Extreme Programming"/>
-        <edge id="edge_development_methodologies_xp" source="dev_methodologies" target="dev_methodologies_xp"/>
+        <edge id="edge_dev_methodologies_xp" source="dev_methodologies" target="dev_methodologies_xp"/>
 
         <node id="dev_methodologies_12factors" label="The Twelve-Factor App"/>
-        <edge id="edge_development_methodologies_12factors" source="dev_methodologies" target="dev_methodologies_12factors"/>
+        <edge id="edge_dev_methodologies_12factors" source="dev_methodologies" target="dev_methodologies_12factors"/>
 
         <!--Estimations-->
         <node id="management_estimation_poker" label="Planning Poker"/>
@@ -517,62 +517,65 @@
 
         <!--Computer network-->
         <node id="net_osi" label="Sphinx"/>
-        <edge id="edge_networks_osi" source="net" target="net_osi"/>
+        <edge id="edge_net_osi" source="net" target="net_osi"/>
 
         <node id="net_grpc" label="gRPC"/>
-        <edge id="edge_networks_grpc" source="net" target="net_grpc"/>
+        <edge id="edge_net_grpc" source="net" target="net_grpc"/>
 
         <node id="net_restapi" label="REST API"/>
-        <edge id="edge_networks_restapi" source="net" target="net_restapi"/>
+        <edge id="edge_net_restapi" source="net" target="net_restapi"/>
 
         <node id="net_graphql" label="GraphQL"/>
-        <edge id="edge_networks_graphql" source="net" target="net_graphql"/>
+        <edge id="edge_net_graphql" source="net" target="net_graphql"/>
 
         <node id="net_soap" label="SOAP"/>
-        <edge id="edge_networks_soap" source="net" target="net_soap"/>
+        <edge id="edge_net_soap" source="net" target="net_soap"/>
+
+        <node id="net_dns" label="DNS"/>
+        <edge id="edge_net_dns" source="net" target="net_dns"/>
 
         <node id="net_protocols" label="Protocols"/>
-        <edge id="edge_networks_protocols" source="net" target="net_protocols"/>
+        <edge id="edge_net_protocols" source="net" target="net_protocols"/>
 
         <node id="net_websocket" label="Websocket"/>
-        <edge id="edge_networks_websocket" source="net" target="net_websocket"/>
+        <edge id="edge_net_websocket" source="net" target="net_websocket"/>
 
         <node id="net_auth" label="Authorization and Authentication"/>
-        <edge id="edge_networks_auth" source="net" target="net_auth"/>
+        <edge id="edge_net_auth" source="net" target="net_auth"/>
 
         <!--Protocols-->
         <node id="net_protocols_ip" label="IP"/>
-        <edge id="edge_networks_protocols_ip" source="net_protocols" target="net_protocols_ip"/>
+        <edge id="edge_net_protocols_ip" source="net_protocols" target="net_protocols_ip"/>
 
         <node id="net_protocols_tcp" label="TCP"/>
-        <edge id="edge_networks_protocols_tcp" source="net_protocols" target="net_protocols_tcp"/>
+        <edge id="edge_net_protocols_tcp" source="net_protocols" target="net_protocols_tcp"/>
 
         <node id="net_protocols_udp" label="UDP"/>
-        <edge id="edge_networks_protocols_udp" source="net_protocols" target="net_protocols_udp"/>
+        <edge id="edge_net_protocols_udp" source="net_protocols" target="net_protocols_udp"/>
 
         <node id="net_protocols_http" label="HTTP"/>
-        <edge id="edge_networks_protocols_http" source="net_protocols" target="net_protocols_http"/>
+        <edge id="edge_net_protocols_http" source="net_protocols" target="net_protocols_http"/>
 
         <node id="net_protocols_tls" label="TLS"/>
-        <edge id="edge_networks_protocols_tls" source="net_protocols" target="net_protocols_tls"/>
+        <edge id="edge_net_protocols_tls" source="net_protocols" target="net_protocols_tls"/>
 
         <node id="net_protocols_ssl" label="SSL"/>
-        <edge id="edge_networks_protocols_ssl" source="net_protocols" target="net_protocols_ssl"/>
+        <edge id="edge_net_protocols_ssl" source="net_protocols" target="net_protocols_ssl"/>
 
         <!--Authorization and Authentication-->
         <node id="net_auth_authorization" label="Authorization"/>
-        <edge id="edge_networks_auth_authorization" source="net_auth" target="net_auth_authorization"/>
+        <edge id="edge_net_auth_authorization" source="net_auth" target="net_auth_authorization"/>
 
         <node id="net_auth_authentication" label="Authentication"/>
-        <edge id="edge_networks_auth_authentication" source="net_auth" target="net_auth_authentication"/>
+        <edge id="edge_net_auth_authentication" source="net_auth" target="net_auth_authentication"/>
 
         <node id="net_auth_oauth" label="OAuth"/>
-        <edge id="edge_networks_auth_oauth" source="net_auth" target="net_auth_oauth"/>
+        <edge id="edge_net_auth_oauth" source="net_auth" target="net_auth_oauth"/>
 
         <node id="net_auth_jwt" label="JWT"/>
-        <edge id="edge_networks_auth_jwt" source="net_auth" target="net_auth_jwt"/>
+        <edge id="edge_net_auth_jwt" source="net_auth" target="net_auth_jwt"/>
 
         <node id="net_auth_cookie" label="Cookie"/>
-        <edge id="edge_networks_auth_cookie" source="net_auth" target="net_auth_cookie"/>
+        <edge id="edge_net_auth_cookie" source="net_auth" target="net_auth_cookie"/>
     </graph>
 </graphml>

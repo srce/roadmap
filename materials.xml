@@ -33,6 +33,14 @@
     </article>
 
     <article lang="en">
+        <title>Delete element in a slice</title>
+        <url>https://stackoverflow.com/questions/25025409/delete-element-in-a-slice</url>
+        <tags>
+            <tag>go_types_collections_slice</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
         <title>Manifesto for Agile Software Development</title>
         <url>https://agilemanifesto.org</url>
         <tags>
@@ -120,6 +128,14 @@
         </tags>
     </book>
 
+    <book lang="en">
+        <title>Visualizing Concurrency in Go</title>
+        <url>https://divan.dev/posts/go_concurrency_visualize/</url>
+        <tags>
+            <tag>go_concurrency</tag>
+        </tags>
+    </book>
+
     <article lang="en">
         <title>The Go Blog - Share Memory By Communicating</title>
         <url>https://blog.golang.org/share-memory-by-communicating</url>
@@ -194,6 +210,42 @@
         </tags>
     </article>
 
+    <article lang="en">
+        <title>Go code refactoring : the 23x performance hunt</title>
+        <url>https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7</url>
+        <translate lang="ru" url="https://habr.com/ru/company/badoo/blog/415919/"/>
+        <tags>
+            <tag>go_tool_pprof</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>Go best practices, six years in</title>
+        <url>https://peter.bourgon.org/go-best-practices-2016/</url>
+        <translate lang="ru" url="https://habr.com/ru/company/mailru/blog/301036/"/>
+        <tags>
+            <tag>go</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>Modern garbage collection</title>
+        <url>https://blog.plan99.net/modern-garbage-collection-911ef4f8bd8e</url>
+        <translate lang="ru" url="https://habr.com/ru/company/mailru/blog/318504/"/>
+        <tags>
+            <tag>go_realtime_gc</tag>
+        </tags>
+    </article>
+
+    <video lang="en">
+        <title>GopherCon 2016: Rob Pike - The Design of the Go Assembler</title>
+        <url>https://www.youtube.com/watch?v=KINIAgRpkDA</url>
+        <translate lang="ru" url="https://habr.com/ru/company/badoo/blog/317864/"/>
+        <tags>
+            <tag>go</tag>
+        </tags>
+    </video>
+
     <video lang="en">
         <title>Do not fear first class functions</title>
         <url>https://www.youtube.com/watch?v=5buaPyJ0XeQ</url>
@@ -231,6 +283,14 @@
         <url>https://blog.golang.org/go15gc</url>
         <tags>
             <tag>go_realtime_gc</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>Go scheduler: Ms, Ps &amp; Gs</title>
+        <url>https://povilasv.me/go-scheduler/</url>
+        <tags>
+            <tag>go_realtime_scheduler</tag>
         </tags>
     </article>
 
@@ -399,6 +459,22 @@
         <url>https://www.amazon.com/Computer-Networks-Tanenbaum-International-Economy/dp/9332518742</url>
         <tags>
             <tag>net</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Pro Git</title>
+        <url>https://git-scm.com/book/en</url>
+        <tags>
+            <tag>dev_version_git</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>An Introduction to Programming in Go</title>
+        <url>https://www.golang-book.com/books/intro</url>
+        <tags>
+            <tag>go</tag>
         </tags>
     </book>
 </materials>
