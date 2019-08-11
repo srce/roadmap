@@ -64,13 +64,13 @@
 <path fill="none" stroke="black" d="M107.152,-2189.39C117.708,-2317.46 181.852,-3089.58 245.281,-3717 290.421,-4163.51 354.811,-4706.68 370.216,-4835.6"/>
 <polygon fill="black" stroke="black" points="366.773,-4836.29 371.436,-4845.8 373.724,-4835.46 366.773,-4836.29"/>
 </g>
-<!-- development -->
-<g id="node7" class="node"><title>development</title>
+<!-- dev -->
+<g id="node7" class="node"><title>dev</title>
 <ellipse fill="none" stroke="black" cx="374.62" cy="-2569" rx="129.177" ry="18"/>
 <text text-anchor="middle" x="374.62" y="-2565.3" font-family="Times,serif" font-size="14.00">Software Development Processes</text>
 </g>
-<!-- backend&#45;&gt;development -->
-<g id="edge6" class="edge"><title>backend&#45;&gt;development</title>
+<!-- backend&#45;&gt;dev -->
+<g id="edge6" class="edge"><title>backend&#45;&gt;dev</title>
 <path fill="none" stroke="black" d="M117.676,-2188.87C160.345,-2252.25 304.565,-2466.44 355.567,-2542.19"/>
 <polygon fill="black" stroke="black" points="352.823,-2544.38 361.311,-2550.72 358.629,-2540.47 352.823,-2544.38"/>
 </g>
@@ -414,93 +414,93 @@
 <path fill="none" stroke="black" d="M445.637,-4869.83C494.2,-4873.87 559.269,-4879.28 611.457,-4883.62"/>
 <polygon fill="black" stroke="black" points="611.458,-4887.13 621.714,-4884.47 612.038,-4880.16 611.458,-4887.13"/>
 </g>
-<!-- development_paradigms -->
-<g id="node34" class="node"><title>development_paradigms</title>
+<!-- dev_paradigms -->
+<g id="node34" class="node"><title>dev_paradigms</title>
 <ellipse fill="none" stroke="black" cx="701.144" cy="-2178" rx="91.784" ry="18"/>
 <text text-anchor="middle" x="701.144" y="-2174.3" font-family="Times,serif" font-size="14.00">Paradigms and models</text>
 </g>
-<!-- development&#45;&gt;development_paradigms -->
-<g id="edge33" class="edge"><title>development&#45;&gt;development_paradigms</title>
+<!-- dev&#45;&gt;dev_paradigms -->
+<g id="edge33" class="edge"><title>dev&#45;&gt;dev_paradigms</title>
 <path fill="none" stroke="black" d="M382.689,-2550.96C402.041,-2503.28 459.828,-2371.7 539.958,-2286 574.13,-2249.46 622.867,-2218.83 657.592,-2199.63"/>
 <polygon fill="black" stroke="black" points="659.432,-2202.62 666.546,-2194.76 656.088,-2196.47 659.432,-2202.62"/>
 </g>
-<!-- development_methodologies -->
-<g id="node35" class="node"><title>development_methodologies</title>
+<!-- dev_methodologies -->
+<g id="node35" class="node"><title>dev_methodologies</title>
 <ellipse fill="none" stroke="black" cx="701.144" cy="-3096" rx="124.278" ry="18"/>
 <text text-anchor="middle" x="701.144" y="-3092.3" font-family="Times,serif" font-size="14.00">Methodologies and frameworks</text>
 </g>
-<!-- development&#45;&gt;development_methodologies -->
-<g id="edge34" class="edge"><title>development&#45;&gt;development_methodologies</title>
+<!-- dev&#45;&gt;dev_methodologies -->
+<g id="edge34" class="edge"><title>dev&#45;&gt;dev_methodologies</title>
 <path fill="none" stroke="black" d="M379.99,-2587.33C394.679,-2646.2 446.662,-2834.04 539.958,-2961 574.207,-3007.6 627.717,-3048.4 663.343,-3072.62"/>
 <polygon fill="black" stroke="black" points="661.737,-3075.76 671.993,-3078.42 665.633,-3069.94 661.737,-3075.76"/>
 </g>
-<!-- development_testing -->
-<g id="node36" class="node"><title>development_testing</title>
+<!-- dev_testing -->
+<g id="node36" class="node"><title>dev_testing</title>
 <ellipse fill="none" stroke="black" cx="701.144" cy="-2934" rx="37.0935" ry="18"/>
 <text text-anchor="middle" x="701.144" y="-2930.3" font-family="Times,serif" font-size="14.00">Testing</text>
 </g>
-<!-- development&#45;&gt;development_testing -->
-<g id="edge35" class="edge"><title>development&#45;&gt;development_testing</title>
+<!-- dev&#45;&gt;dev_testing -->
+<g id="edge35" class="edge"><title>dev&#45;&gt;dev_testing</title>
 <path fill="none" stroke="black" d="M385.208,-2587.21C408.128,-2629.7 469.463,-2737.42 539.958,-2812 579.527,-2853.86 634.522,-2892.38 668.692,-2914.51"/>
 <polygon fill="black" stroke="black" points="667.019,-2917.6 677.328,-2920.04 670.795,-2911.7 667.019,-2917.6"/>
 </g>
-<!-- development_trackers -->
-<g id="node37" class="node"><title>development_trackers</title>
+<!-- dev_trackers -->
+<g id="node37" class="node"><title>dev_trackers</title>
 <ellipse fill="none" stroke="black" cx="701.144" cy="-2785" rx="87.1846" ry="18"/>
 <text text-anchor="middle" x="701.144" y="-2781.3" font-family="Times,serif" font-size="14.00">Bug tracking systems</text>
 </g>
-<!-- development&#45;&gt;development_trackers -->
-<g id="edge36" class="edge"><title>development&#45;&gt;development_trackers</title>
+<!-- dev&#45;&gt;dev_trackers -->
+<g id="edge36" class="edge"><title>dev&#45;&gt;dev_trackers</title>
 <path fill="none" stroke="black" d="M389.217,-2587.01C415.075,-2620.09 474.62,-2690.79 539.958,-2731 567.803,-2748.14 601.749,-2760.58 631.213,-2769.18"/>
 <polygon fill="black" stroke="black" points="630.443,-2772.6 641.018,-2771.95 632.345,-2765.86 630.443,-2772.6"/>
 </g>
-<!-- development_version -->
-<g id="node38" class="node"><title>development_version</title>
+<!-- dev_version -->
+<g id="node38" class="node"><title>dev_version</title>
 <ellipse fill="none" stroke="black" cx="701.144" cy="-2704" rx="67.6881" ry="18"/>
 <text text-anchor="middle" x="701.144" y="-2700.3" font-family="Times,serif" font-size="14.00">Version Control</text>
 </g>
-<!-- development&#45;&gt;development_version -->
-<g id="edge37" class="edge"><title>development&#45;&gt;development_version</title>
+<!-- dev&#45;&gt;dev_version -->
+<g id="edge37" class="edge"><title>dev&#45;&gt;dev_version</title>
 <path fill="none" stroke="black" d="M416.721,-2586.1C477.557,-2611.41 591.184,-2658.67 654.521,-2685.02"/>
 <polygon fill="black" stroke="black" points="653.287,-2688.3 663.864,-2688.91 655.976,-2681.84 653.287,-2688.3"/>
 </g>
-<!-- development_deployment -->
-<g id="node39" class="node"><title>development_deployment</title>
+<!-- dev_deployment -->
+<g id="node39" class="node"><title>dev_deployment</title>
 <ellipse fill="none" stroke="black" cx="701.144" cy="-2610" rx="54.6905" ry="18"/>
 <text text-anchor="middle" x="701.144" y="-2606.3" font-family="Times,serif" font-size="14.00">Deployment</text>
 </g>
-<!-- development&#45;&gt;development_deployment -->
-<g id="edge38" class="edge"><title>development&#45;&gt;development_deployment</title>
+<!-- dev&#45;&gt;dev_deployment -->
+<g id="edge38" class="edge"><title>dev&#45;&gt;dev_deployment</title>
 <path fill="none" stroke="black" d="M471.233,-2581.08C525.753,-2587.97 592.423,-2596.39 639.719,-2602.37"/>
 <polygon fill="black" stroke="black" points="639.445,-2605.86 649.804,-2603.64 640.322,-2598.91 639.445,-2605.86"/>
 </g>
-<!-- development_estimation -->
-<g id="node40" class="node"><title>development_estimation</title>
+<!-- dev_estimation -->
+<g id="node40" class="node"><title>dev_estimation</title>
 <ellipse fill="none" stroke="black" cx="701.144" cy="-2421" rx="52.7911" ry="18"/>
 <text text-anchor="middle" x="701.144" y="-2417.3" font-family="Times,serif" font-size="14.00">Estimations</text>
 </g>
-<!-- development&#45;&gt;development_estimation -->
-<g id="edge39" class="edge"><title>development&#45;&gt;development_estimation</title>
+<!-- dev&#45;&gt;dev_estimation -->
+<g id="edge39" class="edge"><title>dev&#45;&gt;dev_estimation</title>
 <path fill="none" stroke="black" d="M413.482,-2551.73C475.029,-2523.66 596.251,-2468.38 659.527,-2439.52"/>
 <polygon fill="black" stroke="black" points="661.152,-2442.63 668.798,-2435.3 658.248,-2436.26 661.152,-2442.63"/>
 </g>
-<!-- development_debugging -->
-<g id="node41" class="node"><title>development_debugging</title>
+<!-- dev_debugging -->
+<g id="node41" class="node"><title>dev_debugging</title>
 <ellipse fill="none" stroke="black" cx="701.144" cy="-2529" rx="50.0912" ry="18"/>
 <text text-anchor="middle" x="701.144" y="-2525.3" font-family="Times,serif" font-size="14.00">Debugging</text>
 </g>
-<!-- development&#45;&gt;development_debugging -->
-<g id="edge40" class="edge"><title>development&#45;&gt;development_debugging</title>
+<!-- dev&#45;&gt;dev_debugging -->
+<g id="edge40" class="edge"><title>dev&#45;&gt;dev_debugging</title>
 <path fill="none" stroke="black" d="M472.109,-2557.11C527.984,-2550.22 596.385,-2541.79 643.616,-2535.97"/>
 <polygon fill="black" stroke="black" points="644.161,-2539.43 653.657,-2534.73 643.304,-2532.48 644.161,-2539.43"/>
 </g>
-<!-- development_orchestration -->
-<g id="node42" class="node"><title>development_orchestration</title>
+<!-- dev_orchestration -->
+<g id="node42" class="node"><title>dev_orchestration</title>
 <ellipse fill="none" stroke="black" cx="701.144" cy="-2313" rx="58.4896" ry="18"/>
 <text text-anchor="middle" x="701.144" y="-2309.3" font-family="Times,serif" font-size="14.00">Orchestration</text>
 </g>
-<!-- development&#45;&gt;development_orchestration -->
-<g id="edge41" class="edge"><title>development&#45;&gt;development_orchestration</title>
+<!-- dev&#45;&gt;dev_orchestration -->
+<g id="edge41" class="edge"><title>dev&#45;&gt;dev_orchestration</title>
 <path fill="none" stroke="black" d="M389.081,-2550.91C415.17,-2516.8 475.725,-2442.07 539.958,-2394 575.497,-2367.4 621.079,-2345.33 654.526,-2330.97"/>
 <polygon fill="black" stroke="black" points="656.202,-2334.07 664.055,-2326.95 653.481,-2327.62 656.202,-2334.07"/>
 </g>
@@ -714,8 +714,8 @@
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2178" rx="30.5947" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2174.3" font-family="Times,serif" font-size="14.00">Agile</text>
 </g>
-<!-- development_paradigms&#45;&gt;management_paradigms_agile -->
-<g id="edge56" class="edge"><title>development_paradigms&#45;&gt;management_paradigms_agile</title>
+<!-- dev_paradigms&#45;&gt;management_paradigms_agile -->
+<g id="edge56" class="edge"><title>dev_paradigms&#45;&gt;management_paradigms_agile</title>
 <path fill="none" stroke="black" d="M792.936,-2178C857.982,-2178 942.416,-2178 991.335,-2178"/>
 <polygon fill="black" stroke="black" points="991.508,-2181.5 1001.51,-2178 991.508,-2174.5 991.508,-2181.5"/>
 </g>
@@ -724,128 +724,128 @@
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2124" rx="44.393" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2120.3" font-family="Times,serif" font-size="14.00">Waterfall</text>
 </g>
-<!-- development_paradigms&#45;&gt;management_paradigms_waterfall -->
-<g id="edge57" class="edge"><title>development_paradigms&#45;&gt;management_paradigms_waterfall</title>
+<!-- dev_paradigms&#45;&gt;management_paradigms_waterfall -->
+<g id="edge57" class="edge"><title>dev_paradigms&#45;&gt;management_paradigms_waterfall</title>
 <path fill="none" stroke="black" d="M771.932,-2166.55C834.629,-2156.26 925.168,-2141.4 980.995,-2132.24"/>
 <polygon fill="black" stroke="black" points="981.7,-2135.67 991.001,-2130.6 980.566,-2128.77 981.7,-2135.67"/>
 </g>
-<!-- development_methodologies_scrum -->
-<g id="node59" class="node"><title>development_methodologies_scrum</title>
+<!-- dev_methodologies_scrum -->
+<g id="node59" class="node"><title>dev_methodologies_scrum</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-3204" rx="42.4939" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-3200.3" font-family="Times,serif" font-size="14.00">SCRUM</text>
 </g>
-<!-- development_methodologies&#45;&gt;development_methodologies_scrum -->
-<g id="edge58" class="edge"><title>development_methodologies&#45;&gt;development_methodologies_scrum</title>
+<!-- dev_methodologies&#45;&gt;dev_methodologies_scrum -->
+<g id="edge58" class="edge"><title>dev_methodologies&#45;&gt;dev_methodologies_scrum</title>
 <path fill="none" stroke="black" d="M737.904,-3113.2C776.66,-3131.26 840.702,-3159.43 898.33,-3177 925.543,-3185.3 956.677,-3191.78 981.966,-3196.31"/>
 <polygon fill="black" stroke="black" points="981.608,-3199.8 992.06,-3198.07 982.811,-3192.9 981.608,-3199.8"/>
 </g>
-<!-- development_methodologies_kanban -->
-<g id="node60" class="node"><title>development_methodologies_kanban</title>
+<!-- dev_methodologies_kanban -->
+<g id="node60" class="node"><title>dev_methodologies_kanban</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-3150" rx="38.1938" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-3146.3" font-family="Times,serif" font-size="14.00">Kanban</text>
 </g>
-<!-- development_methodologies&#45;&gt;development_methodologies_kanban -->
-<g id="edge59" class="edge"><title>development_methodologies&#45;&gt;development_methodologies_kanban</title>
+<!-- dev_methodologies&#45;&gt;dev_methodologies_kanban -->
+<g id="edge59" class="edge"><title>dev_methodologies&#45;&gt;dev_methodologies_kanban</title>
 <path fill="none" stroke="black" d="M783.911,-3109.42C847.619,-3119.87 933.713,-3134 985.703,-3142.53"/>
 <polygon fill="black" stroke="black" points="985.194,-3145.99 995.629,-3144.16 986.328,-3139.09 985.194,-3145.99"/>
 </g>
-<!-- development_methodologies_xp -->
-<g id="node61" class="node"><title>development_methodologies_xp</title>
+<!-- dev_methodologies_xp -->
+<g id="node61" class="node"><title>dev_methodologies_xp</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-3096" rx="92.8835" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-3092.3" font-family="Times,serif" font-size="14.00">Extreme Programming</text>
 </g>
-<!-- development_methodologies&#45;&gt;development_methodologies_xp -->
-<g id="edge60" class="edge"><title>development_methodologies&#45;&gt;development_methodologies_xp</title>
+<!-- dev_methodologies&#45;&gt;dev_methodologies_xp -->
+<g id="edge60" class="edge"><title>dev_methodologies&#45;&gt;dev_methodologies_xp</title>
 <path fill="none" stroke="black" d="M825.615,-3096C859.745,-3096 896.393,-3096 929.159,-3096"/>
 <polygon fill="black" stroke="black" points="929.196,-3099.5 939.196,-3096 929.196,-3092.5 929.196,-3099.5"/>
 </g>
-<!-- development_methodologies_12factors -->
-<g id="node62" class="node"><title>development_methodologies_12factors</title>
+<!-- dev_methodologies_12factors -->
+<g id="node62" class="node"><title>dev_methodologies_12factors</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-3042" rx="96.3833" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-3038.3" font-family="Times,serif" font-size="14.00">The Twelve&#45;Factor App</text>
 </g>
-<!-- development_methodologies&#45;&gt;development_methodologies_12factors -->
-<g id="edge61" class="edge"><title>development_methodologies&#45;&gt;development_methodologies_12factors</title>
+<!-- dev_methodologies&#45;&gt;dev_methodologies_12factors -->
+<g id="edge61" class="edge"><title>dev_methodologies&#45;&gt;dev_methodologies_12factors</title>
 <path fill="none" stroke="black" d="M783.911,-3082.58C834.413,-3074.3 898.983,-3063.7 949.48,-3055.41"/>
 <polygon fill="black" stroke="black" points="950.082,-3058.86 959.383,-3053.79 948.949,-3051.95 950.082,-3058.86"/>
 </g>
-<!-- development_testing_tdd -->
-<g id="node49" class="node"><title>development_testing_tdd</title>
+<!-- dev_testing_tdd -->
+<g id="node49" class="node"><title>dev_testing_tdd</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2988" rx="99.3824" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2984.3" font-family="Times,serif" font-size="14.00">Test&#45;driven development</text>
 </g>
-<!-- development_testing&#45;&gt;development_testing_tdd -->
-<g id="edge48" class="edge"><title>development_testing&#45;&gt;development_testing_tdd</title>
+<!-- dev_testing&#45;&gt;dev_testing_tdd -->
+<g id="edge48" class="edge"><title>dev_testing&#45;&gt;dev_testing_tdd</title>
 <path fill="none" stroke="black" d="M736.43,-2939.63C786.089,-2947.78 879.564,-2963.11 947.985,-2974.34"/>
 <polygon fill="black" stroke="black" points="947.455,-2977.8 957.89,-2975.97 948.589,-2970.89 947.455,-2977.8"/>
 </g>
-<!-- development_testing_bdd -->
-<g id="node50" class="node"><title>development_testing_bdd</title>
+<!-- dev_testing_bdd -->
+<g id="node50" class="node"><title>dev_testing_bdd</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2934" rx="116.18" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2930.3" font-family="Times,serif" font-size="14.00">Behavior&#45;driven development</text>
 </g>
-<!-- development_testing&#45;&gt;development_testing_bdd -->
-<g id="edge49" class="edge"><title>development_testing&#45;&gt;development_testing_bdd</title>
+<!-- dev_testing&#45;&gt;dev_testing_bdd -->
+<g id="edge49" class="edge"><title>dev_testing&#45;&gt;dev_testing_bdd</title>
 <path fill="none" stroke="black" d="M738.302,-2934C778.47,-2934 845.563,-2934 905.409,-2934"/>
 <polygon fill="black" stroke="black" points="905.716,-2937.5 915.716,-2934 905.716,-2930.5 905.716,-2937.5"/>
 </g>
-<!-- development_trackers_jira -->
-<g id="node51" class="node"><title>development_trackers_jira</title>
+<!-- dev_trackers_jira -->
+<g id="node51" class="node"><title>dev_trackers_jira</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2772" rx="27" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2768.3" font-family="Times,serif" font-size="14.00">Jira</text>
 </g>
-<!-- development_trackers&#45;&gt;development_trackers_jira -->
-<g id="edge50" class="edge"><title>development_trackers&#45;&gt;development_trackers_jira</title>
+<!-- dev_trackers&#45;&gt;dev_trackers_jira -->
+<g id="edge50" class="edge"><title>dev_trackers&#45;&gt;dev_trackers_jira</title>
 <path fill="none" stroke="black" d="M786.889,-2781.65C854.13,-2779 944.829,-2775.41 994.652,-2773.44"/>
 <polygon fill="black" stroke="black" points="995.079,-2776.93 1004.93,-2773.04 994.803,-2769.94 995.079,-2776.93"/>
 </g>
-<!-- development_trackers_redmine -->
-<g id="node52" class="node"><title>development_trackers_redmine</title>
+<!-- dev_trackers_redmine -->
+<g id="node52" class="node"><title>dev_trackers_redmine</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2880" rx="42.7926" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2876.3" font-family="Times,serif" font-size="14.00">Redmine</text>
 </g>
-<!-- development_trackers&#45;&gt;development_trackers_redmine -->
-<g id="edge51" class="edge"><title>development_trackers&#45;&gt;development_trackers_redmine</title>
+<!-- dev_trackers&#45;&gt;dev_trackers_redmine -->
+<g id="edge51" class="edge"><title>dev_trackers&#45;&gt;dev_trackers_redmine</title>
 <path fill="none" stroke="black" d="M742.98,-2800.94C782.32,-2815.87 843.741,-2838.07 898.33,-2853 925.672,-2860.48 956.693,-2866.9 981.882,-2871.6"/>
 <polygon fill="black" stroke="black" points="981.469,-2875.08 991.937,-2873.44 982.731,-2868.19 981.469,-2875.08"/>
 </g>
-<!-- development_trackers_tfs -->
-<g id="node53" class="node"><title>development_trackers_tfs</title>
+<!-- dev_trackers_tfs -->
+<g id="node53" class="node"><title>dev_trackers_tfs</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2826" rx="27" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2822.3" font-family="Times,serif" font-size="14.00">TFS</text>
 </g>
-<!-- development_trackers&#45;&gt;development_trackers_tfs -->
-<g id="edge52" class="edge"><title>development_trackers&#45;&gt;development_trackers_tfs</title>
+<!-- dev_trackers&#45;&gt;dev_trackers_tfs -->
+<g id="edge52" class="edge"><title>dev_trackers&#45;&gt;dev_trackers_tfs</title>
 <path fill="none" stroke="black" d="M776.405,-2794.25C844.683,-2802.76 943.001,-2815.01 995.303,-2821.53"/>
 <polygon fill="black" stroke="black" points="995.077,-2825.02 1005.43,-2822.79 995.943,-2818.08 995.077,-2825.02"/>
 </g>
-<!-- development_version_git -->
-<g id="node54" class="node"><title>development_version_git</title>
+<!-- dev_version_git -->
+<g id="node54" class="node"><title>dev_version_git</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2718" rx="27" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2714.3" font-family="Times,serif" font-size="14.00">Git</text>
 </g>
-<!-- development_version&#45;&gt;development_version_git -->
-<g id="edge53" class="edge"><title>development_version&#45;&gt;development_version_git</title>
+<!-- dev_version&#45;&gt;dev_version_git -->
+<g id="edge53" class="edge"><title>dev_version&#45;&gt;dev_version_git</title>
 <path fill="none" stroke="black" d="M767.946,-2706.8C836.172,-2709.7 940.339,-2714.13 994.943,-2716.46"/>
 <polygon fill="black" stroke="black" points="995.037,-2719.96 1005.18,-2716.89 995.335,-2712.97 995.037,-2719.96"/>
 </g>
-<!-- development_deployment_ci -->
-<g id="node55" class="node"><title>development_deployment_ci</title>
+<!-- dev_deployment_ci -->
+<g id="node55" class="node"><title>dev_deployment_ci</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2610" rx="92.0841" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2606.3" font-family="Times,serif" font-size="14.00">Continuous Integration</text>
 </g>
-<!-- development_deployment&#45;&gt;development_deployment_ci -->
-<g id="edge54" class="edge"><title>development_deployment&#45;&gt;development_deployment_ci</title>
+<!-- dev_deployment&#45;&gt;dev_deployment_ci -->
+<g id="edge54" class="edge"><title>dev_deployment&#45;&gt;dev_deployment_ci</title>
 <path fill="none" stroke="black" d="M755.748,-2610C802.651,-2610 872.067,-2610 929.48,-2610"/>
 <polygon fill="black" stroke="black" points="929.684,-2613.5 939.684,-2610 929.684,-2606.5 929.684,-2613.5"/>
 </g>
-<!-- development_deployment_cd -->
-<g id="node56" class="node"><title>development_deployment_cd</title>
+<!-- dev_deployment_cd -->
+<g id="node56" class="node"><title>dev_deployment_cd</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2664" rx="84.485" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2660.3" font-family="Times,serif" font-size="14.00">Continuous Delivery</text>
 </g>
-<!-- development_deployment&#45;&gt;development_deployment_cd -->
-<g id="edge55" class="edge"><title>development_deployment&#45;&gt;development_deployment_cd</title>
+<!-- dev_deployment&#45;&gt;dev_deployment_cd -->
+<g id="edge55" class="edge"><title>dev_deployment&#45;&gt;dev_deployment_cd</title>
 <path fill="none" stroke="black" d="M750.347,-2617.91C804.065,-2626.72 891.653,-2641.1 954.747,-2651.45"/>
 <polygon fill="black" stroke="black" points="954.219,-2654.91 964.654,-2653.08 955.352,-2648 954.219,-2654.91"/>
 </g>
@@ -854,68 +854,68 @@
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2394" rx="64.9885" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2390.3" font-family="Times,serif" font-size="14.00">Planning Poker</text>
 </g>
-<!-- development_estimation&#45;&gt;management_estimation_poker -->
-<g id="edge62" class="edge"><title>development_estimation&#45;&gt;management_estimation_poker</title>
+<!-- dev_estimation&#45;&gt;management_estimation_poker -->
+<g id="edge62" class="edge"><title>dev_estimation&#45;&gt;management_estimation_poker</title>
 <path fill="none" stroke="black" d="M752.482,-2416.87C807.74,-2412.34 896.909,-2405.02 959.477,-2399.89"/>
 <polygon fill="black" stroke="black" points="959.988,-2403.36 969.669,-2399.05 959.416,-2396.38 959.988,-2403.36"/>
 </g>
-<!-- development_debugging_troubleshooting -->
-<g id="node46" class="node"><title>development_debugging_troubleshooting</title>
+<!-- dev_debugging_troubleshooting -->
+<g id="node46" class="node"><title>dev_debugging_troubleshooting</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2448" rx="68.7879" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2444.3" font-family="Times,serif" font-size="14.00">Troubleshooting</text>
 </g>
-<!-- development_debugging&#45;&gt;development_debugging_troubleshooting -->
-<g id="edge45" class="edge"><title>development_debugging&#45;&gt;development_debugging_troubleshooting</title>
+<!-- dev_debugging&#45;&gt;dev_debugging_troubleshooting -->
+<g id="edge45" class="edge"><title>dev_debugging&#45;&gt;dev_debugging_troubleshooting</title>
 <path fill="none" stroke="black" d="M740.289,-2517.67C779.677,-2506.17 843.011,-2488.22 898.33,-2475 920.173,-2469.78 944.189,-2464.7 965.725,-2460.38"/>
 <polygon fill="black" stroke="black" points="966.626,-2463.77 975.753,-2458.39 965.262,-2456.91 966.626,-2463.77"/>
 </g>
-<!-- development_debugging_logging -->
-<g id="node47" class="node"><title>development_debugging_logging</title>
+<!-- dev_debugging_logging -->
+<g id="node47" class="node"><title>dev_debugging_logging</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2556" rx="40.0939" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2552.3" font-family="Times,serif" font-size="14.00">Logging</text>
 </g>
-<!-- development_debugging&#45;&gt;development_debugging_logging -->
-<g id="edge46" class="edge"><title>development_debugging&#45;&gt;development_debugging_logging</title>
+<!-- dev_debugging&#45;&gt;dev_debugging_logging -->
+<g id="edge46" class="edge"><title>dev_debugging&#45;&gt;dev_debugging_logging</title>
 <path fill="none" stroke="black" d="M749.994,-2532.93C811.965,-2538.01 919.434,-2546.83 982.045,-2551.97"/>
 <polygon fill="black" stroke="black" points="981.816,-2555.46 992.069,-2552.79 982.388,-2548.48 981.816,-2555.46"/>
 </g>
-<!-- development_debugging_monitoring -->
-<g id="node48" class="node"><title>development_debugging_monitoring</title>
+<!-- dev_debugging_monitoring -->
+<g id="node48" class="node"><title>dev_debugging_monitoring</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2502" rx="51.1914" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2498.3" font-family="Times,serif" font-size="14.00">Monitoring</text>
 </g>
-<!-- development_debugging&#45;&gt;development_debugging_monitoring -->
-<g id="edge47" class="edge"><title>development_debugging&#45;&gt;development_debugging_monitoring</title>
+<!-- dev_debugging&#45;&gt;dev_debugging_monitoring -->
+<g id="edge47" class="edge"><title>dev_debugging&#45;&gt;dev_debugging_monitoring</title>
 <path fill="none" stroke="black" d="M749.994,-2525.07C808.672,-2520.26 908.142,-2512.1 971.698,-2506.88"/>
 <polygon fill="black" stroke="black" points="972.285,-2510.35 981.966,-2506.04 971.713,-2503.37 972.285,-2510.35"/>
 </g>
-<!-- development_orchestration_ansible -->
-<g id="node43" class="node"><title>development_orchestration_ansible</title>
+<!-- dev_orchestration_ansible -->
+<g id="node43" class="node"><title>dev_orchestration_ansible</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2232" rx="38.1938" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2228.3" font-family="Times,serif" font-size="14.00">Ansible</text>
 </g>
-<!-- development_orchestration&#45;&gt;development_orchestration_ansible -->
-<g id="edge42" class="edge"><title>development_orchestration&#45;&gt;development_orchestration_ansible</title>
+<!-- dev_orchestration&#45;&gt;dev_orchestration_ansible -->
+<g id="edge42" class="edge"><title>dev_orchestration&#45;&gt;dev_orchestration_ansible</title>
 <path fill="none" stroke="black" d="M744.027,-2300.58C783.603,-2289.06 844.729,-2271.81 898.33,-2259 927.54,-2252.02 960.636,-2245.29 986.492,-2240.3"/>
 <polygon fill="black" stroke="black" points="987.217,-2243.72 996.38,-2238.41 985.901,-2236.85 987.217,-2243.72"/>
 </g>
-<!-- development_orchestration_puppet -->
-<g id="node44" class="node"><title>development_orchestration_puppet</title>
+<!-- dev_orchestration_puppet -->
+<g id="node44" class="node"><title>dev_orchestration_puppet</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2340" rx="35.194" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2336.3" font-family="Times,serif" font-size="14.00">Puppet</text>
 </g>
-<!-- development_orchestration&#45;&gt;development_orchestration_puppet -->
-<g id="edge43" class="edge"><title>development_orchestration&#45;&gt;development_orchestration_puppet</title>
+<!-- dev_orchestration&#45;&gt;dev_orchestration_puppet -->
+<g id="edge43" class="edge"><title>dev_orchestration&#45;&gt;dev_orchestration_puppet</title>
 <path fill="none" stroke="black" d="M757.967,-2317.58C822.664,-2322.89 927.95,-2331.53 987.164,-2336.39"/>
 <polygon fill="black" stroke="black" points="987.06,-2339.89 997.313,-2337.22 987.633,-2332.91 987.06,-2339.89"/>
 </g>
-<!-- development_orchestration_k8s -->
-<g id="node45" class="node"><title>development_orchestration_k8s</title>
+<!-- dev_orchestration_k8s -->
+<g id="node45" class="node"><title>dev_orchestration_k8s</title>
 <ellipse fill="none" stroke="black" cx="1032.22" cy="-2286" rx="50.8918" ry="18"/>
 <text text-anchor="middle" x="1032.22" y="-2282.3" font-family="Times,serif" font-size="14.00">Kubernetes</text>
 </g>
-<!-- development_orchestration&#45;&gt;development_orchestration_k8s -->
-<g id="edge44" class="edge"><title>development_orchestration&#45;&gt;development_orchestration_k8s</title>
+<!-- dev_orchestration&#45;&gt;dev_orchestration_k8s -->
+<g id="edge44" class="edge"><title>dev_orchestration&#45;&gt;dev_orchestration_k8s</title>
 <path fill="none" stroke="black" d="M757.967,-2308.42C817.597,-2303.53 911.709,-2295.81 972.447,-2290.82"/>
 <polygon fill="black" stroke="black" points="972.96,-2294.29 982.64,-2289.99 972.387,-2287.32 972.96,-2294.29"/>
 </g>
@@ -1274,8 +1274,8 @@
 <path fill="none" stroke="black" d="M716.089,-4002.87C745.956,-4035.79 819.8,-4111.52 898.33,-4149 922.885,-4160.72 952.354,-4167.36 977.296,-4171.12"/>
 <polygon fill="black" stroke="black" points="976.935,-4174.6 987.322,-4172.52 977.9,-4167.67 976.935,-4174.6"/>
 </g>
-<!-- go_realtime&#45;&gt;development_debugging_logging -->
-<g id="edge125" class="edge"><title>go_realtime&#45;&gt;development_debugging_logging</title>
+<!-- go_realtime&#45;&gt;dev_debugging_logging -->
+<g id="edge125" class="edge"><title>go_realtime&#45;&gt;dev_debugging_logging</title>
 <path fill="none" stroke="black" d="M744.553,-3696.13C781.579,-3698.82 833.739,-3695.69 862.33,-3663 941.37,-3572.62 820.813,-2674.69 898.33,-2583 918.432,-2559.22 953.232,-2552.81 982.178,-2552.16"/>
 <polygon fill="black" stroke="black" points="982.539,-2555.66 992.54,-2552.16 982.54,-2548.66 982.539,-2555.66"/>
 </g>
