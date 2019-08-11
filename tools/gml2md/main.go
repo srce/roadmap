@@ -5,11 +5,12 @@ import (
 	"encoding/xml"
 	"flag"
 	"fmt"
-	"github.com/dennwc/graphml"
 	"io"
 	"io/ioutil"
 	"os"
 	"strings"
+
+	"github.com/dennwc/graphml"
 )
 
 var (
@@ -19,11 +20,11 @@ var (
 )
 
 type materialType struct {
-	XMLName  xml.Name
-	Lang  string `xml:"lang,attr"`
-	Title string `xml:"title"`
-	URL   string `xml:"url"`
-	Tag   string `xml:"tag"`
+	XMLName xml.Name
+	Lang    string   `xml:"lang,attr"`
+	Title   string   `xml:"title"`
+	URL     string   `xml:"url"`
+	Tags    []string `xml:"tags>tag"`
 }
 
 type materialsType struct {
@@ -35,19 +36,12 @@ type materialsType struct {
 
 func (m materialsType) Get(tag string) []materialType {
 	list := []materialType{}
-	for _, item := range m.Courses {
-		if item.Tag == tag {
-			list = append(list, item)
-		}
-	}
-	for _, item := range m.Articles {
-		if item.Tag == tag {
-			list = append(list, item)
-		}
-	}
-	for _, item := range m.Books {
-		if item.Tag == tag {
-			list = append(list, item)
+	ml := append(m.Courses, append(m.Articles, m.Books...)...)
+	for _, item := range ml {
+		for _, it := range item.Tags {
+			if it == tag {
+				list = append(list, item)
+			}
 		}
 	}
 	return list

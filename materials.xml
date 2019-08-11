@@ -1,83 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<materials
-        xmlns:xsi="https://github.com/dzyanis/roadmap"
-        xsi:noNamespaceSchemaLocation="materials.xsd">
-
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="materials.xsd">
     <course lang="ru">
         <title>Разработка веб-сервисов на Go - основы языка</title>
         <url>https://www.coursera.org/learn/golang-webservices-1</url>
-        <tag>go</tag>
+        <tags>
+            <tag>go</tag>
+        </tags>
     </course>
 
     <course lang="ru">
         <title>Разработка веб-сервисов на Golang, часть 2</title>
         <url>https://www.coursera.org/learn/golang-webservices-2</url>
-        <tag>go</tag>
+        <tags>
+            <tag>go</tag>
+        </tags>
     </course>
 
     <article lang="en">
         <title>Effective Go</title>
         <url>https://golang.org/doc/effective_go.html</url>
-        <tag>go</tag>
+        <tags>
+            <tag>go</tag>
+        </tags>
     </article>
 
     <article lang="en">
         <title>Go Slices: usage and internals</title>
         <url>https://blog.golang.org/go-slices-usage-and-internals</url>
-        <tag>go_types_collections_slice</tag>
+        <tags>
+            <tag>go_types_collections_slice</tag>
+        </tags>
     </article>
 
     <article lang="en">
         <title>Manifesto for Agile Software Development</title>
         <url>https://agilemanifesto.org</url>
-        <tag>management_paradigms_agile</tag>
+        <tags>
+            <tag>management_paradigms_agile</tag>
+        </tags>
     </article>
 
     <article lang="en">
         <title>The Twelve-Factor App</title>
         <url>https://12factor.net</url>
-        <tag>development_methodologies_12factors</tag>
+        <tags>
+            <tag>development_methodologies_12factors</tag>
+        </tags>
     </article>
 
     <article lang="en">
         <title>Commands</title>
         <url>https://golang.org/cmd/</url>
-        <tag>go_tools</tag>
+        <tags>
+            <tag>go_tools</tag>
+        </tags>
     </article>
 
     <article lang="en">
         <title>Go maps in action</title>
         <url>https://blog.golang.org/go-maps-in-action</url>
+        <tags>
         <tag>go_types_collections_map</tag>
+        </tags>
     </article>
 
     <article lang="en">
         <title>gofmt</title>
         <url>https://golang.org/cmd/gofmt/</url>
-        <tag>go_tool_fmt</tag>
+        <tags>
+            <tag>go_tool_fmt</tag>
+        </tags>
     </article>
 
     <article lang="en">
         <title>vet</title>
         <url>https://golang.org/cmd/vet/</url>
-        <tag>go_tool_vet</tag>
+        <tags>
+            <tag>go_tool_vet</tag>
+        </tags>
     </article>
 
     <article lang="en">
         <title>Modules</title>
         <url>https://github.com/golang/go/wiki/Modules</url>
-        <tag>go_tool_modules</tag>
+        <tags>
+            <tag>go_tool_modules</tag>
+        </tags>
     </article>
 
     <article lang="en">
         <title>NOSQL</title>
         <url>https://martinfowler.com/nosql.html</url>
-        <tag>db_nosql</tag>
+        <tags>
+            <tag>db_nosql</tag>
+        </tags>
     </article>
 
     <book lang="en">
         <title>NoSQL Distilled</title>
         <url>https://martinfowler.com/books/nosql.html</url>
-        <tag>db_nosql</tag>
+        <tags>
+            <tag>db_nosql</tag>
+        </tags>
     </book>
 </materials>

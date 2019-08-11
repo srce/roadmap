@@ -1,12 +1,20 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
+    <xs:complexType name="tags">
+        <xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="tag" type="xs:string" maxOccurs="unbounded"/>
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+
     <xs:complexType name="material">
         <xs:sequence>
             <xs:element name="title" type="xs:string"/>
             <xs:element name="url" type="xs:string"/>
-            <xs:element name="description" type="xs:string"/>
-            <xs:element name="tag" type="xs:string"/>
+            <xs:element name="description" type="xs:string" minOccurs="0"/>
+            <xs:element name="tags" type="tags"/>
         </xs:sequence>
         <xs:attribute name="lang" type="xs:string" use="required"/>
     </xs:complexType>
@@ -14,9 +22,11 @@
     <xs:element name="materials">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="article" type="material"/>
-                <xs:element name="course" type="material"/>
-                <xs:element name="book" type="material"/>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="article" type="material" maxOccurs="unbounded"/>
+                    <xs:element name="course" type="material" maxOccurs="unbounded"/>
+                    <xs:element name="book" type="material" maxOccurs="unbounded"/>
+                </xs:choice>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
