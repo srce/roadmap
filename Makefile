@@ -4,8 +4,9 @@ all: gml2dot gml2md
 
 .PHONY: gml2dot
 gml2dot:
-	GO111MODULE=off go run tools/gml2dot/main.go --filename=roadmap.xml --dot=data/roadmap.generated.dot
-	circo -Tpng data/roadmap.generated.dot -o data/roadmap.circle.png
+	GO111MODULE=off go run tools/gml2dot/main.go --filename=roadmap.xml --dot=data/roadmap.dot
+	dot -Tsvg data/roadmap.dot -o data/roadmap.svg
+	circo -Tsvg data/roadmap.dot -o data/roadmap.circle.svg
 
 .PHONY: gml2md
 gml2md:

@@ -32,8 +32,9 @@ func main() {
 
 	for _, g := range doc.Graphs {
 		gviz := graphviz.NewGraph()
-		gviz.SetName(g.ID)
-		gviz.SetDir(g.EdgeDefault == "directed")
+		checkErr(gviz.SetName(g.ID))
+		checkErr(gviz.SetDir(g.EdgeDefault == "directed"))
+		checkErr(gviz.AddAttr(g.ID, "rankdir", "LR"))
 
 		for _, node := range g.Nodes {
 			label := ""

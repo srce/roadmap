@@ -3,11 +3,11 @@
 At the beginning, this roadmap was written in [DOT language](roadmap.deprecated.dot) and converted by [Graphviz](https://graphviz.gitlab.io/download/).
 But later it has been rewritten in [GraphML](roadmap.xml).
 
-There is also [circle PNG version](data/roadmap.circle.png) and [markdown version](data/roadmap.md).
+There is also [circle PNG version](data/roadmap.circle.svg) and [markdown version](data/roadmap.md).
 
 Improvements are welcomed.
 
-![Golang Developer Roadmap](data/roadmap.png)
+![Golang Developer Roadmap](data/roadmap.svg)
 
 ## Links
 - [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap)
