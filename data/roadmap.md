@@ -164,9 +164,9 @@
 #### Firebird
 #### PostgreSQL
 #### Oracle
-#### MySQL/InnoDB
+#### MySQL
 ### Blocking
-#### MySQL/MyISAM
+#### MySQL
 ### ACID
 ### Object-oriented
 ## NOSQL

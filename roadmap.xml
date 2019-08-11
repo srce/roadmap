@@ -462,12 +462,11 @@
         <edge id="edge_db_relational_postgres" source="db_relational_mvcc" target="db_relational_postgres"/>
         <node id="db_relational_oracle" label="Oracle"/>
         <edge id="edge_db_relational_oracle" source="db_relational_mvcc" target="db_relational_oracle"/>
-        <node id="db_relational_mysql" label="MySQL/InnoDB"/>
-        <edge id="edge_db_relational_mysql" source="db_relational_mvcc" target="db_relational_mysql"/>
+        <node id="db_mysql" label="MySQL"/>
+        <edge id="edge_db_relational_mvcc_mysql" source="db_relational_mvcc" target="db_mysql"/>
 
         <!--Blocking DB-->
-        <node id="db_relational_blocking_mysql" label="MySQL/MyISAM"/>
-        <edge id="edge_db_relational_blocking_mysql" source="db_relational_blocking" target="db_relational_blocking_mysql"/>
+        <edge id="edge_db_relational_blocking_mysql" source="db_relational_blocking" target="db_mysql"/>
 
         <!--NOSQL-->
         <node id="db_nosql_cap" label="CAP Theorem"/>

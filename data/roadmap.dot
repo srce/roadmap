@@ -143,8 +143,8 @@ digraph roadmap {
 	db_relational_mvcc->db_relational_firebird;
 	db_relational_mvcc->db_relational_postgres;
 	db_relational_mvcc->db_relational_oracle;
-	db_relational_mvcc->db_relational_mysql;
-	db_relational_blocking->db_relational_blocking_mysql;
+	db_relational_mvcc->db_mysql;
+	db_relational_blocking->db_mysql;
 	db_nosql->db_nosql_cap;
 	db_nosql->db_nosql_base;
 	db_nosql->db_nosql_graph;
@@ -210,6 +210,7 @@ digraph roadmap {
 	db_message_broker_awssqs [ label="Amazon Simple Queue Service" ];
 	db_message_broker_kafka [ label="Message Broker" ];
 	db_message_broker_rabbit [ label="RabbitMQ" ];
+	db_mysql [ label="MySQL" ];
 	db_nosql [ label="NOSQL" ];
 	db_nosql_base [ label="BASE" ];
 	db_nosql_cap [ label="CAP Theorem" ];
@@ -227,10 +228,8 @@ digraph roadmap {
 	db_relational [ label="Relational" ];
 	db_relational_acid [ label="ACID" ];
 	db_relational_blocking [ label="Blocking" ];
-	db_relational_blocking_mysql [ label="MySQL/MyISAM" ];
 	db_relational_firebird [ label="Firebird" ];
 	db_relational_mvcc [ label="Multiversion Concurrency Control" ];
-	db_relational_mysql [ label="MySQL/InnoDB" ];
 	db_relational_oo [ label="Object-oriented" ];
 	db_relational_oracle [ label="Oracle" ];
 	db_relational_postgres [ label="PostgreSQL" ];
