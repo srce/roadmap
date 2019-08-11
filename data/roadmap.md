@@ -5,6 +5,8 @@
 ### Domain-Driven Design
 ### SOLID
 ### Design Patterns
+- book "[Design patterns : elements of reusable object-oriented software](https://www.worldcat.org/title/design-patterns-elements-of-reusable-object-oriented-software/oclc/31171684)" [en]
+
 ### Event Sourcing
 ### Object-Oriented Programming
 #### Encapsulation
@@ -41,6 +43,8 @@
 - article "[How to efficiently concatenate strings in Go?](https://stackoverflow.com/questions/1760757/how-to-efficiently-concatenate-strings-in-go)" [en]
 
 - article "[How do you write multiline strings in Go?](https://stackoverflow.com/questions/7933460/how-do-you-write-multiline-strings-in-go)" [en]
+
+- article "[Format a Go string without printing?](https://stackoverflow.com/questions/11123865/format-a-go-string-without-printing)" [en]
 
 #### Runes
 #### Bytes
@@ -190,6 +194,8 @@
 ### RabbitMQ
 ### Amazon Simple Queue Service
 # Computer Network
+- book "[Computer Networks](https://www.amazon.com/Computer-Networks-Tanenbaum-International-Economy/dp/9332518742)" [en]
+
 ## Sphinx
 ## gRPC
 ## REST API
@@ -224,6 +230,18 @@
 #### VMware
 ## Command Language
 # Software Development Processes
+- book "[Working Effectively with Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052)" [en]
+
+- book "[Refactoring: Improving the Design of Existing Code](https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)" [en]
+
+- book "[The Pragmatic Programmer: From Journeyman to Master](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)" [en]
+
+- book "[Code Complete: A Practical Handbook of Software Construction](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)" [en]
+
+- book "[Code Complete: A Practical Handbook of Software Construction](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)" [en]
+
+- book "[Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/gp/product/0132350882)" [en]
+
 ## Paradigms and models
 ### Agile
 - article "[Manifesto for Agile Software Development](https://agilemanifesto.org)" [en]
@@ -237,6 +255,8 @@
 - article "[The Twelve-Factor App](https://12factor.net)" [en]
 
 ## Testing
+- book "[Test Driven Development: By Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)" [en]
+
 ### Test-driven development
 ### Behavior-driven development
 ## Bug tracking systems
