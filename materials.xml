@@ -25,7 +25,7 @@
     </article>
 
     <article lang="en">
-        <title>Go Slices: usage and internals</title>
+        <title>The Go Blog - Go Slices: usage and internals</title>
         <url>https://blog.golang.org/go-slices-usage-and-internals</url>
         <tags>
             <tag>go_types_collections_slice</tag>
@@ -57,7 +57,7 @@
     </article>
 
     <article lang="en">
-        <title>Go maps in action</title>
+        <title>The Go Blog - Go maps in action</title>
         <url>https://blog.golang.org/go-maps-in-action</url>
         <tags>
         <tag>go_types_collections_map</tag>
@@ -89,6 +89,14 @@
     </article>
 
     <article lang="en">
+        <title>The Go Blog - Using Go Modules</title>
+        <url>https://blog.golang.org/using-go-modules</url>
+        <tags>
+            <tag>go_tool_modules</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
         <title>NOSQL</title>
         <url>https://martinfowler.com/nosql.html</url>
         <tags>
@@ -103,4 +111,214 @@
             <tag>db_nosql</tag>
         </tags>
     </book>
+
+    <book lang="en">
+        <title>Concurrency in Go</title>
+        <url>https://www.oreilly.com/library/view/concurrency-in-go/9781491941294</url>
+        <tags>
+            <tag>go_concurrency</tag>
+        </tags>
+    </book>
+
+    <article lang="en">
+        <title>The Go Blog - Share Memory By Communicating</title>
+        <url>https://blog.golang.org/share-memory-by-communicating</url>
+        <tags>
+            <tag>go_types_slice</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Go Blog - Arrays, slices (and strings): The mechanics of 'append'</title>
+        <url>https://blog.golang.org/slices</url>
+        <tags>
+            <tag>go_types_slice</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Go Blog - Defer, Panic, and Recover</title>
+        <url>https://blog.golang.org/defer-panic-and-recover</url>
+        <tags>
+            <tag>go_function_recover</tag>
+            <tag>go_function_defer</tag>
+            <tag>go_function_panic</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Go Blog - Go Concurrency Patterns: Timing out, moving on</title>
+        <url>https://blog.golang.org/go-concurrency-patterns-timing-out-and</url>
+        <tags>
+            <tag>go_concurrency_patterns</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Go Blog - Go Concurrency Patterns: Context</title>
+        <url>https://blog.golang.org/context</url>
+        <tags>
+            <tag>go_concurrency_patterns</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Go Blog - Advanced Go Concurrency Patterns</title>
+        <url>https://blog.golang.org/advanced-go-concurrency-patterns</url>
+        <tags>
+            <tag>go_concurrency_patterns</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Go Blog - Introducing the Go Race Detector</title>
+        <url>https://blog.golang.org/race-detector</url>
+        <tags>
+            <tag>go_concurrency_race</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Go Blog - Profiling Go Programs</title>
+        <url>https://blog.golang.org/profiling-go-programs</url>
+        <tags>
+            <tag>go_tool_pprof</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Go Blog - Profiling Go Programs</title>
+        <url>https://blog.golang.org/profiling-go-programs</url>
+        <tags>
+            <tag>go_tool_pprof</tag>
+        </tags>
+    </article>
+
+    <video lang="en">
+        <title>Do not fear first class functions</title>
+        <url>https://www.youtube.com/watch?v=5buaPyJ0XeQ</url>
+        <tags>
+            <tag>go_function_firstclass</tag>
+        </tags>
+    </video>
+
+    <article lang="en">
+        <title>The Go Blog - Error handling and Go</title>
+        <url>https://blog.golang.org/error-handling-and-go</url>
+        <tags>
+            <tag>go_types_error</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Go Blog - Concurrency is not parallelism</title>
+        <url>https://blog.golang.org/concurrency-is-not-parallelism</url>
+        <tags>
+            <tag>go_concurrency</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Go Blog - Errors are values</title>
+        <url>https://blog.golang.org/errors-are-values</url>
+        <tags>
+            <tag>go_types_error</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Go Blog - Go GC: Prioritizing low latency and simplicity</title>
+        <url>https://blog.golang.org/go15gc</url>
+        <tags>
+            <tag>go_realtime_gc</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Go Blog - go fmt your code</title>
+        <url>https://blog.golang.org/go-fmt-your-code</url>
+        <tags>
+            <tag>go_tool_fmt</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Go Blog - Constants</title>
+        <url>https://blog.golang.org/constants</url>
+        <tags>
+            <tag>go_types_constants</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Go Blog - Getting to Go: The Journey of Go's Garbage Collector</title>
+        <url>https://blog.golang.org/ismmkeynote</url>
+        <tags>
+            <tag>go_realtime_gc</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Go Blog - Strings, bytes, runes and characters in Go</title>
+        <url>https://blog.golang.org/strings</url>
+        <tags>
+            <tag>go_types_text</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>How to efficiently concatenate strings in Go?</title>
+        <url>https://stackoverflow.com/questions/1760757/how-to-efficiently-concatenate-strings-in-go</url>
+        <tags>
+            <tag>go_types_text_strings</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>How to check if a map contains a key in Go?</title>
+        <url>https://stackoverflow.com/questions/2050391/how-to-check-if-a-map-contains-a-key-in-go</url>
+        <tags>
+            <tag>go_types_collections_map</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>How do you write multiline strings in Go?</title>
+        <url>https://stackoverflow.com/questions/7933460/how-do-you-write-multiline-strings-in-go</url>
+        <tags>
+            <tag>go_types_text_strings</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>What is an idiomatic way of representing enums in Go?</title>
+        <url>https://stackoverflow.com/questions/14426366/what-is-an-idiomatic-way-of-representing-enums-in-go</url>
+        <tags>
+            <tag>go_types_constants</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>Concatenate two slices in Go</title>
+        <url>https://stackoverflow.com/questions/16248241/concatenate-two-slices-in-go</url>
+        <tags>
+            <tag>go_types_slice</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>When is the init() function run?</title>
+        <url>https://stackoverflow.com/questions/24790175/when-is-the-init-function-run</url>
+        <tags>
+            <tag>go_function_init</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>Format a Go string without printing?</title>
+        <url>https://stackoverflow.com/questions/11123865/format-a-go-string-without-printing</url>
+        <tags>
+            <tag>edge_go_types_text_strings</tag>
+        </tags>
+    </article>
 </materials>

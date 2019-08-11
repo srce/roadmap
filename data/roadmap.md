@@ -35,8 +35,14 @@
 
 ## Types
 ### Text
+- article "[The Go Blog - Strings, bytes, runes and characters in Go](https://blog.golang.org/strings)" [en]
+
 #### Strings
-#### Strings
+- article "[How to efficiently concatenate strings in Go?](https://stackoverflow.com/questions/1760757/how-to-efficiently-concatenate-strings-in-go)" [en]
+
+- article "[How do you write multiline strings in Go?](https://stackoverflow.com/questions/7933460/how-do-you-write-multiline-strings-in-go)" [en]
+
+#### Runes
 #### Bytes
 ### Numbers
 #### Integers
@@ -45,27 +51,64 @@
 ### Collections
 #### Array
 #### Slice
-- article "[Go Slices: usage and internals](https://blog.golang.org/go-slices-usage-and-internals)" [en]
+- article "[The Go Blog - Share Memory By Communicating](https://blog.golang.org/share-memory-by-communicating)" [en]
+
+- article "[The Go Blog - Arrays, slices (and strings): The mechanics of 'append'](https://blog.golang.org/slices)" [en]
+
+- article "[Concatenate two slices in Go](https://stackoverflow.com/questions/16248241/concatenate-two-slices-in-go)" [en]
 
 #### Map
-- article "[Go maps in action](https://blog.golang.org/go-maps-in-action)" [en]
+- article "[The Go Blog - Go maps in action](https://blog.golang.org/go-maps-in-action)" [en]
+
+- article "[How to check if a map contains a key in Go?](https://stackoverflow.com/questions/2050391/how-to-check-if-a-map-contains-a-key-in-go)" [en]
 
 ### Pointer
 ### Constants
+- article "[The Go Blog - Constants](https://blog.golang.org/constants)" [en]
+
+- article "[What is an idiomatic way of representing enums in Go?](https://stackoverflow.com/questions/14426366/what-is-an-idiomatic-way-of-representing-enums-in-go)" [en]
+
 ### Interface
 ### Error
+- article "[The Go Blog - Error handling and Go](https://blog.golang.org/error-handling-and-go)" [en]
+
+- article "[The Go Blog - Errors are values](https://blog.golang.org/errors-are-values)" [en]
+
 ## Functions
+### init
+- article "[When is the init() function run?](https://stackoverflow.com/questions/24790175/when-is-the-init-function-run)" [en]
+
 ### Closure
 ### Recursion
 ### Panic
+- article "[The Go Blog - Defer, Panic, and Recover](https://blog.golang.org/defer-panic-and-recover)" [en]
+
 ### Recover
+- article "[The Go Blog - Defer, Panic, and Recover](https://blog.golang.org/defer-panic-and-recover)" [en]
+
 ### Defer
+- article "[The Go Blog - Defer, Panic, and Recover](https://blog.golang.org/defer-panic-and-recover)" [en]
+
+### First-class function
 ## Concurrency
+- article "[The Go Blog - Concurrency is not parallelism](https://blog.golang.org/concurrency-is-not-parallelism)" [en]
+
+- book "[Concurrency in Go](https://www.oreilly.com/library/view/concurrency-in-go/9781491941294)" [en]
+
 ### Goroutines
 ### Channels
 ### Select
 ### Race Condition
+- article "[The Go Blog - Introducing the Go Race Detector](https://blog.golang.org/race-detector)" [en]
+
 ### Mutex
+### Patterns
+- article "[The Go Blog - Go Concurrency Patterns: Timing out, moving on](https://blog.golang.org/go-concurrency-patterns-timing-out-and)" [en]
+
+- article "[The Go Blog - Go Concurrency Patterns: Context](https://blog.golang.org/context)" [en]
+
+- article "[The Go Blog - Advanced Go Concurrency Patterns](https://blog.golang.org/advanced-go-concurrency-patterns)" [en]
+
 ### Threads
 ## Tools
 - article "[Commands](https://golang.org/cmd/)" [en]
@@ -73,20 +116,33 @@
 ### gofmt
 - article "[gofmt](https://golang.org/cmd/gofmt/)" [en]
 
+- article "[The Go Blog - go fmt your code](https://blog.golang.org/go-fmt-your-code)" [en]
+
 ### vet
 - article "[vet](https://golang.org/cmd/vet/)" [en]
 
 ### test
 ### godoc
 ### pprof
+- article "[The Go Blog - Profiling Go Programs](https://blog.golang.org/profiling-go-programs)" [en]
+
+- article "[The Go Blog - Profiling Go Programs](https://blog.golang.org/profiling-go-programs)" [en]
+
 ### Modules
 - article "[Modules](https://github.com/golang/go/wiki/Modules)" [en]
 
+- article "[The Go Blog - Using Go Modules](https://blog.golang.org/using-go-modules)" [en]
+
+### GolangCI
 ## Testing
 ## Real-time
 ### Garbage Collector
+- article "[The Go Blog - Go GC: Prioritizing low latency and simplicity](https://blog.golang.org/go15gc)" [en]
+
+- article "[The Go Blog - Getting to Go: The Journey of Go's Garbage Collector](https://blog.golang.org/ismmkeynote)" [en]
+
 ### Scheduler
-### Context
+### Package unsafe
 ### Templates
 ### Logging
 ## Web Application

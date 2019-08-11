@@ -26,6 +26,7 @@
                     <xs:element name="article" type="material" maxOccurs="unbounded"/>
                     <xs:element name="course" type="material" maxOccurs="unbounded"/>
                     <xs:element name="book" type="material" maxOccurs="unbounded"/>
+                    <xs:element name="video" type="material" maxOccurs="unbounded"/>
                 </xs:choice>
             </xs:sequence>
         </xs:complexType>

@@ -287,8 +287,8 @@
         <node id="go_types_pointer" label="Pointer"/>
         <edge id="edge_go_types_pointer" source="go_types" target="go_types_pointer"/>
 
-        <node id="go_types_constant" label="Constants"/>
-        <edge id="edge_go_types_constant" source="go_types" target="go_types_constant"/>
+        <node id="go_types_constants" label="Constants"/>
+        <edge id="edge_go_types_constants" source="go_types" target="go_types_constants"/>
 
         <node id="go_types_interface" label="Interface"/>
         <edge id="edge_go_types_interface" source="go_types" target="go_types_interface"/>
@@ -300,7 +300,7 @@
         <node id="go_types_text_strings" label="Strings"/>
         <edge id="edge_go_types_text_strings" source="go_types_text" target="go_types_text_strings"/>
 
-        <node id="go_types_text_runes" label="Strings"/>
+        <node id="go_types_text_runes" label="Runes"/>
         <edge id="edge_go_types_text_runes" source="go_types_text" target="go_types_text_runes"/>
 
         <node id="go_types_text_bytes" label="Bytes"/>
@@ -320,13 +320,16 @@
         <node id="go_types_collections_array" label="Array"/>
         <edge id="edge_go_types_collections_array" source="go_types_collections" target="go_types_collections_array"/>
 
-        <node id="go_types_collections_slice" label="Slice"/>
-        <edge id="edge_go_types_collections_slice" source="go_types_collections" target="go_types_collections_slice"/>
+        <node id="go_types_slice" label="Slice"/>
+        <edge id="edge_go_types_slice" source="go_types_collections" target="go_types_slice"/>
 
         <node id="go_types_collections_map" label="Map"/>
         <edge id="edge_go_types_collections_map" source="go_types_collections" target="go_types_collections_map"/>
 
         <!--Function-->
+        <node id="go_function_init" label="init"/>
+        <edge id="edge_go_function_init" source="go_function" target="go_function_init"/>
+
         <node id="go_function_closure" label="Closure"/>
         <edge id="edge_go_function_closure" source="go_function" target="go_function_closure"/>
 
@@ -341,6 +344,9 @@
 
         <node id="go_function_defer" label="Defer"/>
         <edge id="edge_go_function_defer" source="go_function" target="go_function_defer"/>
+
+        <node id="go_function_firstclass" label="First-class function"/>
+        <edge id="edge_go_function_firstclass" source="go_function" target="go_function_firstclass"/>
 
         <!--Concurrency-->
         <node id="go_concurrency_goroutine" label="Goroutines"/>
@@ -357,6 +363,9 @@
 
         <node id="go_concurrency_mutex" label="Mutex"/>
         <edge id="edge_go_concurrency_mutex" source="go_concurrency" target="go_concurrency_mutex"/>
+
+        <node id="go_concurrency_patterns" label="Patterns"/>
+        <edge id="edge_go_concurrency_patterns" source="go_concurrency" target="go_concurrency_patterns"/>
 
         <edge id="edge_go_threads" source="go_concurrency" target="os_threads"/>
 
@@ -379,6 +388,9 @@
         <node id="go_tool_modules" label="Modules"/>
         <edge id="edge_go_tool_modules" source="go_tools" target="go_tool_modules"/>
 
+        <node id="go_tool_golangci" label="GolangCI"/>
+        <edge id="edge_go_tool_golangci" source="go_tools" target="go_tool_golangci"/>
+
         <!--Real-time-->
         <node id="go_realtime_gc" label="Garbage Collector"/>
         <edge id="edge_go_realtime_gc" source="go_realtime" target="go_realtime_gc"/>
@@ -386,10 +398,10 @@
         <node id="go_realtime_scheduler" label="Scheduler"/>
         <edge id="edge_go_realtime_scheduler" source="go_realtime" target="go_realtime_scheduler"/>
 
-        <!--Application-->
-        <node id="go_app_context" label="Context"/>
-        <edge id="edge_go_app_context" source="go_realtime" target="go_app_context"/>
+        <node id="go_realtime_unsafe" label="Package unsafe"/>
+        <edge id="edge_go_realtime_unsafe" source="go_realtime" target="go_realtime_unsafe"/>
 
+        <!--Application-->
         <node id="go_app_templates" label="Templates"/>
         <edge id="edge_go_app_templates" source="go_realtime" target="go_app_templates"/>
 
