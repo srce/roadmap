@@ -5,12 +5,11 @@ import (
 	"encoding/xml"
 	"flag"
 	"fmt"
+	"github.com/dennwc/graphml"
 	"io"
 	"io/ioutil"
 	"os"
 	"strings"
-
-	"github.com/dennwc/graphml"
 )
 
 var (
@@ -20,17 +19,18 @@ var (
 )
 
 type materialType struct {
-	Lang    string   `xml:"lang,attr"`
-	Title   string   `xml:"title"`
-	URL     string   `xml:"url"`
-	Tag     string   `xml:"tag"`
+	XMLName  xml.Name
+	Lang  string `xml:"lang,attr"`
+	Title string `xml:"title"`
+	URL   string `xml:"url"`
+	Tag   string `xml:"tag"`
 }
 
 type materialsType struct {
 	XMLName  xml.Name       `xml:"materials"`
 	Courses  []materialType `xml:"course"`
 	Articles []materialType `xml:"article"`
-	Books []materialType `xml:"book"`
+	Books    []materialType `xml:"book"`
 }
 
 func (m materialsType) Get(tag string) []materialType {
@@ -61,6 +61,17 @@ func checkErr(err error) {
 	}
 }
 
+func mdHeader(text string, h int) (string, error) {
+	if h > 6 {
+		return "", fmt.Errorf("there is no header of %d level", h)
+	}
+	return strings.Repeat("#", h) + " " + text + "\n", nil
+}
+
+func mdLink(name, url string) string {
+	return fmt.Sprintf("[%s](%s)", name, url)
+}
+
 func getNodeByID(g graphml.Graph, id string) graphml.Node {
 	for _, n := range g.Nodes {
 		if n.ID == id {
@@ -89,17 +100,6 @@ func getLabel(node graphml.Node) string {
 	return ""
 }
 
-func mdHeader(text string, h int) (string, error) {
-	if h > 6 {
-		return "", fmt.Errorf("there is no header of %d level", h)
-	}
-	return strings.Repeat("#", h) + " " + text + "\n", nil
-}
-
-func mdLink(name, url string) string {
-	return fmt.Sprintf("[%s](%s)", name, url)
-}
-
 func Walk(w io.Writer, g graphml.Graph, root graphml.Node, h int) {
 	children := getChildren(g, root)
 	for _, child := range children {
@@ -109,8 +109,8 @@ func Walk(w io.Writer, g graphml.Graph, root graphml.Node, h int) {
 		w.Write([]byte(line))
 		list := materials.Get(child.ID)
 		for _, item := range list {
-			link := mdLink(item.Title, item.URL)
-			w.Write([]byte(fmt.Sprintf("%s [%s]\n\n", link, item.Lang)))
+			line := mdLink(item.Title, item.URL)
+			w.Write([]byte(fmt.Sprintf("- %s \"%s\" [%s]\n\n", item.XMLName.Local, line, item.Lang)))
 		}
 		Walk(w, g, child, h+1)
 	}
