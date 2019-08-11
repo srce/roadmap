@@ -230,6 +230,18 @@
 #### VMware
 ## Command Language
 # Software Development Processes
+- book "[Working Effectively with Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052)" [en]
+
+- book "[Refactoring: Improving the Design of Existing Code](https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)" [en]
+
+- book "[The Pragmatic Programmer: From Journeyman to Master](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)" [en]
+
+- book "[Code Complete: A Practical Handbook of Software Construction](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)" [en]
+
+- book "[Code Complete: A Practical Handbook of Software Construction](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)" [en]
+
+- book "[Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/gp/product/0132350882)" [en]
+
 ## Paradigms and models
 ### Agile
 - article "[Manifesto for Agile Software Development](https://agilemanifesto.org)" [en]
