@@ -13,8 +13,8 @@ import (
 )
 
 var (
-	gmlfn  = flag.String("graphml", "roadmap.graphml.xml", "GraphML filename")
-	mfn    = flag.String("materials", "materials.xml", "materials filename")
+	gmlfn  = flag.String("graphml", "", "GraphML filename")
+	mfn    = flag.String("materials", "", "materials filename")
 	rootID = flag.String("root", "", "Root ID")
 )
 

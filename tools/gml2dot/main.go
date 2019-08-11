@@ -11,8 +11,8 @@ import (
 )
 
 var (
-	graphmlFilename = flag.String("filename", "roadmap.graphml.xml", "file name of GraphML")
-	dotFilename = flag.String("dot", "roadmap.g.dot", "filename of DOT file")
+	graphmlFilename = flag.String("filename", "", "file name of GraphML")
+	dotFilename = flag.String("dot", "", "filename of DOT file")
 )
 
 func checkErr(err error) {

@@ -1,14 +1,14 @@
 # Golang Software Engineer Roadmap
 
-This roadmap was written in [DOT language](roadmap.dot) and converted by [Graphviz](https://graphviz.gitlab.io/download/).
-But later it has been rewritten in [GraphML](roadmap.graphml.xml).
+At the beginning, this roadmap was written in [DOT language](roadmap.deprecated.dot) and converted by [Graphviz](https://graphviz.gitlab.io/download/).
+But later it has been rewritten in [GraphML](roadmap.xml).
 
-![Golang Developer Roadmap](roadmap.png)
-
-There is also [circle PNG version](roadmap.circle.png) and [markdown version](roadmap.md).
-
+There is also [circle PNG version](data/roadmap.circle.png) and [markdown version](data/roadmap.md).
 
 Improvements are welcomed.
+
+![Golang Developer Roadmap](data/roadmap.png)
+
 ## Links
 - [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap)
 - [Programmer Competency Matrix](http://sijinjoseph.com/programmer-competency-matrix/)
