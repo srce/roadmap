@@ -35,6 +35,8 @@
 
 - article "[Effective Go](https://golang.org/doc/effective_go.html)" [en]
 
+- article "[Go best practices, six years in](https://peter.bourgon.org/go-best-practices-2016/)" [en]
+
 - book "[An Introduction to Programming in Go](https://www.golang-book.com/books/intro)" [en]
 
 ## Types
@@ -57,6 +59,10 @@
 ### Collections
 #### Array
 #### Slice
+- article "[The Go Blog - Go Slices: usage and internals](https://blog.golang.org/go-slices-usage-and-internals)" [en]
+
+- article "[Delete element in a slice](https://stackoverflow.com/questions/25025409/delete-element-in-a-slice)" [en]
+
 - article "[The Go Blog - Share Memory By Communicating](https://blog.golang.org/share-memory-by-communicating)" [en]
 
 - article "[The Go Blog - Arrays, slices (and strings): The mechanics of 'append'](https://blog.golang.org/slices)" [en]
@@ -101,6 +107,8 @@
 
 - book "[Concurrency in Go](https://www.oreilly.com/library/view/concurrency-in-go/9781491941294)" [en]
 
+- book "[Visualizing Concurrency in Go](https://divan.dev/posts/go_concurrency_visualize/)" [en]
+
 ### Goroutines
 ### Channels
 ### Select
@@ -134,6 +142,8 @@
 
 - article "[The Go Blog - Profiling Go Programs](https://blog.golang.org/profiling-go-programs)" [en]
 
+- article "[Go code refactoring : the 23x performance hunt](https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7)" [en]
+
 ### Modules
 - article "[Modules](https://github.com/golang/go/wiki/Modules)" [en]
 
@@ -143,6 +153,8 @@
 ## Testing
 ## Real-time
 ### Garbage Collector
+- article "[Modern garbage collection](https://blog.plan99.net/modern-garbage-collection-911ef4f8bd8e)" [en]
+
 - article "[The Go Blog - Go GC: Prioritizing low latency and simplicity](https://blog.golang.org/go15gc)" [en]
 
 - article "[The Go Blog - Getting to Go: The Journey of Go's Garbage Collector](https://blog.golang.org/ismmkeynote)" [en]
@@ -257,7 +269,11 @@
 ### Kanban
 ### Extreme Programming
 ### The Twelve-Factor App
+- article "[The Twelve-Factor App](https://12factor.net)" [en]
+
 ## Testing
+- book "[Test Driven Development: By Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)" [en]
+
 ### Test-driven development
 ### Behavior-driven development
 ## Bug tracking systems
@@ -281,3 +297,6 @@
 ### Ansible
 ### Puppet
 ### Kubernetes
+## Management
+- book "[Goal: A Process of Ongoing Improvement](https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951)" [en]
+

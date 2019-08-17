@@ -28,7 +28,7 @@
         <title>The Go Blog - Go Slices: usage and internals</title>
         <url>https://blog.golang.org/go-slices-usage-and-internals</url>
         <tags>
-            <tag>go_types_collections_slice</tag>
+            <tag>go_types_slice</tag>
         </tags>
     </article>
 
@@ -36,7 +36,7 @@
         <title>Delete element in a slice</title>
         <url>https://stackoverflow.com/questions/25025409/delete-element-in-a-slice</url>
         <tags>
-            <tag>go_types_collections_slice</tag>
+            <tag>go_types_slice</tag>
         </tags>
     </article>
 
@@ -52,7 +52,7 @@
         <title>The Twelve-Factor App</title>
         <url>https://12factor.net</url>
         <tags>
-            <tag>development_methodologies_12factors</tag>
+            <tag>dev_methodologies_12factors</tag>
         </tags>
     </article>
 
@@ -394,7 +394,7 @@
         <title>Test Driven Development: By Example</title>
         <url>https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530</url>
         <tags>
-            <tag>development_testing</tag>
+            <tag>dev_testing</tag>
         </tags>
     </book>
 
@@ -450,7 +450,7 @@
         <title>Goal: A Process of Ongoing Improvement</title>
         <url>https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951</url>
         <tags>
-            <tag>management</tag>
+            <tag>dev_management</tag>
         </tags>
     </book>
 

@@ -135,6 +135,9 @@
         <node id="dev_orchestration" label="Orchestration"/>
         <edge id="edge_dev_orchestration" source="dev" target="dev_orchestration"/>
 
+        <node id="dev_management" label="Management"/>
+        <edge id="edge_dev_management" source="dev" target="dev_management"/>
+
         <!--Orchestration-->
         <node id="dev_orchestration_ansible" label="Ansible"/>
         <edge id="edge_dev_orchestration_ansible" source="dev_orchestration" target="dev_orchestration_ansible"/>

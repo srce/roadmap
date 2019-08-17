@@ -41,6 +41,7 @@ digraph roadmap {
 	dev->dev_estimation;
 	dev->dev_debugging;
 	dev->dev_orchestration;
+	dev->dev_management;
 	dev_orchestration->dev_orchestration_ansible;
 	dev_orchestration->dev_orchestration_puppet;
 	dev_orchestration->dev_orchestration_k8s;
@@ -248,6 +249,7 @@ digraph roadmap {
 	dev_deployment_cd [ label="Continuous Delivery" ];
 	dev_deployment_ci [ label="Continuous Integration" ];
 	dev_estimation [ label="Estimations" ];
+	dev_management [ label="Management" ];
 	dev_methodologies [ label="Methodologies and frameworks" ];
 	dev_methodologies_12factors [ label="The Twelve-Factor App" ];
 	dev_methodologies_kanban [ label="Kanban" ];

@@ -2,16 +2,14 @@ package main
 
 import (
 	"flag"
-	"io/ioutil"
-	"os"
 	"fmt"
+	"io/ioutil"
 
 	graphviz "github.com/awalterschulze/gographviz"
-	"github.com/dennwc/graphml"
+	"github.com/dzyanis/roadmap/tools/gml"
 )
 
 var (
-	graphmlFilename = flag.String("filename", "", "file name of GraphML")
 	dotFilename = flag.String("dot", "", "filename of DOT file")
 )
 
@@ -24,10 +22,7 @@ func checkErr(err error) {
 func main() {
 	flag.Parse()
 
-	file, err := os.Open(*graphmlFilename)
-	checkErr(err)
-
-	doc, err:= graphml.Decode(file)
+	doc, err := gml.Load(*gml.Filename)
 	checkErr(err)
 
 	for _, g := range doc.Graphs {
@@ -51,7 +46,7 @@ func main() {
 			for _, subg := range node.Graphs {
 				fmt.Println(subg.ID)
 			}
-			
+
 			checkErr(err)
 		}
 
@@ -60,7 +55,7 @@ func main() {
 		}
 
 		output := gviz.String()
-		err = ioutil.WriteFile(*dotFilename,  []byte(output),0644)
+		err = ioutil.WriteFile(*dotFilename, []byte(output), 0644)
 		checkErr(err)
 	}
 }
