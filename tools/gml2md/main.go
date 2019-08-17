@@ -16,6 +16,13 @@ var (
 	rootID = flag.String("root", "", "Root ID")
 )
 
+var icons = map[string]string{
+	"book": "📖",
+	"article": "📰",
+	"course": "👩‍🏫",
+	"video": "📺",
+}
+
 func checkErr(err error) {
 	if err != nil {
 		panic(err.Error())
@@ -43,7 +50,7 @@ func Walk(w io.Writer, g *graphml.Graph, root graphml.Node, m *materials.List, h
 		list := m.Get(child.ID)
 		for _, item := range list {
 			line := mdLink(item.Title, item.URL)
-			w.Write([]byte(fmt.Sprintf("- %s \"%s\" [%s]\n\n", item.XMLName.Local, line, item.Lang)))
+			w.Write([]byte(fmt.Sprintf("%s %s [%s]\n\n", icons[item.XMLName.Local], line, item.Lang)))
 		}
 		Walk(w, g, child, m, h+1)
 	}
@@ -61,7 +68,7 @@ func main() {
 	md := bytes.NewBuffer([]byte{})
 	for _, g := range doc.Graphs {
 		for _, node := range g.Nodes {
-			if node.ID == "backend" {
+			if node.ID == *rootID {
 				md.Write([]byte(fmt.Sprintf("# %s\n", gml.GetLabel(node))))
 				Walk(md, &g, node, m, 1)
 			}
