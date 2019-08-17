@@ -210,7 +210,7 @@ digraph roadmap {
 	db_indexes [ label="Indexes" ];
 	db_message_broker [ label="Message Broker" ];
 	db_message_broker_awssqs [ label="Amazon Simple Queue Service" ];
-	db_message_broker_kafka [ label="Message Broker" ];
+	db_message_broker_kafka [ label="Kafka" ];
 	db_message_broker_rabbit [ label="RabbitMQ" ];
 	db_mysql [ label="MySQL" ];
 	db_nosql [ label="NOSQL" ];
@@ -330,7 +330,7 @@ digraph roadmap {
 	net_dns [ label="DNS" ];
 	net_graphql [ label="GraphQL" ];
 	net_grpc [ label="gRPC" ];
-	net_osi [ label="Sphinx" ];
+	net_osi [ label="Open Systems Interconnection model" ];
 	net_protocols [ label="Protocols" ];
 	net_protocols_http [ label="HTTP" ];
 	net_protocols_ip [ label="IP" ];

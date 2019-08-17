@@ -206,13 +206,13 @@
 ### Elasticseaerch
 ### Sphinx
 ## Message Broker
-### Message Broker
+### Kafka
 ### RabbitMQ
 ### Amazon Simple Queue Service
 # Computer Network
 📖 [Computer Networks](https://www.amazon.com/Computer-Networks-Tanenbaum-International-Economy/dp/9332518742) [en]
 
-## Sphinx
+## Open Systems Interconnection model
 ## gRPC
 ## REST API
 ## GraphQL

@@ -16,6 +16,12 @@ func checkErr(err error) {
 	}
 }
 
+func printErr(err error) {
+	if err != nil {
+		fmt.Println("warning: "+err.Error())
+	}
+}
+
 
 func checkTags(graph *graphml.Graph, list *materials.List) error {
 	tags := map[string]struct{}{}
@@ -25,9 +31,21 @@ func checkTags(graph *graphml.Graph, list *materials.List) error {
 	for _, item := range list.All() {
 		for _, tag := range item.Tags {
 			if _, ok := tags[tag]; !ok {
-				return errors.New("Tag '" + tag + "' is not exist")
+				printErr(errors.New("Tag '" + tag + "' is not exist"))
 			}
 		}
+	}
+	return nil
+}
+
+func checkLabelDuplicate(graph *graphml.Graph, list *materials.List) error {
+	tags := map[string]string{}
+	for _, node := range graph.Nodes {
+		label := gml.GetLabel(node)
+		if _, ok := tags[label]; ok {
+			printErr(errors.New("Title '" + label + "' duplicate tag '"+tags[label]+"' and '"+node.ID+"'"))
+		}
+		tags[label] = node.ID
 	}
 	return nil
 }
@@ -43,7 +61,8 @@ func main() {
 
 	for _, graph := range doc.Graphs {
 		checkErr(checkTags(&graph, m))
+		checkErr(checkLabelDuplicate(&graph, m))
 	}
 
-	fmt.Print("Done")
+	fmt.Println("Linter: done")
 }

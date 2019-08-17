@@ -436,7 +436,7 @@
         <edge id="edge_db_message_broker" source="db" target="db_message_broker"/>
 
         <!--Message Broker-->
-        <node id="db_message_broker_kafka" label="Message Broker"/>
+        <node id="db_message_broker_kafka" label="Kafka"/>
         <edge id="edge_db_message_broker_kafka" source="db_message_broker" target="db_message_broker_kafka"/>
 
         <node id="db_message_broker_rabbit" label="RabbitMQ"/>
@@ -519,7 +519,7 @@
         <edge id="edge_db_search_sphinx" source="db_search" target="db_search_sphinx"/>
 
         <!--Computer network-->
-        <node id="net_osi" label="Sphinx"/>
+        <node id="net_osi" label="Open Systems Interconnection model"/>
         <edge id="edge_net_osi" source="net" target="net_osi"/>
 
         <node id="net_grpc" label="gRPC"/>
