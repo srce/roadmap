@@ -7,7 +7,7 @@ There is also [markdown version](data/roadmap.md).
 
 Improvements are welcomed.
 
-![Golang Developer Roadmap](./data/roadmap.svg "Image of Golang Software Engineer Roadmap")
+![Image of Golang Software Engineer Roadmap](./data/roadmap.png "Golang Developer Roadmap")
 
 ## Links
 - [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap)

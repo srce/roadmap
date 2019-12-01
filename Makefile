@@ -1,6 +1,7 @@
 GRAPHML_FILENAME=roadmap.xml
 DOT_FILENAME=data/roadmap.dot
 SVG_FILENAME=data/roadmap.svg
+PNG_FILENAME=data/roadmap.png
 
 .PHONY: all
 all: linter gml2dot gml2md
@@ -14,6 +15,7 @@ linter:
 gml2dot:
 	./tools/gml2dot.py --graphml=$(GRAPHML_FILENAME) --dot=$(DOT_FILENAME)
 	dot -Tsvg $(DOT_FILENAME) -o $(SVG_FILENAME)
+	dot -Tpng $(DOT_FILENAME) -o $(PNG_FILENAME)
 
 .PHONY: gml2md
 gml2md:
