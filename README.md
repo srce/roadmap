@@ -7,7 +7,7 @@ There is also [circle PNG version](data/roadmap.circle.svg) and [markdown versio
 
 Improvements are welcomed.
 
-![Golang Developer Roadmap](data/roadmap.svg)
+![Golang Developer Roadmap](data/roadmap.svg "Image of Golang Software Engineer Roadmap")
 
 ## Links
 - [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap)
