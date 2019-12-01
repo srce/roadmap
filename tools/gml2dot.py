@@ -1,9 +1,21 @@
+#!/usr/bin/env python3
+
 import xml.etree.ElementTree as ET
-tree = ET.parse('../../roadmap.xml')
-root = tree.getroot()
+import argparse
 
+def main():
+    parser = argparse.ArgumentParser(description='Converting GraphML to DOT')
+    parser.add_argument('--graphml', help='GraphML filename')
+    parser.add_argument('--dot', help='DOT filename')
 
-def main() :
+    args = parser.parse_args()
+
+    tree = ET.parse(args.graphml)
+    root = tree.getroot()
+
+    convert(root, args.dot)
+
+def convert(root, filename):
     edge_parameters = []
     node_parameters = []
 
@@ -14,7 +26,7 @@ def main() :
             elif dotElem.tag == '{http://graphml.graphdrawing.org/xmlns}node':
                 node_parameters.append('\t'+dotElem.get('id')+' [ label="'+dotElem.get('label')+'" ];\n')
 
-    file = open("../../data/roadmap2.dot", "w")
+    file = open(filename, "w")
     file.write('digraph roadmap {\n\trankdir=LR;\n')
     for edge in edge_parameters:
         file.write(edge)
