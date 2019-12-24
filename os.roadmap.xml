@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="roadmap.xsd"
+>
+    <graph id="os">
+        <node id="os" label="Operating System"/>
+
+        <!--Operating System-->
+        <node id="os_virtual_memory" label="Virtual Memory"/>
+        <edge id="edge_os_virtual_memory" source="os" target="os_virtual_memory"/>
+
+        <node id="os_threads" label="Threads"/>
+        <edge id="edge_os_threads" source="os" target="os_threads"/>
+
+        <node id="os_io" label="I/O"/>
+        <edge id="edge_os_io" source="os" target="os_io"/>
+
+        <node id="os_virtualization" label="Virtualization"/>
+        <edge id="edge_os_virtualization" source="os" target="os_virtualization"/>
+
+        <node id="os_shell" label="Command Language"/>
+        <edge id="edge_os_shell" source="os" target="os_shell"/>
+
+        <!--Virtualization-->
+        <node id="os_virtualization_level" label="OS-level Virtualisation"/>
+        <edge id="edge_os_virtualization_level" source="os_virtualization" target="os_virtualization_level"/>
+
+        <node id="os_virtualization_x86" label="x86 Virtualization"/>
+        <edge id="edge_os_virtualization_x86" source="os_virtualization" target="os_virtualization_x86"/>
+
+        <!--OS-level Virtualisation-->
+        <node id="os_virtualization_level_docker" label="Docker"/>
+        <edge id="edge_os_virtualization_level_docker" source="os_virtualization_level" target="os_virtualization_level_docker"/>
+
+        <node id="os_virtualization_level_nanobox" label="Nanobox"/>
+        <edge id="edge_os_virtualization_level_nanobox" source="os_virtualization_level" target="os_virtualization_level_nanobox"/>
+
+        <node id="os_virtualization_level_deis" label="Deis"/>
+        <edge id="edge_os_virtualization_level_deis" source="os_virtualization_level" target="os_virtualization_level_deis"/>
+
+        <node id="os_virtualization_level_mesos" label="Apache Mesos"/>
+        <edge id="edge_os_virtualization_level_mesos" source="os_virtualization_level" target="os_virtualization_level_mesos"/>
+
+        <!--x86 Virtualization-->
+        <node id="os_virtualization_x86_virtualbox" label="VirtualBox"/>
+        <edge id="edge_os_virtualization_x86_virtualbox" source="os_virtualization_x86" target="os_virtualization_x86_virtualbox"/>
+
+        <node id="os_virtualization_x86_vmware" label="VMware"/>
+        <edge id="edge_os_virtualization_x86_vmware" source="os_virtualization_x86" target="os_virtualization_x86_vmware"/>
+    </graph>
+</xmlgraph>

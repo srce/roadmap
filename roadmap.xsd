@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:annotation>
+        <xs:documentation source="http://graphml.graphdrawing.org/" xml:lang="en">
+            This document defines the XMLGraph language including
+        </xs:documentation>
+    </xs:annotation>
+
+    <xs:complexType name="include">
+        <xs:attribute name="filepath" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="node">
+        <xs:attribute name="id" type="xs:string" use="required"/>
+        <xs:attribute name="label" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="edge">
+        <xs:attribute name="id" type="xs:string" use="required"/>
+        <xs:attribute name="source" type="xs:string" use="required"/>
+        <xs:attribute name="target" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="graph">
+        <xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="node" type="node" maxOccurs="unbounded"/>
+                <xs:element name="edge" type="edge" maxOccurs="unbounded"/>
+            </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:element name="xmlgraph">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="include" type="include" maxOccurs="unbounded"/>
+                    <xs:element name="graph" type="graph" maxOccurs="unbounded"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
