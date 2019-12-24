@@ -3,18 +3,6 @@
 import xml.etree.ElementTree as ET
 import argparse
 
-def main():
-    parser = argparse.ArgumentParser(description='Converting GraphML to DOT')
-    parser.add_argument('--graphml', help='GraphML filename')
-    parser.add_argument('--dot', help='DOT filename')
-
-    args = parser.parse_args()
-
-    tree = ET.parse(args.graphml)
-    root = tree.getroot()
-
-    convert(root, args.dot)
-
 def convert(root, filename):
     edge_parameters = []
     node_parameters = []
@@ -35,9 +23,14 @@ def convert(root, filename):
     file.write('}')
     file.close()
 
-main()
+if (__name__ == '__main__'):
+    parser = argparse.ArgumentParser(description='Converting GraphML to DOT')
+    parser.add_argument('--graphml', help='GraphML filename')
+    parser.add_argument('--dot', help='DOT filename')
 
+    args = parser.parse_args()
 
+    tree = ET.parse(args.graphml)
+    root = tree.getroot()
 
-
-
+    convert(root, args.dot)
