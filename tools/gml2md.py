@@ -4,14 +4,14 @@ import argparse
 from xmlgraph import Roadmap
 
 
-def convert_dot(graphml, dot):
+def convert_md(graphml, dot):
     roadmap = Roadmap(graphml)
 
     file = open(dot, "w")
     file.write('digraph roadmap {\n\trankdir=LR;\n')
-    for _, edge in roadmap.edges.items():
+    for edge in roadmap.edges:
         file.write('\t' + edge.source + '->' + edge.target + ';\t\n')
-    for _, node in roadmap.nodes.items():
+    for node in roadmap.nodes:
         file.write('\t' + node.id + ' [ label="' + node.label + '" ];\n')
     file.write('}\n')
     file.close()
@@ -23,4 +23,4 @@ if __name__ == '__main__':
     parser.add_argument('--dot', help='DOT filename')
     args = parser.parse_args()
 
-    convert_dot(args.graphml, args.dot)
+    convert_md(args.graphml, args.dot)

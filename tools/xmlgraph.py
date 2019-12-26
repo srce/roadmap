@@ -18,8 +18,8 @@ class Node:
 
 class Roadmap:
     def __init__(self, filepath):
-        self.edges = set()
-        self.nodes = set()
+        self.edges = {}
+        self.nodes = {}
         self.add_from_file(filepath)
 
     def add_from_file(self, filepath):
@@ -30,6 +30,11 @@ class Roadmap:
                 self.add_from_file(child.get('filepath'))
             for dotElem in child:
                 if dotElem.tag == 'edge':
-                    self.edges.add(Edge(dotElem.get('id'), dotElem.get('source'), dotElem.get('target')))
+                    edge_id = dotElem.get('id')
+                    source = dotElem.get('source')
+                    target = dotElem.get('target')
+                    self.edges[edge_id] = (Edge(edge_id, source, target))
                 elif dotElem.tag == 'node':
-                    self.nodes.add(Node(dotElem.get('id'), dotElem.get('label')))
+                    node_id = dotElem.get('id')
+                    label = dotElem.get('label')
+                    self.nodes[node_id] = (Node(node_id, label))
