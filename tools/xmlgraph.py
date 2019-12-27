@@ -14,6 +14,7 @@ class Node:
     def __init__(self, node_id, label):
         self.id = node_id
         self.label = label
+        self.childrenids = []
 
 
 class Roadmap:
@@ -34,6 +35,7 @@ class Roadmap:
                     source = dotElem.get('source')
                     target = dotElem.get('target')
                     self.edges[edge_id] = (Edge(edge_id, source, target))
+                    self.nodes[source].childrenids.append(target)
                 elif dotElem.tag == 'node':
                     node_id = dotElem.get('id')
                     label = dotElem.get('label')

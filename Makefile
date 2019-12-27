@@ -19,4 +19,4 @@ gml2dot:
 
 .PHONY: gml2md
 gml2md:
-	go run tools/gml2md/main.go --graphml=$(GRAPHML_FILENAME) --materials=materials.xml --root="backend" > data/roadmap.md
+	./tools/gml2md.py --graphml=$(GRAPHML_FILENAME) --materials=materials.xml --root="backend" > data/roadmap.md

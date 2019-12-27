@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+from collections import defaultdict
 import xml.etree.ElementTree as Et
 
 
@@ -8,14 +8,14 @@ class Material:
         self.type = ''
         self.title = ''
         self.url = ''
-        self.translate = ''
-        self.tags = []
+        self.translate_lang = ''
+        self.translate_url = ''
 
 
 def parsexml(filepath):
     tree = Et.parse(filepath)
     root = tree.getroot()
-    materials = []
+    materials = defaultdict(lambda: [])
     for mat_desc in root:
         material = Material()
         material.type = mat_desc.tag
@@ -25,10 +25,9 @@ def parsexml(filepath):
             if item.tag == 'url':
                 material.url = item.text
             if item.tag == 'translate':
-                material.translate = item.text
+                material.translate_lang = item.attrib['lang']
+                material.translate_url = item.attrib['url']
             if item.tag == 'tags':
                 for tag in item:
-                    material.tags.append(tag.text)
-        materials.append(material)
+                    materials[tag.text].append(material)
     return materials
-
