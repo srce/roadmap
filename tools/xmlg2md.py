@@ -30,9 +30,9 @@ def convert_md(graphml, xmlmaterials, rootid):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Combining GraphML and materials into markdown')
-    parser.add_argument('--graphml', default='roadmap.xml', help='GraphML filename')
+    parser.add_argument('--xmlg', default='roadmap.xml', help='XML Graph filename')
     parser.add_argument('--materials', default='materials.xml', help='Materials XML filename')
     parser.add_argument('--root', default='backend', help='Root element id')
     args = parser.parse_args()
 
-    convert_md(args.graphml, args.materials, args.root)
+    convert_md(args.xmlg, args.materials, args.root)

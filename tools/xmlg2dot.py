@@ -19,8 +19,8 @@ def convert_dot(graphml, dot):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Converting GraphML to DOT')
-    parser.add_argument('--graphml', help='GraphML filename')
+    parser.add_argument('--xmlg', help='XML Graph filename')
     parser.add_argument('--dot', help='DOT filename')
     args = parser.parse_args()
 
-    convert_dot(args.graphml, args.dot)
+    convert_dot(args.xmlg, args.dot)

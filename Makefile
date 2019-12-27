@@ -4,19 +4,15 @@ SVG_FILENAME=data/roadmap.svg
 PNG_FILENAME=data/roadmap.png
 
 .PHONY: all
-all: linter gml2dot gml2md
+all: xmlg2dot xmlg2md
 	@echo "Done"
 
-.PHONY: linter
-linter:
-	go run tools/linter/main.go --graphml=$(GRAPHML_FILENAME) --materials=materials.xml
-
-.PHONY: gml2dot
-gml2dot:
-	./tools/gml2dot.py --graphml=$(GRAPHML_FILENAME) --dot=$(DOT_FILENAME)
+.PHONY: xmlg2dot
+xmlg2dot:
+	./tools/xmlg2dot.py --xmlg=$(GRAPHML_FILENAME) --dot=$(DOT_FILENAME)
 	dot -Tsvg $(DOT_FILENAME) -o $(SVG_FILENAME)
 	dot -Tpng $(DOT_FILENAME) -o $(PNG_FILENAME)
 
-.PHONY: gml2md
-gml2md:
-	./tools/gml2md.py --graphml=$(GRAPHML_FILENAME) --materials=materials.xml --root="backend" > data/roadmap.md
+.PHONY: xmlg2md
+xmlg2md:
+	./tools/xmlg2md.py --xmlg=$(GRAPHML_FILENAME) --materials=materials.xml --root="backend" > data/roadmap.md
