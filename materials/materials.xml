@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="materials.xsd">
-    <include filepath="materials/cs.materials.xml"/>
-    <include filepath="materials/db.materials.xml"/>
-    <include filepath="materials/dev.materials.xml"/>
-    <include filepath="materials/go.materials.xml"/>
-    <include filepath="materials/net.materials.xml"/>
+    <include filepath="materials/cs.xml"/>
+    <include filepath="materials/db.xml"/>
+    <include filepath="materials/dev.xml"/>
+    <include filepath="materials/go.xml"/>
+    <include filepath="materials/net.xml"/>
 </materials>

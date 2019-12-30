@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="roadmap.xsd">
-    <include filepath="roadmap/cs.roadmap.xml"/>
-    <include filepath="roadmap/go.roadmap.xml"/>
-    <include filepath="roadmap/db.roadmap.xml"/>
-    <include filepath="roadmap/net.roadmap.xml"/>
-    <include filepath="roadmap/os.roadmap.xml"/>
-    <include filepath="roadmap/dev.roadmap.xml"/>
+    <include filepath="roadmap/cs.xml"/>
+    <include filepath="roadmap/go.xml"/>
+    <include filepath="roadmap/db.xml"/>
+    <include filepath="roadmap/net.xml"/>
+    <include filepath="roadmap/os.xml"/>
+    <include filepath="roadmap/dev.xml"/>
 
     <graph id="roadmap">
         <node id="backend" label="Golang Software Engineer"/>
