@@ -40,21 +40,6 @@
         </tags>
     </article>
 
-    <article lang="en">
-        <title>Manifesto for Agile Software Development</title>
-        <url>https://agilemanifesto.org</url>
-        <tags>
-            <tag>management_paradigms_agile</tag>
-        </tags>
-    </article>
-
-    <article lang="en">
-        <title>The Twelve-Factor App</title>
-        <url>https://12factor.net</url>
-        <tags>
-            <tag>dev_methodologies_12factors</tag>
-        </tags>
-    </article>
 
     <article lang="en">
         <title>Commands</title>
@@ -104,21 +89,6 @@
         </tags>
     </article>
 
-    <article lang="en">
-        <title>NOSQL</title>
-        <url>https://martinfowler.com/nosql.html</url>
-        <tags>
-            <tag>db_nosql</tag>
-        </tags>
-    </article>
-
-    <book lang="en">
-        <title>NoSQL Distilled</title>
-        <url>https://martinfowler.com/books/nosql.html</url>
-        <tags>
-            <tag>db_nosql</tag>
-        </tags>
-    </book>
 
     <book lang="en">
         <title>Concurrency in Go</title>
@@ -381,94 +351,6 @@
             <tag>go_types_text_strings</tag>
         </tags>
     </article>
-
-    <book lang="en">
-        <title>Design patterns : elements of reusable object-oriented software</title>
-        <url>https://www.worldcat.org/title/design-patterns-elements-of-reusable-object-oriented-software/oclc/31171684</url>
-        <tags>
-            <tag>cs_architecture_patterns</tag>
-        </tags>
-    </book>
-
-    <book lang="en">
-        <title>Test Driven Development: By Example</title>
-        <url>https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530</url>
-        <tags>
-            <tag>dev_testing</tag>
-        </tags>
-    </book>
-
-    <book lang="en">
-        <title>Working Effectively with Legacy Code</title>
-        <url>https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052</url>
-        <tags>
-            <tag>dev</tag>
-        </tags>
-    </book>
-
-    <book lang="en">
-        <title>Refactoring: Improving the Design of Existing Code</title>
-        <url>https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672</url>
-        <tags>
-            <tag>dev</tag>
-        </tags>
-    </book>
-
-    <book lang="en">
-        <title>The Pragmatic Programmer: From Journeyman to Master</title>
-        <url>https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X</url>
-        <tags>
-            <tag>dev</tag>
-        </tags>
-    </book>
-
-    <book lang="en">
-        <title>Code Complete: A Practical Handbook of Software Construction</title>
-        <url>https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670</url>
-        <tags>
-            <tag>dev</tag>
-        </tags>
-    </book>
-
-    <book lang="en">
-        <title>Code Complete: A Practical Handbook of Software Construction</title>
-        <url>https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670</url>
-        <tags>
-            <tag>dev</tag>
-        </tags>
-    </book>
-
-    <book lang="en">
-        <title>Clean Code: A Handbook of Agile Software Craftsmanship</title>
-        <url>https://www.amazon.com/gp/product/0132350882</url>
-        <tags>
-            <tag>dev</tag>
-        </tags>
-    </book>
-
-    <book lang="en">
-        <title>Goal: A Process of Ongoing Improvement</title>
-        <url>https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951</url>
-        <tags>
-            <tag>dev_management</tag>
-        </tags>
-    </book>
-
-    <book lang="en">
-        <title>Computer Networks</title>
-        <url>https://www.amazon.com/Computer-Networks-Tanenbaum-International-Economy/dp/9332518742</url>
-        <tags>
-            <tag>net</tag>
-        </tags>
-    </book>
-
-    <book lang="en">
-        <title>Pro Git</title>
-        <url>https://git-scm.com/book/en</url>
-        <tags>
-            <tag>dev_version_git</tag>
-        </tags>
-    </book>
 
     <book lang="en">
         <title>An Introduction to Programming in Go</title>

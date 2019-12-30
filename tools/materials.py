@@ -17,6 +17,9 @@ def parsexml(filepath):
     root = tree.getroot()
     materials = defaultdict(lambda: [])
     for mat_desc in root:
+        if mat_desc.tag == 'include':
+            materials.update(parsexml(mat_desc.attrib['filepath']))
+            continue
         material = Material()
         material.type = mat_desc.tag
         for item in mat_desc:
