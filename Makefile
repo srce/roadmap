@@ -1,4 +1,4 @@
-XMLG_FILENAME=roadmap/roadmap.xml
+XMLG_FILENAME=roadmap.xml
 DOT_FILENAME=data/roadmap.dot
 SVG_FILENAME=data/roadmap.svg
 PNG_FILENAME=data/roadmap.png
@@ -15,4 +15,4 @@ xmlg2dot:
 
 .PHONY: xmlg2md
 xmlg2md:
-	./tools/xmlg2md.py --xmlg=$(XMLG_FILENAME) --materials=materials/materials.xml --root="backend" > data/roadmap.md
+	./tools/xmlg2md.py --xmlg=$(XMLG_FILENAME) --materials=materials.xml --root="backend" > data/roadmap.md
