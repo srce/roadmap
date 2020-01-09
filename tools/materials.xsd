@@ -32,7 +32,7 @@
     <xs:element name="materials">
         <xs:complexType>
             <xs:sequence>
-                <xs:choice maxOccurs="unbounded">
+                <xs:choice maxOccurs="unbounded" minOccurs="0">
                     <xs:element name="include" type="include" maxOccurs="unbounded"/>
                     <xs:element name="article" type="material" maxOccurs="unbounded"/>
                     <xs:element name="course" type="material" maxOccurs="unbounded"/>

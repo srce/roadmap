@@ -1,13 +1,13 @@
 # Golang Software Engineer Roadmap
 
 At the beginning, this roadmap was written in [DOT language](roadmap.deprecated.dot) and converted by [Graphviz](https://graphviz.gitlab.io/download/).
-But later it has been rewritten in [GraphML](roadmap.xml).
+But later it has been rewritten in [GraphML](stacks/go/roadmap.xml).
 
-There is also [markdown version](data/roadmap.md).
+There is also [markdown version](stacks/go/data/roadmap.md).
 
 Improvements are welcomed.
 
-![Image of Golang Software Engineer Roadmap](./data/roadmap.png "Golang Developer Roadmap")
+![Image of Golang Software Engineer Roadmap](stacks/go/data/roadmap.png "Golang Developer Roadmap")
 
 ## Links
 - [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap)
