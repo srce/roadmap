@@ -18,6 +18,9 @@ def walk(roadmap, nodeid, level, materials):
               ('' if m.translate_url == '' else
                "[[{}]({})]".format(m.translate_lang, m.translate_url)))
 
+    if len(node_mat) > 0:
+        print('\n')
+
     for childid in node.childrenids:
         walk(roadmap, childid, level+1, materials)
 
