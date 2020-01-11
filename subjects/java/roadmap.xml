@@ -4,5 +4,11 @@
 >
     <graph id="java">
         <node id="java" label="Java"/>
+
+        <node id="java_core" label="Core"/>
+        <edge id="edge_java_core" source="java" target="java_core"/>
+
+        <node id="java_tests" label="Java Tests"/>
+        <edge id="edge_java_tests" source="java" target="java_tests"/>
     </graph>
 </xmlgraph>
