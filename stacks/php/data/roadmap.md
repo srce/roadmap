@@ -293,3 +293,57 @@
 
 ## PHP
 
+### Types
+
+#### Booleans
+
+#### Integers
+
+#### Floating point numbers
+
+#### Strings
+
+#### Arrays
+
+#### Iterables
+
+#### Objects
+
+#### Resources
+
+#### NULL
+
+#### Callbacks / Callables
+
+#### Type Juggling
+
+### Variables
+
+#### Predefined Variables
+
+### Functions
+
+### Classes and Objects
+
+### Errors and Exceptions
+
+#### Predefined Exceptions
+
+### Namespaces
+
+### Standard PHP Library (SPL)
+
+#### Datastructures
+
+#### Iterators
+
+#### Interfaces
+
+#### Exceptions
+
+#### Functions
+
+#### File Handling
+
+### Generators
+

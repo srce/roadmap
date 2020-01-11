@@ -4,5 +4,90 @@
 >
     <graph id="php">
         <node id="php" label="PHP"/>
+
+        <node id="php_types" label="Types"/>
+        <edge id="edge_php_types" source="php" target="php_types"/>
+
+        <node id="php_variables" label="Variables"/>
+        <edge id="edge_php_variables" source="php" target="php_variables"/>
+
+        <node id="php_functions" label="Functions"/>
+        <edge id="edge_php_functions" source="php" target="php_functions"/>
+
+        <node id="php_oop" label="Classes and Objects"/>
+        <edge id="edge_php_oop" source="php" target="php_oop"/>
+
+        <node id="php_errors" label="Errors and Exceptions"/>
+        <edge id="edge_php_errors" source="php" target="php_errors"/>
+
+        <node id="php_namespaces" label="Namespaces"/>
+        <edge id="edge_php_namespaces" source="php" target="php_namespaces"/>
+
+        <node id="php_spl" label="Standard PHP Library (SPL)"/>
+        <edge id="edge_php_spl" source="php" target="php_spl"/>
+
+        <node id="php_generators" label="Generators"/>
+        <edge id="edge_php_generators" source="php" target="php_generators"/>
+
+        <!-- Types -->
+        <node id="php_booleans" label="Booleans"/>
+        <edge id="edge_php_types_booleans" source="php_types" target="php_booleans"/>
+
+        <node id="php_integers" label="Integers"/>
+        <edge id="edge_php_types_integers" source="php_types" target="php_integers"/>
+
+        <node id="php_floating" label="Floating point numbers"/>
+        <edge id="edge_php_types_floating" source="php_types" target="php_floating"/>
+
+        <node id="php_strings" label="Strings"/>
+        <edge id="edge_php_types_strings" source="php_types" target="php_strings"/>
+
+        <node id="php_arrays" label="Arrays"/>
+        <edge id="edge_php_types_arrays" source="php_types" target="php_arrays"/>
+
+        <node id="php_iterables" label="Iterables"/>
+        <edge id="edge_php_types_iterables" source="php_types" target="php_iterables"/>
+
+        <node id="php_objects" label="Objects"/>
+        <edge id="edge_php_types_objects" source="php_types" target="php_objects"/>
+
+        <node id="php_resources" label="Resources"/>
+        <edge id="edge_php_types_resources" source="php_types" target="php_resources"/>
+
+        <node id="php_null" label="NULL"/>
+        <edge id="edge_php_types_null" source="php_types" target="php_null"/>
+
+        <node id="php_callbacks" label="Callbacks / Callables"/>
+        <edge id="edge_php_types_callbacks" source="php_types" target="php_callbacks"/>
+
+        <node id="php_juggling" label="Type Juggling"/>
+        <edge id="edge_php_types_juggling" source="php_types" target="php_juggling"/>
+
+        <!-- SPL -->
+        <node id="php_spl_datastructures" label="Datastructures"/>
+        <edge id="edge_php_spl_datastructures" source="php_spl" target="php_spl_datastructures"/>
+
+        <node id="php_spl_iterators" label="Iterators"/>
+        <edge id="edge_php_spl_iterators" source="php_spl" target="php_spl_iterators"/>
+
+        <node id="php_spl_interfaces" label="Interfaces"/>
+        <edge id="edge_php_spl_interfaces" source="php_spl" target="php_spl_interfaces"/>
+
+        <node id="php_spl_exceptions" label="Exceptions"/>
+        <edge id="edge_php_spl_exceptions" source="php_spl" target="php_spl_exceptions"/>
+
+        <node id="php_spl_functions" label="Functions"/>
+        <edge id="edge_php_spl_functions" source="php_spl" target="php_spl_functions"/>
+
+        <node id="php_spl_files" label="File Handling"/>
+        <edge id="edge_php_spl_files" source="php_spl" target="php_spl_files"/>
+
+        <!-- Variables -->
+        <node id="php_variables_predefined" label="Predefined Variables"/>
+        <edge id="edge_php_variables_predefined" source="php_variables" target="php_variables_predefined"/>
+
+        <!-- Errors -->
+        <node id="php_errors_predefined" label="Predefined Exceptions"/>
+        <edge id="edge_php_errors_predefined" source="php_errors" target="php_errors_predefined"/>
     </graph>
 </xmlgraph>
