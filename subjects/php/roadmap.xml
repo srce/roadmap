@@ -29,6 +29,18 @@
         <node id="php_generators" label="Generators"/>
         <edge id="edge_php_generators" source="php" target="php_generators"/>
 
+        <node id="php_templates" label="Template engines"/>
+        <edge id="edge_php_templates" source="php" target="php_templates"/>
+
+        <node id="php_frameworks" label="Frameworks, CMS"/>
+        <edge id="edge_php_frameworks" source="php" target="php_frameworks"/>
+
+        <node id="php_orm" label="ORM"/>
+        <edge id="edge_php_orm" source="php" target="php_orm"/>
+
+        <node id="php_testing" label="Testing"/>
+        <edge id="edge_php_testing" source="php" target="php_testing"/>
+
         <!-- Types -->
         <node id="php_booleans" label="Booleans"/>
         <edge id="edge_php_types_booleans" source="php_types" target="php_booleans"/>

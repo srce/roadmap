@@ -347,3 +347,11 @@
 
 ### Generators
 
+### Template engines
+
+### Frameworks, CMS
+
+### ORM
+
+### Testing
+
