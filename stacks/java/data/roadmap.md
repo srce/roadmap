@@ -293,7 +293,83 @@
 
 ## Java
 
-### Core
+### Standard Edition
 
-### Java Tests
+#### Core
+
+#### Multithreading
+
+#### JVM
+
+#### JDK
+
+#### Tools
+
+### Enterprise Edition
+
+#### EJB
+
+#### Web Components
+
+#### Web Services
+
+### Enterprise Edition
+
+#### EJB
+
+#### Web Components
+
+#### Web Services
+
+### Spring Framework
+
+#### Core
+
+#### MVC
+
+#### Data
+
+#### Security
+
+#### Boot
+
+#### Cloud
+
+### Third Party Libraries
+
+#### Apache Commons
+
+#### Logging Libraries
+
+#### Json Libraries
+
+### Data Persistence (ORM)
+
+#### JPA
+
+#### Hibernate
+
+#### EclipseLink
+
+#### iBATIS/MyBatis
+
+### Databases and Data
+
+#### JDBC
+
+#### SQL Databases
+
+#### NOSQL Databases
+
+#### Caching Systems
+
+#### Queue Systems
+
+### API
+
+### Testing
+
+### Build Systems
+
+### Application Deploy
 
