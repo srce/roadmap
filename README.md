@@ -1,14 +1,11 @@
 # Engineers Roadmaps
 
-<table>
-<tr>
-<td><img src="logo.png"></td>
-<td>This project was created by engineers from <a href="https://andersenlab.com/">Andersen Software Inc</a>
+![Andersen Logo](logo.png)
+
+This project was created by engineers from [Andersen Software Inc](https://andersenlab.com/)
 which were motivated by the idea to describe the graphs of the main knowledge/skills
 of different types of engineers which in turn provides a way to develop these graphs
-by the community and by the approach which engineers prefer.</td>
-</tr>
-</table>
+by the community and by the approach which engineers prefer.
 
 ## Roadmaps
 
