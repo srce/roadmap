@@ -11,19 +11,19 @@ by the community and by the approach which engineers prefer.
 
 ### Golang
 - [SVG](stacks/go/data/roadmap.svg) and [PNG](stacks/go/data/roadmap.png) maps
-- [Materials](stacks/go/data/roadmap.svg)
+- [Materials](stacks/go/data/roadmap.md)
 - [DOT](stacks/go/data/roadmap.dot) version
 - [XML](stacks/go/roadmap.xml) and [python script](roadmap/tools/xmlgraph.py) for them
 
 ### Java
 - [SVG](stacks/java/data/roadmap.svg) and [PNG](stacks/java/data/roadmap.png) maps
-- [Materials](stacks/java/data/roadmap.svg)
+- [Materials](stacks/java/data/roadmap.md)
 - [DOT](stacks/java/data/roadmap.dot) version
 - [XML](stacks/java/roadmap.xml) and [python script](roadmap/tools/xmlgraph.py) for them
 
 ### PHP
 - [SVG](stacks/php/data/roadmap.svg) and [PNG](stacks/php/data/roadmap.png) maps
-- [Materials](stacks/php/data/roadmap.svg)
+- [Materials](stacks/php/data/roadmap.md)
 - [DOT](stacks/php/data/roadmap.dot) version
 - [XML](stacks/php/roadmap.xml) and [python script](roadmap/tools/xmlgraph.py) for them
 
