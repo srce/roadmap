@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../tools/materials.xsd">
+    <book lang="en">
+        <title>Docker in Action</title>
+        <url>https://pepa.holla.cz/wp-content/uploads/2016/10/Docker-in-Action.pdf</url>
+        <tags>
+            <tag>os_virtualization_level_docker</tag>
+        </tags>
+    </book>
 </materials>
