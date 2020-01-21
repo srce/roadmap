@@ -373,36 +373,23 @@
 
 ## Java
 
-### Standard Edition
-
-#### Core
-
-- book: [Oracle Certified Associate Java SE 8 Programmer I Study Guide (2015)](https://www.amazon.com/OCA-Certified-Associate-Programmer-1Z0-808/dp/1118957407)
-- book: [OCP: Oracle Certified Professional Java SE 8 Programmer II Study Guide (2015)](https://www.amazon.com/OCP-Certified-Professional-Programmer-2015-12-21/dp/B01A1MN0ZS)
-- book: [Java 8 Lambdas: Functional Programming For The Masses](https://www.amazon.com/Java-Lambdas-Functional-Programming-Masses/dp/1449370772)
-- book: [Java: A Beginner's Guide, Eighth Edition](https://www.amazon.com/Java-Beginners-Eighth-Herbert-Schildt/dp/1260440214)
-- book: [Java Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
-
+### Core
 
 #### Multithreading
 
+#### I/O
+
+#### Collections
+
+#### Stream API
+
+#### Reflection API
+
+### JDK
+
 #### JVM
 
-#### JDK
-
 #### Tools
-
-### Enterprise Edition
-
-- book: [Beginning Java E.E. 7 (Expert Voice in Java)](https://www.amazon.com/gp/product/143024626X)
-- book: [Java EE 7 Essentials: Enterprise Developer Handbook](https://www.amazon.com/Java-EE-Essentials-Enterprise-Developer/dp/1449370179)
-
-
-#### EJB
-
-#### Web Components
-
-#### Web Services
 
 ### Enterprise Edition
 
@@ -452,40 +439,26 @@
 
 #### Json Libraries
 
-### Data Persistence (ORM)
-
-#### JPA
-
-#### Hibernate
-
-- book: [Java Persistence API i Hibernate](https://www.amazon.com/Java-Persistence-API-i-Hibernate/dp/597060674X)
-- article: [Hibernate Getting Started Guide](https://docs.jboss.org/hibernate/orm/4.2/devguide/en-US/html_single/#d5e58)
-- book: [Hibernate in Action](
-            https://www.amazon.com/Hibernate-Action-Christian-Bauer/dp/193239415X
-        )
-
-
-#### EclipseLink
-
-#### iBATIS/MyBatis
-
-### Databases and Data
+### Data Persistence
 
 #### JDBC
 
-#### SQL Databases
+#### JPA
 
-#### NOSQL Databases
+##### Hibernate
 
-#### Caching Systems
+##### EclipseLink
 
-#### Queue Systems
+##### iBATIS/MyBatis
 
-### API
+### Testing Frameworks
 
-### Testing
+#### TestNG
 
-### Build Systems
+- book: [Oracle Certified Associate Java SE 8 Programmer I Study Guide (2015)](https://www.amazon.com/OCA-Certified-Associate-Programmer-1Z0-808/dp/1118957407)
 
-### Application Deploy
+
+#### JUnit
+
+#### Mokito
 
