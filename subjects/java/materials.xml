@@ -4,8 +4,7 @@
         <title>Oracle Certified Associate Java SE 8 Programmer I Study Guide (2015)</title>
         <url>https://www.amazon.com/OCA-Certified-Associate-Programmer-1Z0-808/dp/1118957407</url>
         <tags>
-            <tag>java_se_core</tag>
-            <tag>java_testing_testng</tag>
+            <tag>java_core</tag>
         </tags>
     </book>
 
@@ -13,7 +12,7 @@
         <title>OCP: Oracle Certified Professional Java SE 8 Programmer II Study Guide (2015)</title>
         <url>https://www.amazon.com/OCP-Certified-Professional-Programmer-2015-12-21/dp/B01A1MN0ZS</url>
         <tags>
-            <tag>java_se_core</tag>
+            <tag>java_core</tag>
         </tags>
     </book>
 
@@ -21,7 +20,7 @@
         <title>Java 8 Lambdas: Functional Programming For The Masses</title>
         <url>https://www.amazon.com/Java-Lambdas-Functional-Programming-Masses/dp/1449370772</url>
         <tags>
-            <tag>java_se_core</tag>
+            <tag>java_core</tag>
         </tags>
     </book>
 
@@ -29,7 +28,7 @@
         <title>Java: A Beginner's Guide, Eighth Edition</title>
         <url>https://www.amazon.com/Java-Beginners-Eighth-Herbert-Schildt/dp/1260440214</url>
         <tags>
-            <tag>java_se_core</tag>
+            <tag>java_core</tag>
         </tags>
     </book>
 
@@ -37,7 +36,7 @@
         <title>Java Concurrency in Practice</title>
         <url>https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601</url>
         <tags>
-            <tag>java_se_core</tag>
+            <tag>java_core</tag>
         </tags>
     </book>
 
@@ -115,7 +114,7 @@
         <title>Java Persistence API i Hibernate</title>
         <url>https://www.amazon.com/Java-Persistence-API-i-Hibernate/dp/597060674X</url>
         <tags>
-            <tag>java_orm_hibernate</tag>
+            <tag>edge_java_persistence_jpa_hibernate</tag>
         </tags>
     </book>
 
@@ -123,7 +122,7 @@
         <title>Hibernate Getting Started Guide</title>
         <url>https://docs.jboss.org/hibernate/orm/4.2/devguide/en-US/html_single/#d5e58</url>
         <tags>
-            <tag>java_orm_hibernate</tag>
+            <tag>edge_java_persistence_jpa_hibernate</tag>
         </tags>
     </article>
 
@@ -133,7 +132,7 @@
             https://www.amazon.com/Hibernate-Action-Christian-Bauer/dp/193239415X
         </url>
         <tags>
-            <tag>java_orm_hibernate</tag>
+            <tag>edge_java_persistence_jpa_hibernate</tag>
         </tags>
     </book>
 </materials>

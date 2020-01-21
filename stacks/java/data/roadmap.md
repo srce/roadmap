@@ -375,6 +375,13 @@
 
 ### Core
 
+- book: [Oracle Certified Associate Java SE 8 Programmer I Study Guide (2015)](https://www.amazon.com/OCA-Certified-Associate-Programmer-1Z0-808/dp/1118957407)
+- book: [OCP: Oracle Certified Professional Java SE 8 Programmer II Study Guide (2015)](https://www.amazon.com/OCP-Certified-Professional-Programmer-2015-12-21/dp/B01A1MN0ZS)
+- book: [Java 8 Lambdas: Functional Programming For The Masses](https://www.amazon.com/Java-Lambdas-Functional-Programming-Masses/dp/1449370772)
+- book: [Java: A Beginner's Guide, Eighth Edition](https://www.amazon.com/Java-Beginners-Eighth-Herbert-Schildt/dp/1260440214)
+- book: [Java Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
+
+
 #### Multithreading
 
 #### I/O
@@ -454,9 +461,6 @@
 ### Testing Frameworks
 
 #### TestNG
-
-- book: [Oracle Certified Associate Java SE 8 Programmer I Study Guide (2015)](https://www.amazon.com/OCA-Certified-Associate-Programmer-1Z0-808/dp/1118957407)
-
 
 #### JUnit
 
