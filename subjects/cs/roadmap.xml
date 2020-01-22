@@ -78,6 +78,9 @@
         <node id="cs_architecture_func" label="Functional Programming"/>
         <edge id="edge_cs_architecture_func" source="cs_architecture" target="cs_architecture_func"/>
 
+        <node id="cs_architecture_distributed" label="Distributed Systems"/>
+        <edge id="edge_cs_cs_architecture_distributed" source="cs_architecture" target="cs_architecture_distributed"/>
+
         <!--Object-Oriented Programming-->
         <node id="cs_architecture_oop_encapsulation" label="Encapsulation"/>
         <edge id="edge_cs_architecture_oop_encapsulation" source="cs_architecture_oop" target="cs_architecture_oop_encapsulation"/>

@@ -7,4 +7,102 @@
             <tag>cs_architecture_patterns</tag>
         </tags>
     </book>
+    
+    <book lang="en">
+        <title>Algorithms, 4th Edition</title>
+        <url>https://algs4.cs.princeton.edu/home/</url>
+        <tags>
+            <tag>cs_algorithms</tag>
+        </tags>
+    </book>
+    
+    <course lang="en">
+        <title>Algorithms, Part I</title>
+        <url>https://www.coursera.org/learn/algorithms-part1</url>
+        <tags>
+            <tag>cs_algorithms</tag>
+        </tags>
+    </course>
+
+    <course lang="en">
+        <title>Algorithms, Part II</title>
+        <url>https://www.coursera.org/learn/algorithms-part2</url>
+        <tags>
+            <tag>cs_algorithms</tag>
+        </tags>
+    </course>
+
+    <book lang="en">
+        <title>Introduction to Algorithms, Third Edition</title>
+        <url>https://mitpress.mit.edu/books/introduction-algorithms-third-edition</url>
+        <tags>
+            <tag>cs_algorithms</tag>
+        </tags>
+    </book>
+    
+    <book lang="en">
+        <title>Design Patterns: Elements of Reusable Object-Oriented Software</title>
+        <url>
+            https://www.oreilly.com/library/view/design-patterns-elements/0201633612/
+        </url>
+        <tags>
+            <tag>cs_architecture_patterns</tag>
+        </tags>
+    </book>
+    
+    <book lang="en">
+        <title>Head First Design Patterns</title>
+        <url>http://shop.oreilly.com/product/9780596007126.do</url>
+        <tags>
+            <tag>cs_architecture_patterns</tag>
+        </tags>
+    </book>
+    
+    <book lang="en">
+        <title>Designing Data-Intensive Applications</title>
+        <url>http://shop.oreilly.com/product/0636920032175.do</url>
+        <tags>
+            <tag>cs_architecture</tag>
+        </tags>
+    </book>
+    
+    <book lang="ru">
+        <title>Реактивные шаблоны проектирования</title>
+        <url>https://www.piter.com/product/reaktivnye-shablony-proektirovaniya</url>
+        <tags>
+            <tag>cs_architecture_patterns</tag>
+        </tags>
+    </book>
+    
+    <article lang="ru">
+        <title>Создание архитектуры программы или как проектировать табуретку</title>
+        <url>https://habr.com/ru/post/276593/</url>
+        <tags>
+            <tag>cs_architecture</tag>
+        </tags>
+    </article>
+    
+    <book lang="en">
+        <title>Clean Architecture</title>
+        <url>https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164</url>
+        <tags>
+            <tag>cs_architecture</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Patterns of Enterprise Application Architecture</title>
+        <url>https://www.martinfowler.com/books/eaa.html</url>
+        <tags>
+            <tag>cs_architecture</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Designing Distributed Systems</title>
+        <url>https://www.amazon.com/gp/product/1491983647</url>
+        <tags>
+            <tag>cs_architecture_distributed</tag>
+        </tags>
+    </book>
 </materials>

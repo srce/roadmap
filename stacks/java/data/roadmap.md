@@ -4,6 +4,12 @@
 
 ### Architecture knowledge
 
+- book: [Designing Data-Intensive Applications](http://shop.oreilly.com/product/0636920032175.do)
+- article: [Создание архитектуры программы или как проектировать табуретку](https://habr.com/ru/post/276593/)
+- book: [Clean Architecture](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164)
+- book: [Patterns of Enterprise Application Architecture](https://www.martinfowler.com/books/eaa.html)
+
+
 #### Microservices
 
 #### Domain-Driven Design
@@ -13,6 +19,12 @@
 #### Design Patterns
 
 - book: [Design patterns : elements of reusable object-oriented software](https://www.worldcat.org/title/design-patterns-elements-of-reusable-object-oriented-software/oclc/31171684)
+- book: [Design Patterns: Elements of Reusable Object-Oriented Software](
+            https://www.oreilly.com/library/view/design-patterns-elements/0201633612/
+        )
+- book: [Head First Design Patterns](http://shop.oreilly.com/product/9780596007126.do)
+- book: [Реактивные шаблоны проектирования](https://www.piter.com/product/reaktivnye-shablony-proektirovaniya)
+- book: [Professional Java EE Design Patterns](https://www.amazon.com/Professional-Java-EE-Design-Patterns/dp/111884341X)
 
 
 #### Event Sourcing
@@ -27,9 +39,22 @@
 
 #### Functional Programming
 
+#### Distributed Systems
+
+- book: [Designing Distributed Systems](https://www.amazon.com/gp/product/1491983647)
+
+
 ### Code Standards and Code Review Process
 
 ### Algorithms and data structures
+
+- book: [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/)
+- course: [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1)
+- course: [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2)
+- book: [Introduction to Algorithms, Third Edition](https://mitpress.mit.edu/books/introduction-algorithms-third-edition)
+- book: [Data Structures and Algorithms in Java, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Java-2nd/dp/0672324539)
+- book: [Grokking Algorithms: An illustrated guide for programmers and other curious people](https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230)
+
 
 #### Analysis
 
@@ -61,6 +86,9 @@
 
 ### SQL
 
+- book: [SQL Bible](https://www.amazon.com/SQL-Bible-Alex-Kriegel/dp/0470229063)
+
+
 ### Indexes
 
 ### Transactions
@@ -76,6 +104,9 @@
 ##### PostgreSQL
 
 ##### Oracle
+
+- book: [Oracle PL/SQL Programming: Covers Versions Through Oracle Database 12c](https://www.amazon.com/Oracle-PL-SQL-Programming-Versions/dp/1449324452)
+
 
 ##### MySQL
 
@@ -210,40 +241,39 @@
 - book: [Refactoring: Improving the Design of Existing Code](https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
 - book: [The Pragmatic Programmer: From Journeyman to Master](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
 - book: [Code Complete: A Practical Handbook of Software Construction](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)
-- book: [Code Complete: A Practical Handbook of Software Construction](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)
 - book: [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/gp/product/0132350882)
-
-
-### Paradigms and models
-
-#### Agile
-
-- article: [Manifesto for Agile Software Development](https://agilemanifesto.org)
-
-
-#### Waterfall
-
-### Methodologies and frameworks
-
-#### SCRUM
-
-#### Kanban
-
-#### Extreme Programming
-
-#### The Twelve-Factor App
-
-- article: [The Twelve-Factor App](https://12factor.net)
 
 
 ### Testing
 
 - book: [Test Driven Development: By Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)
+- article: [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
+- article: [How deep are your unit tests?](
+            https://stackoverflow.com/questions/153234/how-deep-are-your-unit-tests
+        )
+- book: [Practical Unit Testing with JUnit and Mockito](https://www.amazon.com/Practical-Unit-Testing-JUnit-Mockito/dp/8393489393)
 
 
 #### Test-driven development
 
 #### Behavior-driven development
+
+### Build Systems
+
+#### Make
+
+#### Maven
+
+- article: [Системы сборки проектов Maven](http://www.apache-maven.ru/)
+- article: [Идеальный мавен. Часть 2: структура проекта](https://habr.com/ru/post/344480/)
+
+
+#### Ant
+
+#### Gradle
+
+- book: [Gradle in Action](http://barbra-coco.dyndns.org/student/Gradle%20in%20Action.pdf)
+
 
 ### Bug tracking systems
 
@@ -254,6 +284,9 @@
 #### TFS
 
 ### Version Control
+
+- article: [4 книги о системах контроля версий, которые дадут о них полное представление](https://tproger.ru/books/4-books-about-vcs/)
+
 
 #### Git
 
@@ -266,6 +299,9 @@
 
 #### Continuous Delivery
 
+- book: [Continuous delivery. Практика непрерывных апдейтов](https://www.piter.com/product_by_id/87629352)
+
+
 ### Estimations
 
 #### Planning Poker
@@ -275,6 +311,11 @@
 #### Troubleshooting
 
 #### Logging
+
+- article: [Введение в ELK: собираем, фильтруем и анализируем большие данные](https://mkdev.me/posts/vvedenie-v-elk-sobiraem-filtruem-i-analiziruem-bolshie-dannye)
+- article: [Логирование в Java / quick start](https://habr.com/ru/post/130195/)
+- article: [Инструменты логирование в Java](https://habr.com/ru/sandbox/20634/)
+
 
 #### Monitoring
 
@@ -286,34 +327,82 @@
 
 #### Kubernetes
 
+- book: [Kubernetes in Action](https://www.manning.com/books/kubernetes-in-action)
+
+
 ### Management
 
 - book: [Goal: A Process of Ongoing Improvement](https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951)
 
 
+#### Methodologies and Frameworks
+
+- article: [Ещё раз про семь основных методологий разработки](https://habr.com/ru/company/edison/blog/269789/)
+
+
+##### SCRUM
+
+##### Kanban
+
+##### Extreme Programming
+
+##### The Twelve-Factor App
+
+- article: [The Twelve-Factor App](https://12factor.net)
+
+
+#### Paradigms and Models
+
+##### Agile
+
+- article: [Manifesto for Agile Software Development](https://agilemanifesto.org)
+
+
+##### Waterfall
+
+#### Time Management
+
+- book: [Джедайские техники](https://www.mann-ivanov-ferber.ru/books/dzhedajskie-texniki/)
+
+
+##### Pareto analysis
+
+##### Getting Things Done
+
+##### Pomodoro
+
 ## Java
 
-### Standard Edition
+### Core
 
-#### Core
+- book: [Oracle Certified Associate Java SE 8 Programmer I Study Guide (2015)](https://www.amazon.com/OCA-Certified-Associate-Programmer-1Z0-808/dp/1118957407)
+- book: [OCP: Oracle Certified Professional Java SE 8 Programmer II Study Guide (2015)](https://www.amazon.com/OCP-Certified-Professional-Programmer-2015-12-21/dp/B01A1MN0ZS)
+- book: [Java 8 Lambdas: Functional Programming For The Masses](https://www.amazon.com/Java-Lambdas-Functional-Programming-Masses/dp/1449370772)
+- book: [Java: A Beginner's Guide, Eighth Edition](https://www.amazon.com/Java-Beginners-Eighth-Herbert-Schildt/dp/1260440214)
+- book: [Java Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
+
 
 #### Multithreading
 
-#### JVM
+#### I/O
 
-#### JDK
+#### Collections
+
+#### Stream API
+
+#### Reflection API
+
+### JDK
+
+#### JVM
 
 #### Tools
 
 ### Enterprise Edition
 
-#### EJB
+- book: [Beginning Java E.E. 7 (Expert Voice in Java)](https://www.amazon.com/gp/product/143024626X)
+- book: [Java EE 7 Essentials: Enterprise Developer Handbook](https://www.amazon.com/Java-EE-Essentials-Enterprise-Developer/dp/1449370179)
 
-#### Web Components
-
-#### Web Services
-
-### Enterprise Edition
 
 #### EJB
 
@@ -322,6 +411,20 @@
 #### Web Services
 
 ### Spring Framework
+
+- video: [JUGLviv meetup: Spring Boot the Ripper](https://www.youtube.com/watch?v=8xa0RWMwAOE)
+- video: [Евгений Борисов — Spring-потрошитель, часть 1](https://www.youtube.com/watch?v=BmBr5diz8WA)
+- book: [Cloud Native Java: Designing Resilient Systems with Spring Boot,
+            Spring Cloud, and Cloud Foundry
+        ](
+            https://www.amazon.com/Cloud-Native-Java-Designing-Resilient/dp/1449374646
+        )
+- book: [Spring 4 для профессионалов | Шефер Крис, Хо Кларенс](https://www.ozon.ru/context/detail/id/33056979/)
+- book: [Spring in Action 5th Edition](https://www.amazon.com/Spring-Action-Craig-Walls/dp/1617294942
+        )
+- book: [Pro Spring](https://www.amazon.com/Pro-Spring-Clarence-Ho-ebook/dp/B014P9HJ0A
+        )
+
 
 #### Core
 
@@ -343,33 +446,23 @@
 
 #### Json Libraries
 
-### Data Persistence (ORM)
-
-#### JPA
-
-#### Hibernate
-
-#### EclipseLink
-
-#### iBATIS/MyBatis
-
-### Databases and Data
+### Data Persistence
 
 #### JDBC
 
-#### SQL Databases
+#### JPA
 
-#### NOSQL Databases
+##### Hibernate
 
-#### Caching Systems
+##### EclipseLink
 
-#### Queue Systems
+##### iBATIS/MyBatis
 
-### API
+### Testing Frameworks
 
-### Testing
+#### TestNG
 
-### Build Systems
+#### JUnit
 
-### Application Deploy
+#### Mokito
 

@@ -1,3 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../tools/materials.xsd">
+    <book lang="en">
+        <title>Oracle Certified Associate Java SE 8 Programmer I Study Guide (2015)</title>
+        <url>https://www.amazon.com/OCA-Certified-Associate-Programmer-1Z0-808/dp/1118957407</url>
+        <tags>
+            <tag>java_core</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>OCP: Oracle Certified Professional Java SE 8 Programmer II Study Guide (2015)</title>
+        <url>https://www.amazon.com/OCP-Certified-Professional-Programmer-2015-12-21/dp/B01A1MN0ZS</url>
+        <tags>
+            <tag>java_core</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Java 8 Lambdas: Functional Programming For The Masses</title>
+        <url>https://www.amazon.com/Java-Lambdas-Functional-Programming-Masses/dp/1449370772</url>
+        <tags>
+            <tag>java_core</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Java: A Beginner's Guide, Eighth Edition</title>
+        <url>https://www.amazon.com/Java-Beginners-Eighth-Herbert-Schildt/dp/1260440214</url>
+        <tags>
+            <tag>java_core</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Java Concurrency in Practice</title>
+        <url>https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601</url>
+        <tags>
+            <tag>java_core</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Beginning Java E.E. 7 (Expert Voice in Java)</title>
+        <url>https://www.amazon.com/gp/product/143024626X</url>
+        <tags>
+            <tag>java_ee</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Java EE 7 Essentials: Enterprise Developer Handbook</title>
+        <url>https://www.amazon.com/Java-EE-Essentials-Enterprise-Developer/dp/1449370179</url>
+        <tags>
+            <tag>java_ee</tag>
+        </tags>
+    </book>
+
+    <video lang="en">
+        <title>JUGLviv meetup: Spring Boot the Ripper</title>
+        <url>https://www.youtube.com/watch?v=8xa0RWMwAOE</url>
+        <tags>
+            <tag>java_spring</tag>
+        </tags>
+    </video>
+
+    <video lang="en">
+        <title>Евгений Борисов — Spring-потрошитель, часть 1</title>
+        <url>https://www.youtube.com/watch?v=BmBr5diz8WA</url>
+        <tags>
+            <tag>java_spring</tag>
+        </tags>
+    </video>
+
+    <book lang="en">
+        <title>Cloud Native Java: Designing Resilient Systems with Spring Boot,
+            Spring Cloud, and Cloud Foundry
+        </title>
+        <url>
+            https://www.amazon.com/Cloud-Native-Java-Designing-Resilient/dp/1449374646
+        </url>
+        <tags>
+            <tag>java_spring</tag>
+        </tags>
+    </book>
+
+    <book lang="ru">
+        <title>Spring 4 для профессионалов | Шефер Крис, Хо Кларенс</title>
+        <url>https://www.ozon.ru/context/detail/id/33056979/</url>
+        <tags>
+            <tag>java_spring</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Spring in Action 5th Edition</title>
+        <url>https://www.amazon.com/Spring-Action-Craig-Walls/dp/1617294942
+        </url>
+        <tags>
+            <tag>java_spring</tag>
+        </tags>
+    </book>
+    
+    <book lang="en">
+        <title>Pro Spring</title>
+        <url>https://www.amazon.com/Pro-Spring-Clarence-Ho-ebook/dp/B014P9HJ0A
+        </url>
+        <tags>
+            <tag>java_spring</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Java Persistence API i Hibernate</title>
+        <url>https://www.amazon.com/Java-Persistence-API-i-Hibernate/dp/597060674X</url>
+        <tags>
+            <tag>edge_java_persistence_jpa_hibernate</tag>
+        </tags>
+    </book>
+
+    <article lang="en">
+        <title>Hibernate Getting Started Guide</title>
+        <url>https://docs.jboss.org/hibernate/orm/4.2/devguide/en-US/html_single/#d5e58</url>
+        <tags>
+            <tag>edge_java_persistence_jpa_hibernate</tag>
+        </tags>
+    </article>
+
+    <book lang="en">
+        <title>Hibernate in Action</title>
+        <url>
+            https://www.amazon.com/Hibernate-Action-Christian-Bauer/dp/193239415X
+        </url>
+        <tags>
+            <tag>edge_java_persistence_jpa_hibernate</tag>
+        </tags>
+    </book>
 </materials>

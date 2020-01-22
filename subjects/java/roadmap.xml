@@ -6,11 +6,11 @@
         <node id="java" label="Java"/>
 
         <!-- java -->
-        <node id="java_se" label="Standard Edition"/>
-        <edge id="edge_java_se" source="java" target="java_se"/>
+        <node id="java_core" label="Core"/>
+        <edge id="edge_java_core" source="java" target="java_core"/>
 
-        <node id="java_ee" label="Enterprise Edition"/>
-        <edge id="edge_java_ee" source="java" target="java_ee"/>
+        <node id="java_jdk" label="JDK"/>
+        <edge id="edge_java_jdk" source="java" target="java_jdk"/>
 
         <node id="java_ee" label="Enterprise Edition"/>
         <edge id="edge_java_ee" source="java" target="java_ee"/>
@@ -21,39 +21,34 @@
         <node id="java_3d_part" label="Third Party Libraries"/>
         <edge id="edge_java_3d_part" source="java" target="java_3d_part"/>
 
-        <node id="java_orm" label="Data Persistence (ORM)"/>
-        <edge id="edge_java_orm" source="java" target="java_orm"/>
+        <node id="java_persistence" label="Data Persistence"/>
+        <edge id="edge_java_persistence" source="java" target="java_persistence"/>
 
-        <node id="java_db" label="Databases and Data"/>
-        <edge id="edge_java_db" source="java" target="java_db"/>
-
-        <node id="java_api" label="API"/>
-        <edge id="edge_java_api" source="java" target="java_api"/>
-
-        <node id="java_testing" label="Testing"/>
+        <node id="java_testing" label="Testing Frameworks"/>
         <edge id="edge_java_testing" source="java" target="java_testing"/>
 
-        <node id="java_build" label="Build Systems"/>
-        <edge id="edge_java_build" source="java" target="java_build"/>
+        <!-- Java Core-->
+        <node id="java_core_multithreading" label="Multithreading"/>
+        <edge id="edge_java_core_multithreading" source="java_core" target="java_core_multithreading"/>
 
-        <node id="java_deploy" label="Application Deploy"/>
-        <edge id="edge_java_deploy" source="java" target="java_deploy"/>
+        <node id="java_core_io" label="I/O"/>
+        <edge id="edge_java_core_io" source="java_core" target="java_core_io"/>
 
-        <!-- Java SE Development -->
-        <node id="java_se_core" label="Core"/>
-        <edge id="edge_java_se_core" source="java_se" target="java_se_core"/>
+        <node id="java_core_collections" label="Collections"/>
+        <edge id="edge_java_core_collections" source="java_core" target="java_core_collections"/>
 
-        <node id="java_se_multithreading" label="Multithreading"/>
-        <edge id="edge_java_se_multithreading" source="java_se" target="java_se_multithreading"/>
+        <node id="java_core_stream_api" label="Stream API"/>
+        <edge id="edge_java_core_stream_api" source="java_core" target="java_core_stream_api"/>
 
-        <node id="java_se_jvm" label="JVM"/>
-        <edge id="edge_java_se_jvm" source="java_se" target="java_se_jvm"/>
+        <node id="java_core_reflection_api" label="Reflection API"/>
+        <edge id="edge_java_core_reflection_api" source="java_core" target="java_core_reflection_api"/>
 
-        <node id="java_se_jdk" label="JDK"/>
-        <edge id="edge_java_se_jdk" source="java_se" target="java_se_jdk"/>
+        <!-- JDK -->
+        <node id="java_jdk_jvm" label="JVM"/>
+        <edge id="edge_java_jdk_jvm" source="java_jdk" target="java_jdk_jvm"/>
 
-        <node id="java_se_tools" label="Tools"/>
-        <edge id="edge_java_se_tools" source="java_se" target="java_se_tools"/>
+        <node id="java_jdk_tools" label="Tools"/>
+        <edge id="edge_java_jdk_tools" source="java_jdk" target="java_jdk_tools"/>
 
         <!-- Java EE Development -->
         <node id="java_ee_ejb" label="EJB"/>
@@ -94,33 +89,31 @@
         <node id="java_3d_part_json" label="Json Libraries"/>
         <edge id="edge_java_3d_part_json" source="java_3d_part" target="java_3d_part_json"/>
 
-        <!-- Data Persistence (ORM) -->
-        <node id="java_orm_jpa" label="JPA"/>
-        <edge id="edge_java_orm_jpa" source="java_orm" target="java_orm_jpa"/>
+        <!-- Data Persistence -->
+        <node id="java_persistence_jdbc" label="JDBC"/>
+        <edge id="edge_java_persistence_jdbc" source="java_persistence" target="java_persistence_jdbc"/>
 
-        <node id="java_orm_hibernate" label="Hibernate"/>
-        <edge id="edge_java_orm_hibernate" source="java_orm" target="java_orm_hibernate"/>
+        <node id="java_persistence_jpa" label="JPA"/>
+        <edge id="edge_java_persistence_jpa" source="java_persistence" target="java_persistence_jpa"/>
 
-        <node id="java_orm_eclipselink" label="EclipseLink"/>
-        <edge id="edge_java_orm_eclipselink" source="java_orm" target="java_orm_eclipselink"/>
+        <!-- JPA -->
+        <node id="java_persistence_jpa_hibernate" label="Hibernate"/>
+        <edge id="edge_java_persistence_jpa_hibernate" source="java_persistence_jpa" target="java_persistence_jpa_hibernate"/>
 
-        <node id="java_orm_batis" label="iBATIS/MyBatis"/>
-        <edge id="edge_java_orm_batis" source="java_orm" target="java_orm_batis"/>
+        <node id="java_persistence_jpa_eclipselink" label="EclipseLink"/>
+        <edge id="edge_java_persistence_jpa_eclipselink" source="java_persistence_jpa" target="java_persistence_jpa_eclipselink"/>
 
-        <!-- Databases and Data -->
-        <node id="java_db_jdbc" label="JDBC"/>
-        <edge id="edge_java_db_jdbc" source="java_db" target="java_db_jdbc"/>
+        <node id="java_persistence_jpa_batis" label="iBATIS/MyBatis"/>
+        <edge id="edge_java_persistence_jpa_batis" source="java_persistence_jpa" target="java_persistence_jpa_batis"/>
 
-        <node id="java_db_sql" label="SQL Databases"/>
-        <edge id="edge_java_db_sql" source="java_db" target="java_db_sql"/>
+        <!-- Testing -->
+        <node id="java_testing_testng" label="TestNG"/>
+        <edge id="edge_java_testing_testng" source="java_testing" target="java_testing_testng"/>
 
-        <node id="java_db_nosql" label="NOSQL Databases"/>
-        <edge id="edge_java_db_nosql" source="java_db" target="java_db_nosql"/>
+        <node id="java_testing_junit" label="JUnit"/>
+        <edge id="edge_java_testing_junit" source="java_testing" target="java_testing_junit"/>
 
-        <node id="java_db_caching" label="Caching Systems"/>
-        <edge id="edge_java_db_caching" source="java_db" target="java_db_caching"/>
-
-        <node id="java_db_queue" label="Queue Systems"/>
-        <edge id="edge_java_db_queue" source="java_db" target="java_db_queue"/>
+        <node id="java_testing_mokito" label="Mokito"/>
+        <edge id="edge_java_testing_mokito" source="java_testing" target="java_testing_mokito"/>
     </graph>
 </xmlgraph>
