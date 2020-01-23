@@ -7,4 +7,44 @@
             <tag>os_virtualization_level_docker</tag>
         </tags>
     </book>
+    
+    <book lang="en">
+        <title>Modern Operating Systems (4th Edition)</title>
+        <url>https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X</url>
+        <tags>
+            <tag>os</tag>
+        </tags>
+    </book>
+    
+    <book lang="en">
+        <title>Operating System Concepts, Tenth Edition</title>
+        <url>http://os-book.com/OS10/index.html</url>
+        <tags>
+            <tag>os</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Operating Systems, 3rd Edition</title>
+        <url>https://www.amazon.com/Operating-Systems-3rd-Harvey-Deitel/dp/0131828274</url>
+        <tags>
+            <tag>os</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Operating Systems, 3rd Edition</title>
+        <url>https://www.amazon.com/Operating-Systems-3rd-Harvey-Deitel/dp/0131828274</url>
+        <tags>
+            <tag>os</tag>
+        </tags>
+    </book>
+    
+    <video lang="en">
+        <title>Files and File Systems: Crash Course Computer Science #20</title>
+        <url>https://www.youtube.com/watch?v=KN8YgJnShPM</url>
+        <tags>
+            <tag>os_filesystem</tag>
+        </tags>
+    </video>
 </materials>

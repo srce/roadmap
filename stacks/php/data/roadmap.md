@@ -206,9 +206,33 @@
 
 ## Operating System
 
-### Virtual Memory
+### Types
 
-### Threads
+#### Batch
+
+#### Time-Sharing
+
+#### Distributed
+
+#### Network
+
+#### Real-Time
+
+### Processes and Threads
+
+#### Threads
+
+#### Scheduling
+
+#### Multi-Threading
+
+### Memory Management
+
+#### Virtual Memory
+
+#### Virtual Memory
+
+### File system
 
 ### I/O
 
@@ -218,12 +242,6 @@
 
 ##### Docker
 
-##### Nanobox
-
-##### Deis
-
-##### Apache Mesos
-
 #### x86 Virtualization
 
 ##### VirtualBox
@@ -231,6 +249,10 @@
 ##### VMware
 
 ### Command Language
+
+#### Bash
+
+#### Zsh
 
 ## Software Development Processes
 

@@ -122,8 +122,6 @@
         <node id="go_concurrency_patterns" label="Patterns"/>
         <edge id="edge_go_concurrency_patterns" source="go_concurrency" target="go_concurrency_patterns"/>
 
-        <edge id="edge_go_threads" source="go_concurrency" target="os_threads"/>
-
         <!--Tools-->
         <node id="go_tool_fmt" label="gofmt"/>
         <edge id="edge_go_tool_fmt" source="go_tools" target="go_tool_fmt"/>
