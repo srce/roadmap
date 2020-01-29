@@ -6,11 +6,17 @@
         <node id="os" label="Operating System"/>
 
         <!--Operating System-->
-        <node id="os_virtual_memory" label="Virtual Memory"/>
-        <edge id="edge_os_virtual_memory" source="os" target="os_virtual_memory"/>
+        <node id="os_types" label="Types"/>
+        <edge id="edge_os_types" source="os" target="os_types"/>
 
-        <node id="os_threads" label="Threads"/>
-        <edge id="edge_os_threads" source="os" target="os_threads"/>
+        <node id="os_processes" label="Processes and Threads"/>
+        <edge id="edge_os_processes" source="os" target="os_processes"/>
+
+        <node id="os_memory" label="Memory Management"/>
+        <edge id="edge_os_memory" source="os" target="os_memory"/>
+
+        <node id="os_filesystem" label="File system"/>
+        <edge id="edge_os_filesystem" source="os" target="os_filesystem"/>
 
         <node id="os_io" label="I/O"/>
         <edge id="edge_os_io" source="os" target="os_io"/>
@@ -20,6 +26,40 @@
 
         <node id="os_shell" label="Command Language"/>
         <edge id="edge_os_shell" source="os" target="os_shell"/>
+
+        <!-- I/O -->
+        <node id="os_memory_virtual" label="Virtual Memory"/>
+        <edge id="edge_os_memory_virtual" source="os_memory" target="os_memory_virtual"/>
+
+        <!-- Memory Management -->
+        <node id="os_memory_virtual" label="Virtual Memory"/>
+        <edge id="edge_os_memory_virtual" source="os_memory" target="os_memory_virtual"/>
+
+        <!-- Types -->
+        <node id="os_types_batch" label="Batch"/>
+        <edge id="edge_os_types_batch" source="os_types" target="os_types_batch"/>
+
+        <node id="os_types_time_sharing" label="Time-Sharing"/>
+        <edge id="edge_os_types_time_sharing" source="os_types" target="os_types_time_sharing"/>
+
+        <node id="os_types_distributed" label="Distributed"/>
+        <edge id="edge_os_types_distributed" source="os_types" target="os_types_distributed"/>
+
+        <node id="os_types_network" label="Network"/>
+        <edge id="edge_os_types_network" source="os_types" target="os_types_network"/>
+
+        <node id="os_types_realtime" label="Real-Time"/>
+        <edge id="edge_os_types_realtime" source="os_types" target="os_types_realtime"/>
+
+        <!-- Processes -->
+        <node id="os_processes_threads" label="Threads"/>
+        <edge id="edge_os_processes_threads" source="os_processes" target="os_processes_threads"/>
+
+        <node id="os_processes_scheduling" label="Scheduling"/>
+        <edge id="edge_os_processes_scheduling" source="os_processes" target="os_processes_scheduling"/>
+
+        <node id="os_processes_multithreading" label="Multi-Threading"/>
+        <edge id="edge_os_processes_multithreading" source="os_processes" target="os_processes_multithreading"/>
 
         <!--Virtualization-->
         <node id="os_virtualization_level" label="OS-level Virtualisation"/>
@@ -32,20 +72,18 @@
         <node id="os_virtualization_level_docker" label="Docker"/>
         <edge id="edge_os_virtualization_level_docker" source="os_virtualization_level" target="os_virtualization_level_docker"/>
 
-        <node id="os_virtualization_level_nanobox" label="Nanobox"/>
-        <edge id="edge_os_virtualization_level_nanobox" source="os_virtualization_level" target="os_virtualization_level_nanobox"/>
-
-        <node id="os_virtualization_level_deis" label="Deis"/>
-        <edge id="edge_os_virtualization_level_deis" source="os_virtualization_level" target="os_virtualization_level_deis"/>
-
-        <node id="os_virtualization_level_mesos" label="Apache Mesos"/>
-        <edge id="edge_os_virtualization_level_mesos" source="os_virtualization_level" target="os_virtualization_level_mesos"/>
-
         <!--x86 Virtualization-->
         <node id="os_virtualization_x86_virtualbox" label="VirtualBox"/>
         <edge id="edge_os_virtualization_x86_virtualbox" source="os_virtualization_x86" target="os_virtualization_x86_virtualbox"/>
 
         <node id="os_virtualization_x86_vmware" label="VMware"/>
         <edge id="edge_os_virtualization_x86_vmware" source="os_virtualization_x86" target="os_virtualization_x86_vmware"/>
+
+        <!-- Command Language -->
+        <node id="os_shell_bash" label="Bash"/>
+        <edge id="edge_os_shell_bash" source="os_shell" target="os_shell_bash"/>
+
+        <node id="os_shell_zsh" label="Zsh"/>
+        <edge id="edge_os_shell_zsh" source="os_shell" target="os_shell_zsh"/>
     </graph>
 </xmlgraph>
