@@ -17,7 +17,7 @@ Skill Matrix allows to compile a roadmap in a XML syntax, visualize it in form o
 
 ## Scope of Initial Release
 
-###Skill Matrix includes
+### Skill Matrix includes
 - A collection of Subject Roadmaps, described in custom XMLgraph notation.
 - A collection of learning Materials for subjects, described in XMLgraph notation.
 - A collection of Stack Roadmaps, which specify relevant subjects for the stacks:
