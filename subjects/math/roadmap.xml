@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../../tools/xmlgraph.xsd"
+>
+    <graph id="go">
+        <node id="math" label="Mathematics"/>
+
+        <!--Mathematics-->
+        <node id="math_algebra" label="Algebra"/>
+        <edge id="edge_math_algebra" source="math" target="math_algebra"/>
+
+        <node id="math_calculus" label="Calculus and Analysis"/>
+        <edge id="edge_math_calculus" source="math" target="math_calculus"/>
+
+        <node id="math_geometry" label="Geometry and Topology"/>
+        <edge id="edge_math_geometry" source="math" target="math_geometry"/>
+
+        <node id="math_combinatorics" label="Combinatorics"/>
+        <edge id="edge_math_combinatorics" source="math" target="math_combinatorics"/>
+
+        <node id="math_logic" label="Logic"/>
+        <edge id="edge_math_logic" source="math" target="math_logic"/>
+
+        <node id="math_number_theory" label="Number Theory"/>
+        <edge id="edge_math_number_theory" source="math" target="math_number_theory"/>
+
+        <node id="math_number_dsde" label="Dynamical Systems and Differential Equation"/>
+        <edge id="edge_mmath_number_dsde" source="math" target="math_number_dsde"/>
+
+        <node id="math_physics" label="Mathematical Physics"/>
+        <edge id="edge_math_physics" source="math" target="math_physics"/>
+
+        <node id="math_computation" label="Computation"/>
+        <edge id="edge_math_computation" source="math" target="math_computation"/>
+
+        <node id="math_itsp" label="Information Theory and Signal Processing"/>
+        <edge id="edge_math_itsp" source="math" target="math_itsp"/>
+
+        <node id="math_statistics" label="Probability and Statistics"/>
+        <edge id="edge_math_statistics" source="math" target="math_statistics"/>
+
+        <node id="math_game_theory" label="Game Theory"/>
+        <edge id="edge_math_game_theory" source="math" target="math_game_theory"/>
+
+        <node id="math_operations_research" label="Operations Research"/>
+        <edge id="edge_math_operations_research" source="math" target="math_operations_research"/>
+    </graph>
+</xmlgraph>
