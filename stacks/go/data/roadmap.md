@@ -399,50 +399,20 @@
 
 ### Types
 
-#### Text
+#### Strings/Runes/Bytes
 
 - article: [The Go Blog - Strings, bytes, runes and characters in Go](https://blog.golang.org/strings)
 
 
-##### Strings
-
-- article: [How to efficiently concatenate strings in Go?](https://stackoverflow.com/questions/1760757/how-to-efficiently-concatenate-strings-in-go)
-- article: [How do you write multiline strings in Go?](https://stackoverflow.com/questions/7933460/how-do-you-write-multiline-strings-in-go)
-- article: [Format a Go string without printing?](https://stackoverflow.com/questions/11123865/format-a-go-string-without-printing)
-
-
-##### Runes
-
-##### Bytes
-
-#### Numbers
-
-##### Integers
-
-##### Unsigned Integers
-
-##### Floating-point Numbers
-
-#### Collections
-
-##### Array
-
-##### Slice
-
-- article: [The Go Blog - Go Slices: usage and internals](https://blog.golang.org/go-slices-usage-and-internals)
-- article: [Delete element in a slice](https://stackoverflow.com/questions/25025409/delete-element-in-a-slice)
-- article: [The Go Blog - Share Memory By Communicating](https://blog.golang.org/share-memory-by-communicating)
-- article: [The Go Blog - Arrays, slices (and strings): The mechanics of 'append'](https://blog.golang.org/slices)
-- article: [Concatenate two slices in Go](https://stackoverflow.com/questions/16248241/concatenate-two-slices-in-go)
-
-
-##### Map
-
-- article: [The Go Blog - Go maps in action](https://blog.golang.org/go-maps-in-action)
-- article: [How to check if a map contains a key in Go?](https://stackoverflow.com/questions/2050391/how-to-check-if-a-map-contains-a-key-in-go)
-
+#### Integers/Unsigned/Floating-point
 
 #### Pointer
+
+#### Array/Slice
+
+#### Maps
+
+#### Interface
 
 #### Constants
 
@@ -450,24 +420,25 @@
 - article: [What is an idiomatic way of representing enums in Go?](https://stackoverflow.com/questions/14426366/what-is-an-idiomatic-way-of-representing-enums-in-go)
 
 
-#### Interface
+#### Object-Oriented Programming
 
-#### Error
+##### struct
 
-- article: [The Go Blog - Error handling and Go](https://blog.golang.org/error-handling-and-go)
-- article: [The Go Blog - Errors are values](https://blog.golang.org/errors-are-values)
+##### Encapsulation
 
+##### Inheritance/Composition/Embedding
+
+##### Polymorphism
+
+#### Conversion/Checking
 
 ### Functions
 
-#### init
+#### Lambda/Variadic
 
-- article: [When is the init() function run?](https://stackoverflow.com/questions/24790175/when-is-the-init-function-run)
+#### init/main
 
-
-#### Closure
-
-#### Recursion
+#### Closure/Recursion
 
 #### Panic
 
@@ -479,10 +450,7 @@
 - article: [The Go Blog - Defer, Panic, and Recover](https://blog.golang.org/defer-panic-and-recover)
 
 
-#### Defer
-
-- article: [The Go Blog - Defer, Panic, and Recover](https://blog.golang.org/defer-panic-and-recover)
-
+#### Panic/Recover/Defer
 
 #### First-class function
 
@@ -507,7 +475,19 @@
 - article: [The Go Blog - Introducing the Go Race Detector](https://blog.golang.org/race-detector)
 
 
-#### Mutex
+#### Package sync
+
+##### Mutex
+
+##### atomic
+
+##### WaitGroup
+
+##### Once
+
+##### Pool
+
+##### Map
 
 #### Patterns
 
@@ -515,6 +495,14 @@
 - article: [The Go Blog - Go Concurrency Patterns: Context](https://blog.golang.org/context)
 - article: [The Go Blog - Advanced Go Concurrency Patterns](https://blog.golang.org/advanced-go-concurrency-patterns)
 
+
+##### Worker Pool (Thread pool)
+
+##### Pipeline
+
+##### Barrier
+
+##### Future
 
 ### Tools
 
@@ -532,8 +520,6 @@
 - article: [vet](https://golang.org/cmd/vet/)
 
 
-#### test
-
 #### godoc
 
 #### pprof
@@ -543,46 +529,63 @@
 - article: [Go code refactoring : the 23x performance hunt](https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7)[[ru](https://habr.com/ru/company/badoo/blog/415919/)]
 
 
-#### Modules
+#### Dependencies Management
 
-- article: [Modules](https://github.com/golang/go/wiki/Modules)
-- article: [The Go Blog - Using Go Modules](https://blog.golang.org/using-go-modules)
+##### mod
 
+##### dep
 
-#### GolangCI
+#### Linters (GolangCI, golint and etc)
 
 ### Testing
 
-### Real-time
+#### go test/benchmark
+
+#### Mocking
+
+#### Libraries and Frameworks
+
+##### testify
+
+##### ginkgo
+
+##### goconvey
+
+### Runtime
 
 #### Garbage Collector
 
-- article: [Modern garbage collection](https://blog.plan99.net/modern-garbage-collection-911ef4f8bd8e)[[ru](https://habr.com/ru/company/mailru/blog/318504/)]
-- article: [The Go Blog - Go GC: Prioritizing low latency and simplicity](https://blog.golang.org/go15gc)
-- article: [The Go Blog - Getting to Go: The Journey of Go's Garbage Collector](https://blog.golang.org/ismmkeynote)
-
-
 #### Scheduler
-
-- article: [Go scheduler: Ms, Ps & Gs](https://povilasv.me/go-scheduler/)
-
 
 #### Package unsafe
 
+#### Package reflect
+
+### Application
+
+#### Errors handling
+
 #### Templates
 
-#### Logging
+#### Context
 
-- article: [Введение в ELK: собираем, фильтруем и анализируем большие данные](https://mkdev.me/posts/vvedenie-v-elk-sobiraem-filtruem-i-analiziruem-bolshie-dannye)
+#### WebSocket
 
+#### protobuf/gRPC
 
-### Web Application
+#### Encoding
 
-### Object-Oriented Programming
+##### JSON
 
-#### Encapsulation
+##### XML
 
-#### Inheritance
+#### Frameworks
 
-#### Polymorphism
+##### Gin
+
+##### Beego
+
+##### Echo
+
+##### Go-Kit
 
