@@ -77,7 +77,13 @@
 
 ### Systems Programming
 
-### Testing processes
+### Artificial Intelligence and Machine Learning
+
+### Hardware
+
+### Security and Encryption
+
+### Blockchain and Cryptocurrency
 
 ## Databases
 
@@ -389,45 +395,47 @@
 
 ## PHP
 
-### Types
+### Core
 
-#### Booleans
+#### Types
 
-#### Integers
+##### Booleans
 
-#### Floating point numbers
+##### Integers
 
-#### Strings
+##### Floating point numbers
 
-#### Arrays
+##### Strings
 
-#### Iterables
+##### Arrays
 
-#### Objects
+##### Iterables
 
-#### Resources
+##### Objects
 
-#### NULL
+##### Resources
 
-#### Callbacks / Callables
+##### NULL
 
-#### Type Juggling
+##### Callbacks / Callables
 
-### Variables
+##### Type Juggling
 
-#### Predefined Variables
+#### Variables
 
-### Functions
+##### Predefined Variables
 
-### Classes and Objects
+#### Functions
 
-### Errors and Exceptions
+#### Classes and Objects
 
-#### Predefined Exceptions
+#### Errors and Exceptions
 
-### Namespaces
+##### Predefined Exceptions
 
-### Standard PHP Library (SPL)
+#### Namespaces
+
+### Standard PHP Library
 
 #### Datastructures
 
@@ -445,9 +453,11 @@
 
 ### Template engines
 
+#### Smarty
+
 ### Frameworks, CMS
 
 ### ORM
 
-### Testing
+### Testing Frameworks
 

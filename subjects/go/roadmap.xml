@@ -21,75 +21,62 @@
         <node id="go_testing" label="Testing"/>
         <edge id="edge_go_testing" source="go" target="go_testing"/>
 
-        <node id="go_realtime" label="Real-time"/>
-        <edge id="edge_go_realtime" source="go" target="go_realtime"/>
+        <node id="go_runtime" label="Runtime"/>
+        <edge id="edge_go_runtime" source="go" target="go_runtime"/>
 
-        <node id="go_app" label="Web Application"/>
+        <node id="go_app" label="Application"/>
         <edge id="edge_go_app" source="go" target="go_app"/>
 
-        <edge id="edge_go_architecture_oop" source="go" target="cs_architecture_oop"/>
-
         <!--Go Types-->
-        <node id="go_types_text" label="Text"/>
+        <node id="go_types_text" label="Strings/Runes/Bytes"/>
         <edge id="edge_go_types_text" source="go_types" target="go_types_text"/>
 
-        <node id="go_types_numbers" label="Numbers"/>
+        <node id="go_types_numbers" label="Integers/Unsigned/Floating-point"/>
         <edge id="edge_go_types_numbers" source="go_types" target="go_types_numbers"/>
-
-        <node id="go_types_collections" label="Collections"/>
-        <edge id="edge_go_types_collections" source="go_types" target="go_types_collections"/>
 
         <node id="go_types_pointer" label="Pointer"/>
         <edge id="edge_go_types_pointer" source="go_types" target="go_types_pointer"/>
 
-        <node id="go_types_constants" label="Constants"/>
-        <edge id="edge_go_types_constants" source="go_types" target="go_types_constants"/>
+        <node id="go_types_array" label="Array/Slice"/>
+        <edge id="edge_go_types_array" source="go_types" target="go_types_array"/>
+
+        <node id="go_types_maps" label="Maps"/>
+        <edge id="edge_go_types_maps" source="go_types" target="go_types_maps"/>
 
         <node id="go_types_interface" label="Interface"/>
         <edge id="edge_go_types_interface" source="go_types" target="go_types_interface"/>
 
-        <node id="go_types_error" label="Error"/>
-        <edge id="edge_go_types_error" source="go_types" target="go_types_error"/>
+        <node id="go_types_constants" label="Constants"/>
+        <edge id="edge_go_types_constants" source="go_types" target="go_types_constants"/>
 
-        <!--Text Types-->
-        <node id="go_types_text_strings" label="Strings"/>
-        <edge id="edge_go_types_text_strings" source="go_types_text" target="go_types_text_strings"/>
+        <node id="go_types_oop" label="Object-Oriented Programming"/>
+        <edge id="edge_go_types_oop" source="go_types" target="go_types_oop"/>
 
-        <node id="go_types_text_runes" label="Runes"/>
-        <edge id="edge_go_types_text_runes" source="go_types_text" target="go_types_text_runes"/>
+        <node id="go_types_conversion" label="Conversion/Checking"/>
+        <edge id="edge_go_types_conversion" source="go_types" target="go_types_conversion"/>
 
-        <node id="go_types_text_bytes" label="Bytes"/>
-        <edge id="edge_go_types_text_bytes" source="go_types_text" target="go_types_text_bytes"/>
+        <!-- Object-Oriented Programming -->
+        <node id="go_types_oop_struct" label="struct"/>
+        <edge id="edge_go_types_oop_struct" source="go_types_oop" target="go_types_oop_struct"/>
 
-        <!--Numbers Types-->
-        <node id="go_types_numbers_int" label="Integers"/>
-        <edge id="edge_go_types_numbers_int" source="go_types_numbers" target="go_types_numbers_int"/>
+        <node id="go_types_oop_encapsulation" label="Encapsulation"/>
+        <edge id="edge_go_types_oop_encapsulation" source="go_types_oop" target="go_types_oop_encapsulation"/>
 
-        <node id="go_types_numbers_uint" label="Unsigned Integers"/>
-        <edge id="edge_go_types_numbers_uint" source="go_types_numbers" target="go_types_numbers_uint"/>
+        <node id="go_types_oop_inheritance" label="Inheritance/Composition/Embedding"/>
+        <edge id="edge_go_types_oop_inheritance" source="go_types_oop" target="go_types_oop_inheritance"/>
 
-        <node id="go_types_numbers_float" label="Floating-point Numbers"/>
-        <edge id="edge_go_types_numbers_float" source="go_types_numbers" target="go_types_numbers_float"/>
+        <node id="go_types_oop_polymorphism" label="Polymorphism"/>
+        <edge id="edge_go_types_oop_polymorphism" source="go_types_oop" target="go_types_oop_polymorphism"/>
 
-        <!--collections Types-->
-        <node id="go_types_collections_array" label="Array"/>
-        <edge id="edge_go_types_collections_array" source="go_types_collections" target="go_types_collections_array"/>
+        <!-- Function -->
+        <node id="go_function_types" label="Lambda/Variadic"/>
+        <edge id="edge_go_function_types" source="go_function" target="go_function_types"/>
 
-        <node id="go_types_slice" label="Slice"/>
-        <edge id="edge_go_types_slice" source="go_types_collections" target="go_types_slice"/>
+        <node id="go_function_special" label="init/main"/>
+        <edge id="edge_go_function_special" source="go_function" target="go_function_special"/>
 
-        <node id="go_types_collections_map" label="Map"/>
-        <edge id="edge_go_types_collections_map" source="go_types_collections" target="go_types_collections_map"/>
-
-        <!--Function-->
-        <node id="go_function_init" label="init"/>
-        <edge id="edge_go_function_init" source="go_function" target="go_function_init"/>
-
-        <node id="go_function_closure" label="Closure"/>
+        <node id="go_function_closure" label="Closure/Recursion"/>
         <edge id="edge_go_function_closure" source="go_function" target="go_function_closure"/>
-
-        <node id="go_function_recursion" label="Recursion"/>
-        <edge id="edge_go_function_recursion" source="go_function" target="go_function_recursion"/>
 
         <node id="go_function_panic" label="Panic"/>
         <edge id="edge_go_function_panic" source="go_function" target="go_function_panic"/>
@@ -97,8 +84,8 @@
         <node id="go_function_recover" label="Recover"/>
         <edge id="edge_go_function_recover" source="go_function" target="go_function_recover"/>
 
-        <node id="go_function_defer" label="Defer"/>
-        <edge id="edge_go_function_defer" source="go_function" target="go_function_defer"/>
+        <node id="go_function_behavior" label="Panic/Recover/Defer"/>
+        <edge id="edge_go_function_behavior" source="go_function" target="go_function_behavior"/>
 
         <node id="go_function_firstclass" label="First-class function"/>
         <edge id="edge_go_function_firstclass" source="go_function" target="go_function_firstclass"/>
@@ -116,11 +103,43 @@
         <node id="go_concurrency_race" label="Race Condition"/>
         <edge id="edge_go_concurrency_race" source="go_concurrency" target="go_concurrency_race"/>
 
-        <node id="go_concurrency_mutex" label="Mutex"/>
-        <edge id="edge_go_concurrency_mutex" source="go_concurrency" target="go_concurrency_mutex"/>
+        <node id="go_concurrency_sync" label="Package sync"/>
+        <edge id="edge_go_concurrency_sync" source="go_concurrency" target="go_concurrency_sync"/>
 
         <node id="go_concurrency_patterns" label="Patterns"/>
         <edge id="edge_go_concurrency_patterns" source="go_concurrency" target="go_concurrency_patterns"/>
+
+        <!-- Package sync -->
+        <node id="go_concurrency_sync_mutex" label="Mutex"/>
+        <edge id="edge_go_concurrency_sync_mutex" source="go_concurrency_sync" target="go_concurrency_sync_mutex"/>
+
+        <node id="go_concurrency_sync_atomic" label="atomic"/>
+        <edge id="edge_go_concurrency_sync_atomic" source="go_concurrency_sync" target="go_concurrency_sync_atomic"/>
+
+        <node id="go_concurrency_sync_waitgroup" label="WaitGroup"/>
+        <edge id="edge_go_concurrency_sync_waitgroup" source="go_concurrency_sync" target="go_concurrency_sync_waitgroup"/>
+
+        <node id="go_concurrency_sync_once" label="Once"/>
+        <edge id="edge_go_concurrency_sync_once" source="go_concurrency_sync" target="go_concurrency_sync_once"/>
+
+        <node id="go_concurrency_sync_pool" label="Pool"/>
+        <edge id="edge_go_concurrency_sync_pool" source="go_concurrency_sync" target="go_concurrency_sync_pool"/>
+
+        <node id="go_concurrency_sync_map" label="Map"/>
+        <edge id="edge_go_concurrency_sync_map" source="go_concurrency_sync" target="go_concurrency_sync_map"/>
+
+        <!-- Package sync -->
+        <node id="go_concurrency_patterns_workerpool" label="Worker Pool (Thread pool)"/>
+        <edge id="edge_go_concurrency_patterns_workerpool" source="go_concurrency_patterns" target="go_concurrency_patterns_workerpool"/>
+
+        <node id="go_concurrency_patterns_pipeline" label="Pipeline"/>
+        <edge id="edge_go_concurrency_patterns_pipeline" source="go_concurrency_patterns" target="go_concurrency_patterns_pipeline"/>
+
+        <node id="go_concurrency_patterns_barrier" label="Barrier"/>
+        <edge id="edge_go_concurrency_patterns_barrier" source="go_concurrency_patterns" target="go_concurrency_patterns_barrier"/>
+
+        <node id="go_concurrency_patterns_future" label="Future"/>
+        <edge id="edge_go_concurrency_patterns_future" source="go_concurrency_patterns" target="go_concurrency_patterns_future"/>
 
         <!--Tools-->
         <node id="go_tool_fmt" label="gofmt"/>
@@ -129,35 +148,98 @@
         <node id="go_tool_vet" label="vet"/>
         <edge id="edge_go_tool_vet" source="go_tools" target="go_tool_vet"/>
 
-        <node id="go_tool_test" label="test"/>
-        <edge id="edge_go_tool_test" source="go_tools" target="go_tool_test"/>
-
         <node id="go_tool_doc" label="godoc"/>
         <edge id="edge_go_tool_doc" source="go_tools" target="go_tool_doc"/>
 
         <node id="go_tool_pprof" label="pprof"/>
         <edge id="edge_go_tool_pprof" source="go_tools" target="go_tool_pprof"/>
 
-        <node id="go_tool_modules" label="Modules"/>
-        <edge id="edge_go_tool_modules" source="go_tools" target="go_tool_modules"/>
+        <node id="go_tool_dependencies" label="Dependencies Management"/>
+        <edge id="edge_go_tool_dependencies" source="go_tools" target="go_tool_dependencies"/>
 
-        <node id="go_tool_golangci" label="GolangCI"/>
-        <edge id="edge_go_tool_golangci" source="go_tools" target="go_tool_golangci"/>
+        <node id="go_tool_linters" label="Linters (GolangCI, golint and etc)"/>
+        <edge id="edge_go_tool_linters" source="go_tools" target="go_tool_linters"/>
 
-        <!--Real-time-->
-        <node id="go_realtime_gc" label="Garbage Collector"/>
-        <edge id="edge_go_realtime_gc" source="go_realtime" target="go_realtime_gc"/>
+        <!--Dependencies Management-->
+        <node id="go_tool_dependencies_mod" label="mod"/>
+        <edge id="edge_go_tool_dependencies_mod" source="go_tool_dependencies" target="go_tool_dependencies_mod"/>
 
-        <node id="go_realtime_scheduler" label="Scheduler"/>
-        <edge id="edge_go_realtime_scheduler" source="go_realtime" target="go_realtime_scheduler"/>
+        <node id="go_tool_dependencies_dep" label="dep"/>
+        <edge id="edge_go_tool_dependencies_dep" source="go_tool_dependencies" target="go_tool_dependencies_dep"/>
 
-        <node id="go_realtime_unsafe" label="Package unsafe"/>
-        <edge id="edge_go_realtime_unsafe" source="go_realtime" target="go_realtime_unsafe"/>
+        <!--Runtime-->
+        <node id="go_runtime_gc" label="Garbage Collector"/>
+        <edge id="edge_go_runtime_gc" source="go_runtime" target="go_runtime_gc"/>
+
+        <node id="go_runtime_scheduler" label="Scheduler"/>
+        <edge id="edge_go_runtime_scheduler" source="go_runtime" target="go_runtime_scheduler"/>
+
+        <node id="go_runtime_unsafe" label="Package unsafe"/>
+        <edge id="edge_go_runtime_unsafe" source="go_runtime" target="go_runtime_unsafe"/>
+
+        <node id="go_runtime_reflect" label="Package reflect"/>
+        <edge id="edge_go_runtime_reflect" source="go_runtime" target="go_runtime_reflect"/>
 
         <!--Application-->
-        <node id="go_app_templates" label="Templates"/>
-        <edge id="edge_go_app_templates" source="go_realtime" target="go_app_templates"/>
+        <node id="go_app_errors" label="Errors handling"/>
+        <edge id="edge_go_app_errors" source="go_app" target="go_app_errors"/>
 
-        <edge id="edge_go_debugging_logging" source="go_realtime" target="dev_debugging_logging"/>
+        <node id="go_app_templates" label="Templates"/>
+        <edge id="edge_go_app_templates" source="go_app" target="go_app_templates"/>
+
+        <node id="go_app_context" label="Context"/>
+        <edge id="edge_go_app_context" source="go_app" target="go_app_context"/>
+
+        <node id="go_app_websocket" label="WebSocket"/>
+        <edge id="edge_go_app_websocket" source="go_app" target="go_app_websocket"/>
+
+        <node id="go_app_grpc" label="protobuf/gRPC"/>
+        <edge id="edge_go_app_grpc" source="go_app" target="go_app_grpc"/>
+
+        <node id="go_app_encoding" label="Encoding"/>
+        <edge id="edge_go_app_encoding" source="go_app" target="go_app_encoding"/>
+
+        <node id="go_app_frameworks" label="Frameworks"/>
+        <edge id="edge_go_app_frameworks" source="go_app" target="go_app_frameworks"/>
+
+        <!--Encoding-->
+        <node id="go_app_encoding_json" label="JSON"/>
+        <edge id="edge_go_app_encoding_json" source="go_app_encoding" target="go_app_encoding_json"/>
+
+        <node id="go_app_encoding_xml" label="XML"/>
+        <edge id="edge_go_app_encoding_xml" source="go_app_encoding" target="go_app_encoding_xml"/>
+
+        <!--Frameworks-->
+        <node id="go_app_frameworks_gin" label="Gin"/>
+        <edge id="edge_go_app_frameworks_gin" source="go_app_frameworks" target="go_app_frameworks_gin"/>
+
+        <node id="go_app_frameworks_beego" label="Beego"/>
+        <edge id="edge_go_app_frameworks_beego" source="go_app_frameworks" target="go_app_frameworks_beego"/>
+
+        <node id="go_app_frameworks_echo" label="Echo"/>
+        <edge id="edge_go_app_frameworks_echo" source="go_app_frameworks" target="go_app_frameworks_echo"/>
+
+        <node id="go_app_frameworks_gokit" label="Go-Kit"/>
+        <edge id="edge_go_app_frameworks_gokit" source="go_app_frameworks" target="go_app_frameworks_gokit"/>
+
+        <!--Testing-->
+        <node id="go_testing_test" label="go test/benchmark"/>
+        <edge id="edge_go_testing_test" source="go_testing" target="go_testing_test"/>
+
+        <node id="go_testing_mocking" label="Mocking"/>
+        <edge id="edge_go_testing_mocking" source="go_testing" target="go_testing_mocking"/>
+
+        <node id="go_testing_libraries" label="Libraries and Frameworks"/>
+        <edge id="edge_go_testing_libraries" source="go_testing" target="go_testing_libraries"/>
+
+        <!-- Libraries and Frameworks -->
+        <node id="go_testing_libraries_testify" label="testify"/>
+        <edge id="edge_go_testing_libraries_testify" source="go_testing_libraries" target="go_testing_libraries_testify"/>
+
+        <node id="go_testing_libraries_ginkgo" label="ginkgo"/>
+        <edge id="edge_go_testing_libraries_ginkgo" source="go_testing_libraries" target="go_testing_libraries_ginkgo"/>
+
+        <node id="go_testing_libraries_goconvey" label="goconvey"/>
+        <edge id="edge_go_testing_libraries_goconvey" source="go_testing_libraries" target="go_testing_libraries_goconvey"/>
     </graph>
 </xmlgraph>

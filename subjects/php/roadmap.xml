@@ -5,25 +5,28 @@
     <graph id="php">
         <node id="php" label="PHP"/>
 
+        <node id="php_core" label="Core"/>
+        <edge id="edge_php_core" source="php" target="php_core"/>
+
         <node id="php_types" label="Types"/>
-        <edge id="edge_php_types" source="php" target="php_types"/>
+        <edge id="edge_php_types" source="php_core" target="php_types"/>
 
         <node id="php_variables" label="Variables"/>
-        <edge id="edge_php_variables" source="php" target="php_variables"/>
+        <edge id="edge_php_variables" source="php_core" target="php_variables"/>
 
         <node id="php_functions" label="Functions"/>
-        <edge id="edge_php_functions" source="php" target="php_functions"/>
+        <edge id="edge_php_functions" source="php_core" target="php_functions"/>
 
         <node id="php_oop" label="Classes and Objects"/>
-        <edge id="edge_php_oop" source="php" target="php_oop"/>
+        <edge id="edge_php_oop" source="php_core" target="php_oop"/>
 
         <node id="php_errors" label="Errors and Exceptions"/>
-        <edge id="edge_php_errors" source="php" target="php_errors"/>
+        <edge id="edge_php_errors" source="php_core" target="php_errors"/>
 
         <node id="php_namespaces" label="Namespaces"/>
-        <edge id="edge_php_namespaces" source="php" target="php_namespaces"/>
+        <edge id="edge_php_namespaces" source="php_core" target="php_namespaces"/>
 
-        <node id="php_spl" label="Standard PHP Library (SPL)"/>
+        <node id="php_spl" label="Standard PHP Library"/>
         <edge id="edge_php_spl" source="php" target="php_spl"/>
 
         <node id="php_generators" label="Generators"/>
@@ -38,7 +41,7 @@
         <node id="php_orm" label="ORM"/>
         <edge id="edge_php_orm" source="php" target="php_orm"/>
 
-        <node id="php_testing" label="Testing"/>
+        <node id="php_testing" label="Testing Frameworks"/>
         <edge id="edge_php_testing" source="php" target="php_testing"/>
 
         <!-- Types -->
@@ -101,5 +104,9 @@
         <!-- Errors -->
         <node id="php_errors_predefined" label="Predefined Exceptions"/>
         <edge id="edge_php_errors_predefined" source="php_errors" target="php_errors_predefined"/>
+
+        <!-- Template engines -->
+        <node id="php_templates_smarty" label="Smarty"/>
+        <edge id="edge_php_templates_smarty" source="php_templates" target="php_templates_smarty"/>
     </graph>
 </xmlgraph>
