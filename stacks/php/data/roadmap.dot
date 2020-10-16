@@ -147,12 +147,13 @@ digraph roadmap {
 	dev_build->dev_build_maven;	
 	dev_build->dev_build_ant;	
 	dev_build->dev_build_gradle;	
-	php->php_types;	
-	php->php_variables;	
-	php->php_functions;	
-	php->php_oop;	
-	php->php_errors;	
-	php->php_namespaces;	
+	php->php_core;	
+	php_core->php_types;	
+	php_core->php_variables;	
+	php_core->php_functions;	
+	php_core->php_oop;	
+	php_core->php_errors;	
+	php_core->php_namespaces;	
 	php->php_spl;	
 	php->php_generators;	
 	php->php_templates;	
@@ -178,6 +179,7 @@ digraph roadmap {
 	php_spl->php_spl_files;	
 	php_variables->php_variables_predefined;	
 	php_errors->php_errors_predefined;	
+	php_templates->php_templates_smarty;	
 	backend->cs;	
 	backend->db;	
 	backend->net;	
@@ -336,18 +338,19 @@ digraph roadmap {
 	dev_build_ant [ label="Ant" ];
 	dev_build_gradle [ label="Gradle" ];
 	php [ label="PHP" ];
+	php_core [ label="Core" ];
 	php_types [ label="Types" ];
 	php_variables [ label="Variables" ];
 	php_functions [ label="Functions" ];
 	php_oop [ label="Classes and Objects" ];
 	php_errors [ label="Errors and Exceptions" ];
 	php_namespaces [ label="Namespaces" ];
-	php_spl [ label="Standard PHP Library (SPL)" ];
+	php_spl [ label="Standard PHP Library" ];
 	php_generators [ label="Generators" ];
 	php_templates [ label="Template engines" ];
 	php_frameworks [ label="Frameworks, CMS" ];
 	php_orm [ label="ORM" ];
-	php_testing [ label="Testing" ];
+	php_testing [ label="Testing Frameworks" ];
 	php_booleans [ label="Booleans" ];
 	php_integers [ label="Integers" ];
 	php_floating [ label="Floating point numbers" ];
@@ -367,5 +370,6 @@ digraph roadmap {
 	php_spl_files [ label="File Handling" ];
 	php_variables_predefined [ label="Predefined Variables" ];
 	php_errors_predefined [ label="Predefined Exceptions" ];
+	php_templates_smarty [ label="Smarty" ];
 	backend [ label="PHP Software Engineer" ];
 }
