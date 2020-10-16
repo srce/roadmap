@@ -3,8 +3,11 @@ digraph roadmap {
 	cs->cs_architecture;	
 	cs->code;	
 	cs->cs_algorithms;	
-	cs->systems;	
-	cs->testing;	
+	cs->cs_systems;	
+	cs->cs_ai;	
+	cs->cs_hardware;	
+	cs->cs_security;	
+	cs->cs_blockchain;	
 	cs_algorithms->cs_algorithms_analysis;	
 	cs_algorithms->cs_algorithms_structures;	
 	cs_algorithms->cs_algorithms_algorithms;	
@@ -228,8 +231,11 @@ digraph roadmap {
 	cs_architecture [ label="Architecture knowledge" ];
 	code [ label="Code Standards and Code Review Process" ];
 	cs_algorithms [ label="Algorithms and data structures" ];
-	systems [ label="Systems Programming" ];
-	testing [ label="Testing processes" ];
+	cs_systems [ label="Systems Programming" ];
+	cs_ai [ label="Artificial Intelligence and Machine Learning" ];
+	cs_hardware [ label="Hardware" ];
+	cs_security [ label="Security and Encryption" ];
+	cs_blockchain [ label="Blockchain and Cryptocurrency" ];
 	cs_algorithms_analysis [ label="Analysis" ];
 	cs_algorithms_structures [ label="Data Structures" ];
 	cs_algorithms_algorithms [ label="Algorithms" ];

@@ -14,11 +14,20 @@
         <node id="cs_algorithms" label="Algorithms and data structures"/>
         <edge id="edge_cs_algorithms" source="cs" target="cs_algorithms"/>
 
-        <node id="systems" label="Systems Programming"/>
-        <edge id="edge_cs_systems" source="cs" target="systems"/>
+        <node id="cs_systems" label="Systems Programming"/>
+        <edge id="edge_cs_systems" source="cs" target="cs_systems"/>
 
-        <node id="testing" label="Testing processes"/>
-        <edge id="edge_cs_testing" source="cs" target="testing"/>
+        <node id="cs_ai" label="Artificial Intelligence and Machine Learning"/>
+        <edge id="edge_cs_testing" source="cs" target="cs_ai"/>
+
+        <node id="cs_hardware" label="Hardware"/>
+        <edge id="edge_cs_hardware" source="cs" target="cs_hardware"/>
+
+        <node id="cs_security" label="Security and Encryption"/>
+        <edge id="edge_cs_security" source="cs" target="cs_security"/>
+
+        <node id="cs_blockchain" label="Blockchain and Cryptocurrency"/>
+        <edge id="edge_cs_blockchain" source="cs" target="cs_blockchain"/>
 
         <!-- Algorithms and data structures -->
         <node id="cs_algorithms_analysis" label="Analysis"/>

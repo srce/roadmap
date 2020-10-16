@@ -80,7 +80,13 @@
 
 ### Systems Programming
 
-### Testing processes
+### Artificial Intelligence and Machine Learning
+
+### Hardware
+
+### Security and Encryption
+
+### Blockchain and Cryptocurrency
 
 ## Databases
 
