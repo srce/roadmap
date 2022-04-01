@@ -28,6 +28,7 @@ Skill Matrix allows to compile a roadmap in a XML syntax, visualize it in form o
   - [Java](#java)
   - [Ruby](#ruby)
   - [PHP](#php)
+  - [Python](#python)
 
 ### A collection of Tools
 
@@ -74,6 +75,13 @@ Adding sets of interview questions for subjects and skills (similar to materials
 - [Materials](stacks/php/data/roadmap.md)
 - [DOT](stacks/php/data/roadmap.dot) version
 - [XML](stacks/php/roadmap.xml)
+
+### Python
+
+- [SVG](stacks/python/data/roadmap.svg) and [PNG](stacks/python/data/roadmap.png) maps
+- [Materials](stacks/python/data/roadmap.md)
+- [DOT](stacks/php/python/roadmap.dot) version
+- [XML](stacks/python/roadmap.xml)
 
 ## For developers
 
