@@ -1,9 +1,6 @@
 # Roadmap Core
 
-![Andersen Logo](logo.png)
-
-This project was created by engineers from [Andersen Software Inc](https://andersenlab.com/)
-which were motivated by the idea to describe the graphs of the main knowledge/skills
+This project was created by engineers which were motivated by the idea to describe the graphs of the main knowledge/skills
 of different types of engineers which in turn provides a way to develop these graphs
 by the community and by the approach which engineers prefer.
 
