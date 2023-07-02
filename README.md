@@ -1,13 +1,10 @@
 # Roadmap Core
 
-This project was created by engineers which were motivated by the idea to describe the graphs of the main knowledge/skills
-of different types of engineers which in turn provides a way to develop these graphs
-by the community and by the approach which engineers prefer.
+Computer Science is a young and highly progressive field of study, characterized by a vast amount of knowledge that is constantly evolving. Due to its rapid development, roadmaps become outdated faster than young specialists can orient themselves with them. Not to mention that they can confuse even experienced engineers.
 
-## Need
+Attempts to tame and comprehend this swirling abyss of knowledge, practices, and tools only lead to panic.
 
-In development teams with official mentoring and level assessments it's important to have a shared understanding of the process. To handle it, teams usually create knowledge roadmaps if form of spreadsheet with subjects and skills for a particular stack, and store it in a cloud.
-The issue here is that every developer, regardless of the programming language he uses, has to cover common subject areas, such as computer science, databases, etc. For 10+ stacks changing one skill in a common subject area means you have to manually edit 10+ spreadsheets. That prompts loss of uniformity of content and structure. For developers, who are used to a well-established change process, it discourages further collaboration and improvement of the roadmaps.
+This is why this project was created. It's not so much another completed roadmap as an attempt to create a tool that would help the entire community keep up with the advancements in the field and quickly adapt to its changes.
 
 ## Vision
 
