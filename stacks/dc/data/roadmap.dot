@@ -1,0 +1,30 @@
+digraph roadmap {
+	rankdir=LR;
+	ai->ai_ml;	
+	ai->ai_nlp;	
+	ai->ai_cv;	
+	ai_ml->ai_ml_dl;	
+	ai_nlp->ai_nlp_text_speach;	
+	ai_nlp->ai_nlp_morphologic;	
+	ai_nlp->ai_nlp_syntactic;	
+	ai_nlp->ai_nlp_lexic;	
+	ai_nlp->ai_nlp_relational;	
+	ai_nlp->ai_nlp_discourse;	
+	ai_nlp->ai_nlp_hl;	
+	data_science->python;	
+	data_science->db;	
+	data_science->ai;	
+	ai [ label="Artificial Intelligence" ];
+	ai_ml [ label="Machine Learning" ];
+	ai_nlp [ label="Natural Language Processing" ];
+	ai_cv [ label="Computer Vision" ];
+	ai_ml_dl [ label="Deep Learning" ];
+	ai_nlp_text_speach [ label="Text and speech processing" ];
+	ai_nlp_morphologic [ label="Morphological analysis" ];
+	ai_nlp_syntactic [ label="Syntactic analysis" ];
+	ai_nlp_lexic [ label="Lexical semantics (of individual words in context)" ];
+	ai_nlp_relational [ label="Relational semantics (semantics of individual sentences)" ];
+	ai_nlp_discourse [ label="Discourse (semantics beyond individual sentences)" ];
+	ai_nlp_hl [ label="Higher-level NLP applications" ];
+	data_science [ label="Data Science" ];
+}

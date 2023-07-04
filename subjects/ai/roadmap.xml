@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../../tools/xmlgraph.xsd"
+>
+    <graph id="ai">
+        <node id="ai" label="Artificial Intelligence"/>
+
+        <node id="ai_ml" label="Machine Learning"/>
+        <edge id="edge_ai_ml" source="ai" target="ai_ml"/>
+
+        <node id="ai_nlp" label="Natural Language Processing"/>
+        <edge id="edge_ai_nlp" source="ai" target="ai_nlp"/>
+
+        <node id="ai_nlp" label="Natural Language Processing"/>
+        <edge id="edge_ai_nlp" source="ai" target="ai_nlp"/>
+
+        <node id="ai_cv" label="Computer Vision"/>
+        <edge id="edge_ai_cv" source="ai" target="ai_cv"/>
+
+        <!-- Machine Learning -->
+  
+        <node id="ai_ml_dl" label="Deep Learning"/>
+        <edge id="edge_ai_ml_dl" source="ai_ml" target="ai_ml_dl"/>
+
+        <!-- Natural Language Processing -->
+
+        <node id="ai_nlp_text_speach" label="Text and speech processing"/>
+        <edge id="edge_ai_nlp_text_speach" source="ai_nlp" target="ai_nlp_text_speach"/>
+
+        <node id="ai_nlp_morphologic" label="Morphological analysis"/>
+        <edge id="edge_ai_nlp_morphologic" source="ai_nlp" target="ai_nlp_morphologic"/>
+
+        <node id="ai_nlp_syntactic" label="Syntactic analysis"/>
+        <edge id="edge_ai_nlp_syntactic" source="ai_nlp" target="ai_nlp_syntactic"/>
+
+        <node id="ai_nlp_lexic" label="Lexical semantics (of individual words in context)"/>
+        <edge id="edge_ai_nlp_lexic" source="ai_nlp" target="ai_nlp_lexic"/>
+
+        <node id="ai_nlp_relational" label="Relational semantics (semantics of individual sentences)"/>
+        <edge id="edge_ai_nlp_relational" source="ai_nlp" target="ai_nlp_relational"/>
+
+        <node id="ai_nlp_discourse" label="Discourse (semantics beyond individual sentences)"/>
+        <edge id="edge_ai_nlp_discourse" source="ai_nlp" target="ai_nlp_discourse"/>
+
+        <node id="ai_nlp_hl" label="Higher-level NLP applications"/>
+        <edge id="edge_ai_nlp_hl" source="ai_nlp" target="ai_nlp_hl"/>
+    </graph>
+</xmlgraph>
