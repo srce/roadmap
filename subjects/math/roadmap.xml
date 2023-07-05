@@ -2,7 +2,7 @@
 <xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="../../tools/xmlgraph.xsd"
 >
-    <graph id="go">
+    <graph id="math">
         <node id="math" label="Mathematics"/>
 
         <!--Mathematics-->
