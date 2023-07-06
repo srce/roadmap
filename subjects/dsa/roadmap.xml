@@ -94,7 +94,7 @@
     
         <!-- Sequential Searching Algorithms -->
         <node id="dsa_algorithms_searching_sequential_linear" label="Linear Search"/>
-        <edge id="edge_dsa_algorithms_searching_sequential_linear" source="dsa_algorithms_searching_sequential_linear" target="dsa_algorithms_searching_sequential_linear"/>
+        <edge id="edge_dsa_algorithms_searching_sequential_linear" source="dsa_algorithms_searching_sequential" target="dsa_algorithms_searching_sequential_linear"/>
 
         <!-- Efficient Searching Algorithms -->
         <node id="dsa_algorithms_searching_efficient_binary" label="Binary Search"/>
