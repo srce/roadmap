@@ -33,6 +33,12 @@ python:
 	sh tools/build.sh python
 	@echo "finish python"
 
+.PHONY: dc
+dc:
+	@echo "start data science"
+	sh tools/build.sh dc
+	@echo "finish data science"
+
 .PHONY: install-linux
 install-linux:
 	@echo "start install on linux"

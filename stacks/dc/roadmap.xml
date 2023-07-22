@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../tools/xmlgraph.xsd">
     <include filepath="subjects/ai/roadmap.xml"/>
+    <include filepath="subjects/db/roadmap.xml"/>
+    <include filepath="subjects/python/roadmap.xml"/>
 
     <graph id="roadmap">
-        <node id="data_science" label="Data Science"/>
-        <edge id="data_science_python" source="data_science" target="python"/>
-        <edge id="data_science_db" source="data_science" target="db"/>
-        <edge id="data_science_ai" source="data_science" target="ai"/>
+        <node id="backend" label="Data Science"/>
+        <edge id="backend_python" source="backend" target="python"/>
+        <edge id="backend_sql" source="backend" target="db_sql"/>
+        <edge id="backend_ai" source="backend" target="ai"/>
     </graph>
 </xmlgraph>

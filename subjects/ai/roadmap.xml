@@ -2,7 +2,7 @@
 <xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="../../tools/xmlgraph.xsd"
 >
-    <graph id="ai">
+    <graph id="backend">
         <node id="ai" label="Artificial Intelligence"/>
 
         <node id="ai_ml" label="Machine Learning"/>
@@ -11,11 +11,11 @@
         <node id="ai_nlp" label="Natural Language Processing"/>
         <edge id="edge_ai_nlp" source="ai" target="ai_nlp"/>
 
-        <node id="ai_nlp" label="Natural Language Processing"/>
-        <edge id="edge_ai_nlp" source="ai" target="ai_nlp"/>
-
         <node id="ai_cv" label="Computer Vision"/>
         <edge id="edge_ai_cv" source="ai" target="ai_cv"/>
+
+        <node id="ai_frameworks" label="Frameworks"/>
+        <edge id="edge_ai_frameworks" source="ai" target="ai_frameworks"/>
 
         <!-- Machine Learning -->
   
@@ -44,5 +44,19 @@
 
         <node id="ai_nlp_hl" label="Higher-level NLP applications"/>
         <edge id="edge_ai_nlp_hl" source="ai_nlp" target="ai_nlp_hl"/>
+
+        <!-- Frameworks -->
+
+        <node id="ai_frameworks_tensorflow" label="TensorFlow"/>
+        <edge id="edge_ai_frameworks_tensorflow" source="ai_frameworks" target="ai_frameworks_tensorflow"/>
+
+        <node id="ai_frameworks_pytorch" label="PyTorch"/>
+        <edge id="edge_ai_frameworks_pytorch" source="ai_frameworks" target="ai_frameworks_pytorch"/>
+
+        <node id="ai_frameworks_keras" label="Keras"/>
+        <edge id="edge_ai_frameworks_keras" source="ai_frameworks" target="ai_frameworks_keras"/>
+
+        <node id="ai_frameworks_mxnet" label="MXNet"/>
+        <edge id="edge_ai_frameworks_mxnet" source="ai_frameworks" target="ai_frameworks_mxnet"/>
     </graph>
 </xmlgraph>
