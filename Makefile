@@ -27,9 +27,19 @@ php:
 	sh tools/build.sh php
 	@echo "finish php"
 
-
 .PHONY: python
 python:
 	@echo "start python"
 	sh tools/build.sh python
 	@echo "finish python"
+
+.PHONY: dc
+dc:
+	@echo "start data science"
+	sh tools/build.sh dc
+	@echo "finish data science"
+
+.PHONY: install-linux
+install-linux:
+	@echo "start install on linux"
+	sudo apt install graphviz
